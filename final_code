@@ -1,7 +1,7 @@
 ---
 title: "Sinking the Empire"
 description: |
-  A Computational History of the Campaign to Destroy the Japanese Merchant Fleet
+  The Campaign to Destroy the Japanese Merchant Fleet During the Second World War
 author:
   - name: Brandan P. Buck
     affiliation: George Mason University
@@ -25,7 +25,7 @@ library(maps)
 library(mapdata)
 library(leaflet.extras)
 
-sinking_data<- read.csv("sinking_data/japanese_merchant_fleet_sinkings_simplified_v4.csv", header = TRUE, sep = ",")
+sinking_data<- read.csv("sinking_data/japanese_merchant_fleet_sinkings_simplified_v5.csv", header = TRUE, sep = ",")
 sinking_agents_complete<- read.csv("sinking_data/japanese_merchant_vessel_sinking_agent_v1.csv", header = TRUE, sep = ",")
 sinking_countries_all_types<- read.csv("sinking_data/japanese_merchant_vessel_sinking_country_v1.csv", header = TRUE, sep = ".")
 
@@ -35,6 +35,7 @@ sinking_data$date<-as.Date(sinking_data$date, '%Y-%m-%d')
 sloc<- read_sf("C:/Users/bpbuc/Documents/Brandan's Stuff/_PhD Stuff/Cilo Wired-Hist 696/Project/Data/SLOC/Japanese SLOC WWII Complete.shp")
 
 mar_44_loc<- read_sf("C:/Users/bpbuc/Documents/Brandan's Stuff/_PhD Stuff/CILO II/project_data/loc/mar_1944_loc.shp")
+jun_44_loc<- read_sf ("C:/Users/bpbuc/Documents/Brandan's Stuff/_PhD Stuff/CILO II/project_data/loc/jun_1944.shp")
 sep_44_loc<- read_sf ("C:/Users/bpbuc/Documents/Brandan's Stuff/_PhD Stuff/CILO II/project_data/loc/sep_1944_loc.shp")
 dec_44_loc<- read_sf ("C:/Users/bpbuc/Documents/Brandan's Stuff/_PhD Stuff/CILO II/project_data/loc/dec_1944_loc.shp")    
 ops<- read_sf ("C:/Users/bpbuc/Documents/Brandan's Stuff/_PhD Stuff/CILO II/project_data/loc/operations.shp")
@@ -61,9 +62,9 @@ sinking_data_dd$lon <- jitter(sinking_data_dd$lon, factor = 1.0000)
 
 ```
 
-  The naval history of the Second World War in the Pacific is typically taught as Allied and Japanese military fleets engaged in air and surface combat across the theatre. But a critical component of the Allied strategy to defeat the Japanese empire was to sink, destroy, or otherwise neutralize the Japanese merchant fleet. Traditional histories of the Allied campaign to sink the Japanese merchant fleet have focused on the submarine effort, and not without good reason. Allied (particularly U.S.) subs sank over half of the merchant tonnage lost by the Japanese by utilizing a relatively small number of boats. Also, the U.S. submarine fleet endured disproportionately high per capita of losses in both men and lost vessels. Submarine service during the Second World War evokes a degree of romanticism. Submarine crews (all of whom volunteered for the “Silent Service”) endured a level of hardship and danger unqiue to their profession. Similarly, submarine skippers operated with a degree of freedom not enjoyed by other naval commanders. These factors have combined to inform a historiography which has largely ignored the multifaceted campaign effort. 
+  The naval history of the Second World War in the Pacific is typically taught as Allied and Japanese military fleets engaged in air and surface combat across the theatre. But a critical component of the Allied strategy to defeat the Japanese empire was to sink, destroy, or otherwise neutralize the Japanese merchant fleet. Traditional histories of the Allied campaign to sink the Japanese merchant fleet have focused on the submarine effort, and not without good reason. Allied (particularly U.S.) subs sank over half of the merchant tonnage lost by the Japanese by utilizing a relatively small number of boats. Also, the U.S. submarine fleet endured disproportionately high per capita of losses in both men and lost vessels. Submarine service during the Second World War evokes a degree of romanticism. Submarine crews (all of whom volunteered for the “Silent Service”) endured a level of hardship and danger unqiue to their profession. Similarly, submarine skippers operated with a degree of freedom not enjoyed by other naval commanders. These factors have combined to inform a historiography which has largely ignored the multifaceted campaign effort.^[For examples of traditional historiographies see  Charles A. Lockwood, *Sink ’Em All: Submarine Warfare in the Pacific*. (Dutton, 1951), Nathan Miller *War at Sea: A Naval History of World War II* (New York: Scribner, 1995), and Karl Lautenschlager, “The Submarine in Naval Warfare, 1901-2001.” *International Security* 11.3 (1986): 94–140.]
   
-However, a computational look at the data shows a more complex relationship between Allied air, sub, and mining efforts^[Allied surface craft, sabotage and unknown agents sunk 114,797, 11,555, 909 tons of shipping, respectfully. Since data did not represent sustained facets of the campaign, they are excluded from the detailed analysis in this study. For an example of Allied sabotage see Operation JAYWICK]. This article uses computational methods applied to the "Japanese Naval and Merchant Shipping Losses During World War II by All Causes,”^["Japanese Naval and Merchant Shipping Losses
+However, a computational look at the data shows a more complex relationship between Allied air, sub, and mining efforts.^[Allied surface craft, sabotage and unknown agents sunk 114,797, 11,555, 909 tons of shipping, respectfully. Since data did not represent sustained facets of the campaign, they are excluded from the detailed analysis in this study. For an example of Allied sabotage see Operation JAYWICK] This article uses computational methods applied to the "Japanese Naval and Merchant Shipping Losses During World War II by All Causes,”^["Japanese Naval and Merchant Shipping Losses
 During World War II by All Causes" The Joint Army-Navy Assessment Committee
 NAVEXOS P 468
 February 1947 https://www.history.navy.mil/research/library/online-reading-room/title-list-alphabetically/j/japanese-naval-merchant-shipping-losses-wwii.html] a report prepared by a joint U.S. Army and Navy committee on all Japanese merchant vessels greater than 500 gross tons sunk by the Allies during the war. The report catalogues vessel type, tonnage, sinking date, location, sinking agent, and sinking country. As with all datasets, the report data is not without its issues. Despite its comprehensiveness, the data only catalogues sunk vessels, and no other types of Allied action and patrols. In this respect the data is only representative of operational outcomes, not necessarily the processes which brought about those outcomes. Despite its deficiencies, the dataset is an excellent medium with which to analyze the war in the Pacific. 
@@ -76,45 +77,54 @@ paged_table(sinking_data)
 
 ```
 
-When viewed in its entirely, the Allied^[Unilateral U.S. military action sunk 96% of sunken merchant vessels and tonnage. For simplicity I will use “Allied” unless specially referring to U.S. only operations.] naval war on the Japanese merchant fleet was a complex relationship between submarine, air^[This article will treat U.S. Naval, Army Air Force, Marine, and other Allied air assets as single unit of analysis. These different organizations are credited with unilaterally, or contributing to the sinking of 496, 267, 33, and 21 merchant vessels, respectively. Joint air operations, particularly between the U.S. Army Air Force and U.S. Navy complicate statistical analysis of each service’s contributions to the campaign.]and mining operations. As a whole, the campaign can be defined as war of attrition waged by submarines, intermittently supported by crippling air raids and capped by a debilitating mining effort designed to figuratively—and literally—starve the Japanese state and people. The Allied submarine fleet was the most consistent sinking agent from the war’s inception until early 1945. The fleet struggled early with a small, antiquated fleet, equipped with faulty torpedoes and skippered by largely inexperienced captains. As these factors improved, so did their results. Beginning in the summer of 1943, the U.S. submarine fleet started to rapidly increase in effectiveness. Airpower, primarily of the United States Navy, struck decisive blows at key points in the war. These strikes not only sunk Japanese merchant vessels; they also shaped the battlespace which allowed the sub fleet to operate more effectively. Lastly, mines eclipsed air and submarines at the end of the war when the Japanese empire was isolated and approaching defeat.
+<figure><p class=”caption”> Table 1. This is a table of the dataset used in this study. It was derived from <a href="https://www.history.navy.mil/research/library/online-reading-room/title-list-alphabetically/j/japanese-naval-merchant-shipping-losses-wwii.html">"Japanese Naval and Merchant Shipping Losses During World War II by All Causes”</a> For simplicity, and to reduce computational error, the “sinking agent” column was simplified to one agent, either “Submarine”, “Aircraft”, Surface Craft”, Sabotage” or “Unknown.” </p></figure>
 
-```{r, layout="l-body-outset", echo= FALSE, fig.cap= "This is a graph which plots totals of total tonnage sunk by sinking agent, per month. Notice the different patterns between submarines, aircraft, and mines. The submarine campaigned waxed and waned but grew steadily until Oct 1944. Aircraft sinkings spiked periodically with major operations and the mining effort started late and look precedence until the end of the war."}
+<h3 align="center">The Role and Impact of the Submarine Fleet</h3>
+
+When viewed in its entirely, the Allied^[Unilateral U.S. military action sunk 96% of sunken merchant vessels and tonnage. For simplicity I will use “Allied” unless specially referring to U.S. only operations.] naval war on the Japanese merchant fleet was a complex relationship between submarine, air^[This article will treat U.S. Naval, Army Air Force, Marine, and other Allied air assets as single unit of analysis. These different organizations are credited with unilaterally, or contributing to the sinking of 496, 267, 33, and 21 merchant vessels, respectively. Joint air operations, particularly between the U.S. Army Air Force and U.S. Navy complicate statistical analysis of each service’s contributions to the campaign.]and mining operations. As a whole, the campaign can be defined as war of attrition waged by submarines, intermittently supported by crippling air raids and capped by a debilitating mining effort designed to figuratively—and literally—starve the Japanese state and people. The Allied submarine fleet was the most consistent sinking agent from the war’s inception until early 1945. The fleet struggled early with a small flotilla
+equipped with faulty torpedoes and skippered by largely inexperienced captains. As these factors improved, so did their results. Beginning in the summer of 1943, the U.S. submarine fleet started to rapidly increase in effectiveness. Airpower, primarily of the United States Navy, struck decisive blows at key points in the war. These strikes not only sunk Japanese merchant vessels; they also shaped the battlespace which allowed the sub fleet to operate more effectively. Lastly, mines eclipsed air and submarines at the end of the war when the Japanese empire was isolated and approaching defeat.
+
+```{r, layout="l-body-outset", echo= FALSE, fig.cap= "This graph plots totals of total tonnage sunk by sinking agent, per month. Notice the different patterns between submarines, aircraft, and mines. The submarine campaigned waxed and waned but grew steadily until Oct 1944. Aircraft sinkings spiked periodically with major operations and the mining effort started late and look precedence until the end of the war. Major aircraft operations, while few in number, shaped submarine operations, particularly after major bombing campaigns in Feb 1944 and Jan 1945.", fig.height= 4, fig.width=6}
 
 sinking_data %>%
   select(id_no, date, tonnage, sinking_agent, year) %>%
-  filter(year > 1941,
-         sinking_agent == "submarine"
-         | sinking_agent == "aircraft"
-         | sinking_agent == "mine") %>%
+  filter(sinking_agent == "Submarine"
+         | sinking_agent == "Aircraft"
+         | sinking_agent == "Mine") %>%
   group_by(month= floor_date(date, "month"),
            sinking_agent) %>%
   summarize(total_ton= sum(tonnage),
             amount= n(),
             avg_ton= sum(tonnage) / n()) %>%
-  ggplot(aes(x= month, y= total_ton, color= sinking_agent)) + geom_line(size= 1)+ geom_point(size= 2) +
-  labs(title = "Total Tonnage of Vessels Sunk By Sinking Agent, By Month",
-       x= "Year",
-       y= "Total Tonnage of Sunken Vessels",
+  ggplot(aes(x= month, y= total_ton, color= sinking_agent)) + geom_line(size= 0.5)+ geom_point(size= 1) +
+  labs(title = "Total Japanese Merchant Tonnage Sunk By the Allies",
+       subtitle = "By Month and Sinking Agent", 
+       y= "Total Tonnage",
+       x=element_blank(),
        color= "Sinking Agent") +
        scale_color_manual(labels = c("Aircraft", "Mine", "Submarine"),
                      values = c("red", "green", "blue")) +
-  scale_y_continuous(name = "Tonnage in Hundred of Thousands",
-                     labels = c(0, 1, 2, 3))
+  scale_y_continuous(name = "Tonnage",
+                     breaks = seq(0, 300e3, by = 100e3),
+                     labels = scales::number_format(scale = 1/1000, suffix = "K")) +
+  theme_bw()
 
 ```
 
-The historiographic focus on the Allied submarine effort is not without its merits. Allied subs sunk 1158 merchant vessels which accounted for 52% of all lost Japanese merchant vessels. These vessels comprised over 4.8 million tons of merchant shipping, 59% of all Japanese merchant tonnage sunk by the Allies during the war^[Japanese merchant vessels sunk by friendly fire, marine accident, or accidental impact with a defensive mine were excluded from this study.]. These numbers are even starker when juxtaposed with the Allied submarine fleet’s relatively small size. 
-The United States Navy fielded 263 submarines (179 of which sunk at least one merchant vessel). These boats made 1,147 combat patrols in the Pacific.^[William P. Gruner “U.S. Pacific Submarines in World War II” Maritime Park Association, https://maritime.org/doc/subsinpacific.htm#pg3.] Throughout the war the Allied submarine fleets had the longest reach of any naval asset. Fifty-two U.S. submarines were lost due to enemy action, accident, friendly fire, or, for many, still unknown causes^[James M. Scott “America's Undersea War on Shipping” Naval History Magazine Volume 28, Number 6, December 2014 https://www.usni.org/magazines/navalhistory/2014-12/americas-undersea-war-shipping]. From 8 December 1941 until early 1945 Allied subs were the primary sinking agent of Japanese shipping. During that time U.S. subs prowled the Japanese Sea Lines of Communication (SLOC) which connected the core of the Japanese empire to its positions on Truk Lagoon, the Palau Islands, Guam, and Rabaul, New Britain. Over half of all sinkings completed by U.S. subs occurred on these SLOCs and in support of the Allied advance though the Pacific. Starting in July 1943 U.S. submarines began their steady ascent into operational success due to an increase in the quantity and quality of available boats, the fielding of the more dependable Mark 18 torpedo, and the breaking of the Japanese merchant fleet’s coded communications^[Scott, “America's Undersea War on Shipping”]. 
+The historiographic focus on the Allied submarine effort is not without its merits. Allied subs sunk 1149 merchant vessels which accounted for 52% of all lost Japanese merchant vessels. These vessels comprised over 4.8 million tons of merchant shipping, 59% of all Japanese merchant tonnage sunk by the Allies during the war^[Japanese merchant vessels sunk by friendly fire, marine accident, or accidental impact with a defensive mine were excluded from this study.]. These numbers are even starker when juxtaposed with the Allied submarine fleet’s relatively small size. 
+The United States Navy fielded 263 submarines (179 of which sunk at least one merchant vessel). These boats made 1,147 combat patrols in the Pacific.^[William P. Gruner, “U.S. Pacific Submarines in World War II” *Maritime Park Association*, https://maritime.org/doc/subsinpacific.htm#pg3.] Throughout the war the Allied submarine fleets had the longest reach of any naval asset. The U.S. sub fleet suffered significant casualties, fifty-two U.S. submarines were lost due to enemy action, accident, friendly fire, or, for many, still unknown causes.^[James M. Scott, “America's Undersea War on Shipping” *Naval History Magazine* Volume 28, Number 6, December 2014 https://www.usni.org/magazines/navalhistory/2014-12/americas-undersea-war-shipping] From 8 December 1941 until early 1945 Allied submarine fleet sunk the highest totals of Japanese shipping. During that time U.S. subs prowled the Japanese Sea Lines of Communication (SLOC) which connected the core of the Japanese empire to its positions on Truk Lagoon, the Palau Islands, Guam, and Rabaul, New Britain. Over half of all sinkings completed by U.S. subs occurred on these SLOCs and in support of the Allied advance though the Pacific. Starting in July 1943 U.S. submarines began their steady ascent into operational success due to an increase in the quantity and quality of available boats, the fielding of the more dependable Mark 18 torpedo, and the breaking of the Japanese merchant fleet’s coded communications.^[Scott, “America's Undersea War on Shipping”] 
 
-The submarine war accelerated during the spring of 1944 and reached its crescendo during the fall of that year. This is due to the collapsing front initiated by U.S. Navy’s surface fleet and the success of the New Guinea Campaign. The Allied advance freed up more subs to operate within the Luzon Straight, a natural marine chokepoint which divided the Philippine island of Luzon and the island of Taiwan. The straight hosted a primary SLOC, a critical maritime route which teemed with large vessels, particularly tankers which ferried Near East Asia oil to Japanese home islands. The average merchant vessel sunk in these waters weighed in at approximately 4,600 tons, 26% heavier than elsewhere in Japan’s maritime empire.  With the advance of the Allied fleet to the east, U.S. submarines focused their efforts on severing this artery and thereby strategically weakening the empire and supporting the Allied invasion of the Philippines (October - December 1944). Of the October sinkings caused by U.S. submarines, 82% of these events occurred in the South China Sea and in the waters surrounding Taiwan, waters directly connected to the Luzon Straight.
+The submarine war accelerated during the spring of 1944 and reached its crescendo during the fall of that year. This acceleration occured, as least partially due to the collapsing front initiated by U.S. Navy’s surface fleet and the success of the New Guinea Campaign. The Allied advance freed up more subs to operate within the Luzon Straight, a natural marine chokepoint which divided the Philippine island of Luzon and the island of Taiwan. The straight hosted a significant SLOC, a critical maritime route which teemed with large vessels, particularly tankers that ferried Near East Asia oil to Japanese home islands. The average merchant vessel sunk in these waters weighed in at approximately 4,600 tons, 26% heavier than elsewhere in Japan’s maritime empire.  With the advance of the Allied fleet to the east, U.S. submarines focused their efforts on severing this artery and thereby strategically weakening the empire and supporting the Allied invasion of the Philippines (October - December 1944). Of the October sinkings caused by U.S. submarines, 82% of these events occurred in the South China Sea and in the waters surrounding Taiwan, waters directly connected to the Luzon Straight.
 
-As the battle space collapsed so did the rate of sinkings caused by U.S. subs. October 1944 was the most active month for U.S. submarines; 36 different boats sunk 68 Japanese merchant vessels which totaled 349,672 tons of shipping. By this stage of the war, U.S. sub commanders utilized “wolf pack” tactics to aggressively attack Japanese convoys while in self-supporting units of 3-4 subs. During a single two-day span, 23-24 October 1944, the USS Drum, USS Icefish, USS Seadragon, and USS Snook sunk nine vessels, weighing in at a combined 48,000 tons, and did so in an area about the size of Delaware^[1,763 square nautical miles, 150 nautical miles northwest of Luzon, 19-44N 118-25E]. By the end of December this push by the submarine fleet, coupled with the Allied invasion of Luzon, interdicted this primary shipping route. 
+As the battle space collapsed so did the rate of sinkings caused by U.S. subs. October 1944 was the most active month for U.S. submarines; 36 different boats sunk 68 Japanese merchant vessels which totaled 349,672 tons of shipping. By this stage of the war, U.S. sub commanders utilized “wolf pack” tactics to aggressively attack Japanese convoys while in self-supporting units of 3-4 subs. During a single two-day span, 23-24 October 1944, the USS <i>Drum</i>, USS <i>Icefish</i>, USS <i>Seadragon</i>, and USS <i>Snook</i> sunk nine vessels, weighing in at a combined 48,000 tons, and did so in an area about the size of Delaware.^[1,763 square nautical miles, 150 nautical miles northwest of Luzon, 19-44N 118-25E] By the end of December this push by the submarine fleet, coupled with the Allied invasion of Luzon, interdicted this critical shipping route. 
 
-Primarily from U.S. navy-carrier based aircraft, Allied airpower crushed shipping nodes and closed sea lanes on their own. When computing the campaign as a whole, Allied airpower accounted for a combined 752 vessels and over 2.5 million tons of destroyed shipping. Aircraft delivered significant blows to Japanese shipping during large offensive operations, a trend which accelerated from the start of 1944 through to the end of the war. U.S. naval carrier-based aircraft massed their assaults on high volume ports and heavily trafficked shipping nodes. Such attacks neutralized major anchorages at Rabaul (13 Jan – 14 Feb 1944), Truk (Operation Hailstone, 17-18 Feb 1944), the Palau Islands (Operation Desecrate One, 30-31 Mar 1944), Guam (The Second Battle of Guam, 21 July – 10 August 1944) and the island of Morotai (15 September – 5 October 1944). Those operations sunk over 100 merchant vessels which totaled over 400,000 tons of shipping. Half of these vessels were lost on the coral lagoon of Truk as a result of Operation Hailstone^[Alan P. Rems, “Two Birds with One Hailstone,” Naval History Magazine Vol 28, 1, accessed November 6, 2018, https://www.usni.org/magazines/navalhistory/2014-01/two-birds-one-hailstone]. More importantly, these raids closed critical shipping lanes and freed up the submarine fleet to pursue other targets, thereby strategically undermining the Japanese empire.
+<h3 align="center">The Importance of Airpower</h3>
 
-```{r, layout="l-body-outset", fig.width=15, fig.height=6, echo= FALSE, fig.cap= "Map of Japanese merchant vessels sunk by the Allies in 1944, colorized by sinking agent. Japanese Sea Lines of Communication (SLOC) are symbolized by grey lines, oil production facilities are symbolized by black circles, the Allied advance is depicted in green, and major Allied operations are outlined in orange."}
+Primarily from U.S. navy-carrier based aircraft, Allied airpower crushed shipping nodes and closed sea lanes on their own. When computing the campaign as a whole, Allied airpower accounted for a combined 752 vessels and over 2.5 million tons of destroyed shipping. Aircraft delivered significant blows to Japanese shipping during large offensive operations, a trend which accelerated from the start of 1944 through to the end of the war. U.S. naval carrier-based aircraft massed their assaults on high volume ports and heavily trafficked shipping nodes. Such attacks neutralized major anchorages at Rabaul (13 Jan – 14 Feb 1944), Truk (Operation Hailstone, 17-18 Feb 1944), the Palau Islands (Operation Desecrate One, 30-31 Mar 1944), Guam (The Second Battle of Guam, 21 July – 10 August 1944) and the island of Morotai (15 September – 5 October 1944). Those operations sunk over 100 merchant vessels which totaled over 400,000 tons of shipping. Half of these vessels were lost on the coral lagoon of Truk as a result of Operation Hailstone.^[Alan P. Rems, “Two Birds with One Hailstone,” *Naval History Magazine* Vol 28, 1, accessed November 6, 2018, https://www.usni.org/magazines/navalhistory/2014-01/two-birds-one-hailstone] More importantly, these raids closed critical shipping lanes and freed up the submarine fleet to pursue other targets, thereby strategically undermining the Japanese empire.
 
-pal <- colorFactor(c("red", "blue"), domain = c("aircraft", "submarine"))
+```{r, layout="l-body-outset", fig.width=15, fig.height=6, echo= FALSE, fig.cap= "Map of Japanese merchant vessels sunk by the Allies in 1944, colorized by sinking agent. Japanese Sea Lines of Communication (SLOC) are symbolized by grey lines, oil production facilities are symbolized by black circles, the Allied advance is depicted in green, and major Allied operations are outlined in orange. Major bombing campaigns such as Operations Hailstone and Desecrate One reduced the geographical burden upon the Allied sub marine fleet and freed up boats to sink targets on the vital SLOCs in the South China Sea and Luzon Straight."}
+
+pal <- colorFactor(c("red", "blue"), domain = c("Aircraft", "Submarine"))
 
 sinking_data_dd_jan_mar_44 <-sinking_data_dd %>%
   filter(year == 1944) %>%
@@ -122,16 +132,22 @@ sinking_data_dd_jan_mar_44 <-sinking_data_dd %>%
   filter (sinking_agent != "sabotage" |
             sinking_agent != "unknown")
 
-sinking_data_dd_apr_sep_44 <-sinking_data_dd %>%
+sinking_data_dd_apr_jun_44 <-sinking_data_dd %>%
   filter(year == 1944) %>%
-  filter(date < "1944-10-01") %>%
+  filter(date < "1944-07-01") %>%
   filter(date > "1944-03-30") %>%
   filter (sinking_agent != "sabotage" |
             sinking_agent != "unknown")
 
+sinking_data_dd_jul_sep_44 <-sinking_data_dd %>%
+  filter(year == 1944) %>%
+  filter(date < "1944-10-01") %>%
+  filter(date > "1944-06-30") %>%
+  filter (sinking_agent != "sabotage" |
+            sinking_agent != "unknown")
+
 sloc_closed_jun_44<- sloc %>%
-  filter(Closed != "March 44") %>%
-  filter(Closed != "Jun 44")
+  filter(Closed != "March 44")
 
 sinking_data_dd_oct_dec_44 <-sinking_data_dd %>%
   filter(year == 1944) %>%
@@ -140,21 +156,21 @@ sinking_data_dd_oct_dec_44 <-sinking_data_dd %>%
            sinking_agent != "unknown")
 
 sloc_closed_sep_44<- sloc %>%
-  filter(Closed != "March 44") %>%
-  filter(Closed != "Sep 44") %>%
-  filter(Closed != "May 44")
-
+   filter(Closed != "March 44") %>%
+   filter(Closed != "Jun 44") %>% 
+   filter(Closed != "Sep 44")  
+  
 rabaul<- ops %>%
   filter(Name == "Bombing of Rabaul")
 
 guam<- ops %>%
-  filter(Name == "2nd Battle of Guam")
+  filter(Name == "Guam Invasion Prep")
 
 one<- ops %>%
-  filter(Name == "OP Desecrate One")
+  filter(Name == "Desecrate One")
 
 hailstone<- ops %>%
-  filter(Name == "OP Hailstone")
+  filter(Name == "Hailstone")
 
 morotai<- ops %>% 
   filter(Name == "Battle of Morotai")
@@ -162,10 +178,8 @@ morotai<- ops %>%
 leyte<- ops %>%
   filter(Name == "Battle of Leyte")
 
-leaflet(options = leafletOptions(zoomControl = FALSE,
-                                 dragging = FALSE,
-                                 doubleclickzoom = FALSE)) %>%
-  addProviderTiles("Stamen.Watercolor") %>%
+leaflet() %>%
+  addProviderTiles("Esri.WorldShadedRelief") %>%
   setMaxBounds(lng1 = 158, lat1 = -6, lng2 = 102, lat2 = 24) %>%
   setView(lng = 133, lat = 15, zoom = 4.0) %>%
   addCircleMarkers(data = sinking_data_dd_jan_mar_44,
@@ -173,87 +187,123 @@ leaflet(options = leafletOptions(zoomControl = FALSE,
                    lat = ~lat,
                    color = ~pal(sinking_agent),
                    radius = 3,
-                   popup = ~paste(name, type, sinking_agent, date, sep = ","),
+                   popup = ~paste("<h4> Sinking Information: </h4>",
+                                  "<b> Vessel Name: </b>", 
+                                  name, "<br>",
+                                  "<b> Vessel Type: </b>", type, "<br>", 
+                                  "<b> Sunk By: </b>", sinking_agent, "<br>",
+                                  "<b> Sinking Date </b>:", date, sep = " "),
                    group = "1. Jan-Mar, 1944") %>%
   addPolylines(data = sloc,
                color = "grey",
-               group = "1. Jan-Mar, 1944",
-               popup = ~paste(feature, Size, sep = ",")) %>%
-  addCircleMarkers(data = sinking_data_dd_apr_sep_44,
+               group = "1. Jan-Mar, 1944") %>%
+  addCircleMarkers(data = sinking_data_dd_apr_jun_44,
                    lng = ~lon,
                    lat = ~lat,
                    color = ~pal(sinking_agent),
                    radius = 3,
-                   popup = ~paste(name, type, sinking_agent, date, sep = ","),
-                   group = "2. Apr-Sep, 1944") %>%
+                   popup = ~paste("<h4> Sinking Information: </h4>",
+                                  "<b> Vessel Name: </b>", 
+                                  name, "<br>",
+                                  "<b> Vessel Type: </b>", type, "<br>", 
+                                  "<b> Sunk By: </b>", sinking_agent, "<br>",
+                                  "<b> Sinking Date </b>:", date, sep = " "),
+                   group = "2. Apr-Jun, 1944") %>%
   addPolylines(data = sloc_closed_jun_44,
                color = "grey",
-               group = "2. Apr-Sep, 1944",
-               popup = ~paste(feature, Size, sep = ",")) %>%
+               group = "2. Apr-Jun, 1944") %>%
+  addCircleMarkers(data = sinking_data_dd_jul_sep_44,
+                   lng = ~lon,
+                   lat = ~lat,
+                   color = ~pal(sinking_agent),
+                   radius = 3,
+                   popup = ~paste("<h4> Sinking Information: </h4>",
+                                  "<b> Vessel Name: </b>", 
+                                  name, "<br>",
+                                  "<b> Vessel Type: </b>", type, "<br>", 
+                                  "<b> Sunk By: </b>", sinking_agent, "<br>",
+                                  "<b> Sinking Date </b>:", date, sep = " "),
+                   group = "3. Jul-Sep, 1944") %>%
   addCircleMarkers(data = sinking_data_dd_oct_dec_44,
                    lng = ~lon,
                    lat = ~lat,
                    color = ~pal(sinking_agent),
                    radius = 3,
-                   popup = ~paste(name, type, sinking_agent, date, sep = ","),
-                   group = "3. Oct-Dec, 1944") %>%
+                   popup = ~paste("<h4> Sinking Information: </h4>",
+                                  "<b> Vessel Name: </b>", 
+                                  name, "<br>",
+                                  "<b> Vessel Type: </b>", type, "<br>", 
+                                  "<b> Sunk By: </b>", sinking_agent, "<br>",
+                                  "<b> Sinking Date </b>:", date, sep = " "),
+                   group = "4. Oct-Dec, 1944") %>%
   addPolylines(data = sloc_closed_sep_44,
                color = "grey",
-               group = "3. Oct-Dec, 1944",
-               popup = ~paste(feature, Size, sep = ",")) %>%
+               group = "3. Jul-Sep, 1944") %>%
+  addPolylines(data = sloc_closed_sep_44,
+               color = "grey",
+               group = "4. Oct-Dec, 1944") %>%
   addPolygons(data= mar_44_loc,
               color = "green",
               opacity = 0.0, fillOpacity = 0.4,
               group = "1. Jan-Mar, 1944") %>%
+  addPolygons(data= jun_44_loc,
+              color = "green",
+              opacity = 0.0, fillOpacity = 0.4,
+              group = "2. Apr-Jun, 1944") %>%
   addPolygons(data= sep_44_loc,
               color = "green",
               opacity = 0.0, fillOpacity = 0.4,
-              group = "2. Apr-Sep, 1944") %>%
+              group = "3. Jul-Sep, 1944") %>%
   addPolygons(data= dec_44_loc,
               color = "green",
               opacity = 0.0, fillOpacity = 0.4,
-              group = "3. Oct-Dec, 1944") %>%
+              group = "4. Oct-Dec, 1944") %>%
   addPolygons(data= hailstone,
               color = "orange",
               opacity = 0.8, fillOpacity = 0.0,
-              popup = ~paste(Name, Dates, sep = ","),
+              popup = ~paste("<b> Operation Name: </b>", Name, "<br>", 
+                              "<b> Dates: </b>", Dates, sep = " "),
               group = "1. Jan-Mar, 1944") %>%
   addPolygons(data= one,
               color = "orange",
               opacity = 0.8, fillOpacity = 0.0,
-              popup = ~paste(Name, Dates, sep = ","),
+              popup = ~paste("<b> Operation Name: </b>", Name, "<br>", 
+                              "<b> Dates: </b>", Dates, sep = " "),
               group = "1. Jan-Mar, 1944") %>% 
   addPolygons(data= rabaul,
               color = "orange",
               opacity = 0.8, fillOpacity = 0.0,
-              popup = ~paste(Name, Dates, sep = ","),
+              popup = ~paste("<b> Operation Name: </b>", Name, "<br>", 
+                              "<b> Dates: </b>", Dates, sep = " "),
               group = "1. Jan-Mar, 1944") %>% 
   addPolygons(data= guam,
               color = "orange",
               opacity = 0.8, fillOpacity = 0.0,
-              popup = ~paste(Name, Dates, sep = ","),
-              group = "2. Apr-Sep, 1944") %>%
+              popup = ~paste("<b> Operation Name: </b>", Name, "<br>", 
+                              "<b> Dates: </b>", Dates, sep = " "),
+              group = "2. Apr-Jun, 1944") %>%
   addPolygons(data= morotai,
               color = "orange",
               opacity = 0.8, fillOpacity = 0.0,
-              popup = ~paste(Name, Dates, sep = ","),
-              group = "2. Apr-Sep, 1944") %>%
+              popup = ~paste("<b> Operation Name: </b>", Name, "<br>", 
+                              "<b> Dates: </b>", Dates, sep = " "),
+              group = "3. Jul-Sep, 1944") %>%
   addPolygons(data= leyte,
               color = "orange",
               opacity = 0.8, fillOpacity = 0.0,
-              popup = ~paste(Name, Dates, sep = ","),
-              group = "3. Oct-Dec, 1944") %>%
+              popup = ~paste("<b> Operation Name: </b>", Name, "<br>", 
+                              "<b> Dates: </b>", Dates, sep = " "),
+              group = "4. Oct-Dec, 1944") %>%
   addCircleMarkers(data = oil_sites,
                    color = "black",
-                   radius = 7,
-                   popup = ~paste(loc, site, sep = ",")) %>%
+                   radius = 7) %>%
   addLegend(position = "bottomright",
             pal= pal,
-            values = c("aircraft", "submarine"),
+            values = c("Aircraft", "Submarine"),
             title = "Sinking Agent") %>%
   addLayersControl(
-    baseGroups = c("1. Jan-Mar, 1944","2. Apr-Sep, 1944",
-                      "3. Oct-Dec, 1944"),
+    baseGroups = c("1. Jan-Mar, 1944","2. Apr-Jun, 1944", "3. Jul-Sep, 1944",
+                      "4. Oct-Dec, 1944"),
     options = layersControlOptions(collapsed = FALSE)) %>%
   addScaleBar(position = "bottomleft",
               options = scaleBarOptions(maxWidth = 250, imperial = TRUE,
@@ -262,64 +312,78 @@ leaflet(options = leafletOptions(zoomControl = FALSE,
 
 ```
 
- A close examination of the Japanese tanker vessel fleet illustrates this overall trend. The Allied effort to sink these tankers was a key subcomponent of the campaign, as the Japanese empire was critically dependent upon oil and petroleum products from the Dutch East Indies. However, their sinking did not become a priority until the end of 1943^[Stephen L. Wolborsky Chokehold: The Attack on Japanese Oil During World War II, Thesis, Air University, 1994, www.dtic.mil/dtic/tr/fulltext/u2/a425684.pdf., p.28 ]. In 1944, all Allied sinking agents destroyed 125 tankers which totaled 728,805 tons, almost five times the levels from 1942 and 1943 combined. Throughout 1944 the Allied submarines constituted 53% of total tanker tonnage, and 73% of those vessels sunk. 
-As with the larger campaign, Allied aircraft delivered concentrated blows during massive operations like Hailstone and Desecrate One. However, the biggest blow to the Japanese tanker fleet was delivered by the United States Navy’s Fast Carrier Task Force (Task Force 38) when it embarked on the ironically named Operation Gratitude. The taskforce, commanded by Vice-Admiral John McCain Sr., launched sizeable air raids on Japanese merchant and combat vessels throughout South China Sea, primarily off the coasts of Taiwan, Luzon, and Indochina between 10 and 20 January 1945. One of the primary goals of the operation was to cut the final coastal shipping lane which connected Japan to Southeast Asia and the Dutch East Indies. During these raids U.S. naval aircraft sunk or destroyed 153,959 tons of tanker shipping. It was the costliest week of the war for the Japanese tanker fleet and constituted 12% of all tanker tonnage lost by Japan during the war. The raid caused the precipitous decline in Japan’s ability to import oil, thereby continuing to mount an effective resistance. What tankers remained afloat were unable to make their voyages due to Allied air and sea superiority; 627,100 tons of oil tankers languished without purpose^[Richard B. Frank, Downfall: The End of the Japanese Empire, New York: Random House, 1999. p.78]. Allied aircraft, submarines, and mines would continue to sink Japanese tanker vessels between February and the end of the war in August. However, the trend was set with Operation Gratitude.
+ A close examination of the Japanese tanker vessel fleet illustrates this overall trend. The Allied effort to sink these tankers was a key subcomponent of the campaign, as the Japanese empire was critically dependent upon oil and petroleum products from the Dutch East Indies. However, their sinking did not become a priority until the end of 1943.^[Stephen L. Wolborsky, Chokehold: The Attack on Japanese Oil During World War II, Thesis, Air University, 1994, www.dtic.mil/dtic/tr/fulltext/u2/a425684.pdf. 28 ] In 1944, all Allied sinking agents destroyed 125 tankers which totaled 728,805 tons, almost five times the levels from 1942 and 1943 combined. Throughout 1944, Allied submarines constituted 53% of total tanker tonnage, and 73% of those vessels sunk. 
+As with the larger campaign, Allied aircraft delivered concentrated blows during massive operations like Hailstone and Desecrate One. However, the biggest blow to the Japanese tanker fleet was delivered by the United States Navy’s Fast Carrier Task Force (Task Force 38) when it embarked on the ironically named Operation Gratitude. The taskforce, commanded by Vice-Admiral John McCain Sr., launched sizeable air raids on Japanese merchant and combat vessels throughout South China Sea, primarily off the coasts of Taiwan, Luzon, and Indochina between 10 and 20 January 1945. One of the goals of the operation was to cut the final coastal shipping lane which connected Japan to Southeast Asia and the Dutch East Indies. During these raids U.S. naval aircraft sunk or destroyed 153,959 tons of tanker shipping. It was the costliest week for the Japanese tanker fleet and constituted 12% of <i>all</i> tanker tonnage lost by Japan during the war. The raid caused the precipitous decline in Japan’s ability to import oil, thereby continuing to mount an effective resistance. What tankers remained afloat were unable to make their voyages due to Allied air and sea superiority; 627,100 tons of oil tankers languished without purpose.^[Richard B. Frank, *Downfall: The End of the Japanese Empire* (New York: Random House, 1999), 78.] Allied aircraft, submarines, and mines would continue to sink Japanese tanker vessels between February and the end of the war in August. However, the trend was set with Operation Gratitude.
 
 ```{r, layout="l-body-outset", echo= FALSE, fig.cap= "This graph highlights the importance of Operation Gratitude to the elimination of the Japanese tanker fleet, and therefore the ending of the war. Allied submarines sunk more tanker vessels and more tonnage than airpower, but the raid was by far the biggest single blow to the fleet and doomed Japan to strategic isolation."}
 
 sinking_data %>% 
-  filter(sinking_agent == "submarine" |
-         sinking_agent == "aircraft"|
-         sinking_agent == "mine") %>% 
-  filter(type == "tanker") %>% 
+  filter(sinking_agent == "Submarine" |
+         sinking_agent == "Aircraft"|
+         sinking_agent == "Mine") %>% 
+  filter(type == "Tanker") %>% 
   group_by(month= floor_date(date, "month"),
            sinking_agent) %>% 
   summarize(total_ton= sum(tonnage)) %>% 
-ggplot(aes(x= month, y= total_ton, color= sinking_agent)) + geom_line(size= 1) + geom_point(size= 2)+
-  labs(title = "Tonnage of Tanker Vessels By Month and Sinking Agent",
+ggplot(aes(x= month, y= total_ton, color= sinking_agent)) + geom_line(size= 0.5) + geom_point(size= 1)+
+  labs(title = "Total Tonnage of Japanese Tanker Vessels Sunk By the Allies",
+       subtitle = "By Month and Sinking Agent",
        color= "Sinking Agents",
-       x= "Date",
+       x=element_blank(),
        y= "Tonnage") +
   scale_color_manual(labels = c("Aircraft", "Mine", "Submarine"),
-                     values = c("red", "green", "blue"))
+                     values = c("red", "green", "blue"))  +
+  scale_y_continuous(name = "Tonnage",
+                     breaks = seq(0, 1500e3, by = 50e3),
+                     labels = scales::number_format(scale = 1/1000, suffix = "K")) +
+  theme_bw()
 ```
 
 The raid furthered another trend: the rapid reduction in the average tonnage destroyed by the Allies. Between 1944 and 1945, the Allies sunk 45% fewer tons of merchant shipping but only 28% fewer vessels. The key to this discrepancy is the drop in average tonnage between 1944 and 1945—4,105 and 2,566 tons, respectively. Capped off by the South China Sea raid, the cumulative war effort deprived the Japanese merchant fleet of its largest vessels and closed off its busiest SLOCs. With the Japanese empire split in two, Allied war planners focused on closing the small, coastal waterways and local shipping lanes which connected the Japanese Home Islands to each other, Korea, and northern China.   
 
-Coupled with the Philippine campaign, the South China Sea raid effectively cut Japan from its possessions in Southeast Asia. To complete the isolation of the empire and to dismember the home islands, Allies turned to a massive mining campaign bluntly named Operation Starvation. B-29 bombers from the U.S. Army Air Force’s XXI Bomber Command were tasked to drop naval mines into the harbors, inlets, and straights which connected the Japanese islands to each other and the rest of Asia. Japan had historically underinvested in its terrestrial transportation networks due to the cost advantages of maritime transport. As a result, local maritime shipping accounted for 2/3rds of material distribution between the home islands^[Frank, p. 78]. A mine blockade afforded the Allies an opportunity to separate the Japanese empire from its remaining possession and from itself.
+<h3 align="center">The Summer of 1945 and Operation Starvation</h3>
 
-From 1 May to 14 Aug 1945 the U.S. Army Airforce Force dropped approximately 12,000 mines, which took little over 5% of the command’s total effort^[Operation Starvation technically began on 27 March 1945, however the mining effort accelerated rapidly beginning in May 1945. Gerald A. Mason Operation Starvation Essay, Air University, 2002 www.au.af.mil/au/awc/awcgate/awc/2002_mason.pdf p. 15]. Most mining activity and the overwhelming density sinkings occurred within the Kanmon straits, a critical waterway which connected the southern Japanese islands of Kyushu, Honshu, and Shikoku to the Korean peninsula and northern China. Merchant vessel sinkings attributed to mines accounted for 48% of sunken merchant vessels and 52 % sunken merchant tonnage. The pervasiveness of the minefields meant that they consistently claimed larger vessels than those destroyed by either subs or aircraft. The average vessel sunk by a mine during this period weighed over 2300 tons, whereas those sunk by aircraft and submarines averaged in at 1,910 and 2,067 tons, respectively.
+Coupled with the Philippine campaign, the South China Sea raid effectively cut Japan from its possessions in Southeast Asia. To complete the isolation of the empire and to dismember the home islands, Allies turned to a massive mining campaign bluntly named Operation Starvation. B-29 bombers from the U.S. Army Air Force’s XXI Bomber Command were tasked to drop naval mines into the harbors, inlets, and straights which connected the Japanese islands to each other and the rest of Asia. Japan had historically underinvested in its terrestrial transportation networks due to the cost advantages of maritime transport. As a result, local maritime shipping accounted for 2/3rds of material distribution between the home islands.^[Frank, p. 78] A mine blockade afforded the Allies an opportunity to separate the Japanese empire from its remaining possession and from itself.
 
- 
+From 1 May to 14 Aug 1945 the U.S. Army Airforce Force dropped approximately 12,000 mines, which took little over 5% of the command’s total effort.^[Operation Starvation technically began on 27 March 1945, however the mining effort accelerated rapidly beginning in May 1945. Gerald A. Mason, "Operation Starvation," Essay, Air University, 2002 www.au.af.mil/au/awc/awcgate/awc/2002_mason.pdf p. 15] Most mining activity and the overwhelming density of sinkings occurred within the Kanmon straits, a critical waterway which connected the southern Japanese islands of Kyushu, Honshu, and Shikoku to the Korean peninsula and northern China. Merchant vessel sinkings attributed to mines accounted for 48% of sunken merchant vessels and 52 % sunken merchant tonnage. The pervasiveness of the minefields meant that they consistently claimed larger vessels than those destroyed by either subs or aircraft. The average vessel sunk by a mine during this period weighed over 2300 tons, whereas those sunk by aircraft and submarines averaged in at 1,910 and 2,067 tons, respectively.
 
-```{r, layout="l-body-outset", echo= FALSE, fig.cap= "Operation Starvation was the final significant Allied naval action of the war. It effectively cut off the Japanese home islands and accelerated the end of the war. The 18,765 ton Kotobuki Maru was removed from this representation for scaling purposes."}
+```{r, layout="l-body-outset", echo= FALSE, fig.cap= "Operation Starvation was the final significant Allied action aimed at statistically isolating the Japanese empire. It effectively cut off the Japanese home islands and accelerated the end of the war by consistently sinking the vestiges of the merchant fleet. U.S. Army Air Force mines sunk larger vessels than either air power or submarines and did so more consistently in the final months of the war. The 18,765 ton <i> Kotobuki Maru </i> was removed from this representation for scaling purposes."}
 
-facet_label1<- c(aircraft = "Aircraft", mine = "Mine", submarine = "Submarine")
+facet_label1<- c(Aircraft = "Aircraft", Mine = "Mine", Submarine = "Submarine")
 
 sinking_data %>%
   filter(date > "1945-04-30",
          tonnage < 15000) %>%
-ggplot(aes(x= date, y= tonnage, color= sinking_agent)) + geom_point(size= 2) +
-  labs(title = "Operation Starvation: Vessels Sunk By Sinking Agent, By Day",
-       x= "Date",
+ggplot(aes(x= date, y= tonnage, color= sinking_agent)) + geom_point(size= 1.5) +
+  labs(title = "Operation Starvation: May to August 1945",
+       subtitle = "By Day and Sinking Agent",
+       x=element_blank(),
        y= "Tonnage of Sunken Vessel",
        color= "Sinking Agent") +
        facet_wrap(~ sinking_agent, labeller = labeller(sinking_agent = facet_label1)) +
   scale_color_manual(labels = c("Aircraft", "Mine", "Submarine"),
-                     values = c("red", "green", "blue"))
+                     values = c("red", "green", "blue")) +
+  scale_y_continuous(name = "Tonnage",
+                     breaks = seq(0, 10e3, by = 2e3),
+                     labels = scales::number_format(scale = 1/1000, suffix = "K")) +
+  theme_bw()
 
 ```
 
-Operation Starvation relegated conventional airpower to a supporting role. The last large U.S. air raid to yield significant merchant losses occurred on the Japanese island of Kure between 14 and 15 July 1945, during which U.S. naval carrier-based aircraft destroyed over 70,000 tons of merchant shipping. Supremacy of the mining effort also left few targets for Allied submarines in the final days of the war. U.S. submarines sunk a mere confirmed  11 vessels between 16 July and 13 Aug 1945^[As mentioned earlier, “Japanese Naval and Merchant Shipping Losses During World War II by All Causes” did not assess the sinking of vessels under 500 tons. Operational records from the Submarine Operations Research Group (SORG) reflect U.S. submarines sunk as many as 320 vessels under 500 tons from 1 May 1945 until 14 August 1945, however these reports were not assessed for their validity after the war. See: Sturma, Michael. "Atrocities, Conscience, and Unrestricted Warfare: US Submarines during the Second World War." War in History 16, no. 4 (2009): 447-68. http://www.jstor.org/stable/26070653.], on which date the USS Torsk (SS-423) sunk the Kaiho Maru, the last merchant vessel destroyed by an Allied submarine during World War II. 14 August 1945, the day of Emperor Hirohito’s “Jewel Broadcast,” U.S. Army Air Force mines destroyed three merchant vessels, the final merchant ships lost to enemy action during the Second World War.
+Operation Starvation relegated conventional airpower to a supporting role. The last large U.S. air raid to yield significant merchant losses occurred on the Japanese island of Kure between 14 and 15 July 1945, during which U.S. naval carrier-based aircraft destroyed over 70,000 tons of merchant shipping. Supremacy of the mining effort also left few targets for Allied submarines in the final days of the war. U.S. submarines sunk a mere confirmed  11 vessels between 16 July and 13 Aug 1945^[As mentioned earlier, “Japanese Naval and Merchant Shipping Losses During World War II by All Causes” did not assess the sinking of vessels under 500 tons. Operational records from the Submarine Operations Research Group (SORG) reflect U.S. submarines sunk as many as 320 vessels under 500 tons from 1 May 1945 until 14 August 1945, however these reports were not assessed for their validity after the war. See:  Michael Sturma, "Atrocities, Conscience, and Unrestricted Warfare: US Submarines during the Second World War." *War in History* 16, no. 4 (2009): 447-68. http://www.jstor.org/stable/26070653.], on which date the USS <i>Torsk</i> (SS-423) sunk the <i> Kaiho Maru </i>, the last merchant vessel destroyed by an Allied submarine during World War II. 14 August 1945, the day of Emperor Hirohito’s “Jewel Broadcast,” U.S. Army Air Force mines destroyed three merchant vessels, the final merchant ships lost to enemy action during the Second World War.
+
+<h3 align="center"> Conclusion </h3>
 
 There is perhaps no other period in modern history more laboriously studied than the Second World War. Historians have poured over every aspect of the conflict, to include the Allied campaign to sink the Japanese merchant fleet. Previous scholars have leaned heavily on the actions of the U.S. submarine fleet to analyze this component of the conflict, and not without good reason. However, a computational examination of the campaign reveals that it is best understood as a combined effort of submarines, aircraft, and mines. The campaign serves as an instructive medium to understand the larger conflict and the issues of trade and geopolitical competition which proceeded it. Using a computational method also conveys the scale of the campaign while still providing opportunities to examine discrete events. Lastly, a robust understanding of this facet of the war, buttressed by computational methods, can contribute to debates about the war’s end and the decisions which preceded it.
 
-Learn more at <https://unrestricted.omeka.net/>.
-
-Code available at <https://github.com/bbuck1/sinking_the_empire/blob/master/final_code>
+## Acknowledgments {.appendix}
 
 Special thanks to Bat-Erdene Altankhuyag, Matthew DiRisio and John Sheehan for their earlier work on "Unrestricted: The Campaign to Sink the Japanese Merchant Fleet During World War II" which made this article possible.
 
+Learn more at, Unrestricted: The Campaign to Sink the Japanese Merchant Fleet During World War II
+<https://unrestricted.omeka.net/>.
 
+Code available at <https://github.com/bbuck1/sinking_the_empire/blob/master/final_code>
 
+Analysis was conducted with the R programming language. Graphics were built using R Studio and QGIS.
 
