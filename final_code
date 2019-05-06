@@ -12,8 +12,6 @@ output: distill::distill_article
 ```{r setup, echo= FALSE}
 knitr::opts_chunk$set(echo = FALSE)
 
-knitr::opts_chunk$set(echo = TRUE)
-
 library(tidyverse)
 library(dplyr)
 library(lubridate)
@@ -74,7 +72,7 @@ paged_table(sinking_data)
 
 ```
 
-<figure><p class=”caption”> Table 1. This is a table of the dataset used in this study. It was derived from <a href="https://www.history.navy.mil/research/library/online-reading-room/title-list-alphabetically/j/japanese-naval-merchant-shipping-losses-wwii.html"><i>Japanese Naval and Merchant Shipping Losses During World War II by All Causes</i></a> For simplicity, and to reduce computational error, the “sinking agent” column was simplified to one agent, either “Submarine”, “Aircraft”, Surface Craft”, Sabotage” or “Unknown.” </p></figure>
+<figure><p class=”caption”> Table 1. This is a table of the dataset used in this study. It was derived from <a href="https://www.history.navy.mil/research/library/online-reading-room/title-list-alphabetically/j/japanese-naval-merchant-shipping-losses-wwii.html"><i>Japanese Naval and Merchant Shipping Losses During World War II by All Causes</i></a> For simplicity, and to reduce computational error, the “sinking agent” column was simplified to one agent, either “Submarine”, “Aircraft”, Surface Craft”, "Sabotage” or “Unknown.” </p></figure>
 
 <h3 align="center">The Role and Impact of the Submarine Fleet</h3>
 
