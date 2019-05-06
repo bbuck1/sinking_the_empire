@@ -1,0 +1,2193 @@
+id_no,date,year,name,type,tonnage,loc_1,loc_2,sinking_countries,sinking_agent,assessment
+1,1941-12-08,1941,Awajisan Maru,Passenger-cargo,9794,6-03N,102-16E,Australia,Aircraft,sunk
+2,1941-12-10,1941,Takao Maru,Passenger-cargo,4281,17-29N,120-26E,United States,Sabotage,sunk
+3,1941-12-12,1941,Toro Maru,Cargo,1939,6-08N,102-16E,Netherlands,Submarine,sunk
+4,1941-12-16,1941,Atsutasan Maru,Cargo,8662,18-06N,109-44E,United States,Submarine,sunk
+5,1941-12-22,1941,Hayo Maru,Cargo,5445,16-37N,120-17E,United States,Submarine,sunk
+6,1941-12-23,1941,Hayataka Maru,Cargo,856,17-35N,120-12E,United States,Submarine,sunk
+7,1941-12-23,1941,Katori Maru,Cargo,9849,2-30N,110-00E,Netherlands,Submarine,sunk
+8,1941-12-23,1941,Hie Maru,Passenger-cargo,4943,2-30N,110-00E,Netherlands,Submarine,sunk
+9,1942-01-07,1942,Unkai Maru No 1,Cargo,2225,34-27N,138-59E,United States,Submarine,sunk
+10,1942-01-09,1942,Teian Maru,Cargo,5387,35-00N,140-36E,United States,Submarine,sunk
+11,1942-01-10,1942,Akita Maru,Passenger-cargo,3817,7-40N,102-50E,Netherlands,Submarine,sunk
+12,1942-01-10,1942,Kanko Maru,Converted Gunboat,2929,6-12N,125-55E,United States,Submarine,sunk
+13,1942-01-10,1942,Harbin Maru,Transport,5167,17-40N,109-20E,United States,Submarine,sunk
+14,1942-01-18,1942,Eizan Maru,Cargo,4702,33-30N,135-00E,United States,Submarine,sunk
+15,1942-01-24,1942,Kuretake Maru,Cargo,5175,00-10N,118-00E,United States,Surface Craft,sunk
+16,1942-01-24,1942,Tsuruga Maru,Passenger-cargo,6988,00-10N,118-00E,Netherlands,Submarine,sunk
+17,1942-01-24,1942,Tatsukami Maru,Passenger-cargo,7064,00-10N,118-00E,United States,Surface Craft,sunk
+18,1942-01-24,1942,Sumanoura Maru,Passenger-cargo,3519,00-10N,118-00E,United States,Surface Craft,sunk
+19,1942-01-24,1942,Nana Maru,Passenger-cargo,6764,00-10N,118-00E,Netherlands,Aircraft,sunk
+20,1942-01-24,1942,Myoken Maru,Cargo,4124,1-22N,125-05E,United States,Submarine,sunk
+21,1942-02-01,1942,Bordeaux Maru,Passenger-cargo,6566,9-28N,170-15E,United States,Surface Craft,sunk
+22,1942-02-01,1942,Toyotsu Maru,Converted Gunboat,2930,9-28N,170-15E,United States,Surface Craft,sunk
+23,1942-02-02,1942,Tamagawa Maru,Passenger-cargo,6441,17-16N,119-48E,United States,Submarine,sunk
+24,1942-02-10,1942,Chuwa Maru,Cargo,2719,25-30N,122-38E,United States,Submarine,sunk
+25,1942-02-14,1942,Inabasan Maru,Cargo,989,1-25S,105-00E,"United States, Great Britain, Netherlands",Aircraft,sunk
+26,1942-02-21,1942,Shokyu Maru,Cargo,4434,32-10N,126-28E,United States,Submarine,sunk
+27,1942-03-01,1942,Sakura Maru,Passenger-cargo,7170,5-56S,106-12E,"United States, Australia, Netherlands",Surface Craft,sunk
+28,1942-03-01,1942,Horai Maru,Passenger-cargo,9192,5-56S,106-12E,"United States, Australia, Netherlands",Surface Craft,sunk
+29,1942-03-01,1942,Kaijo Maru No 2,Tanker,8636,4-52N,151-20E,United States,Submarine,sunk
+30,1942-03-02,1942,Kamogawa Maru,Aircraft Ferry,6440,8-06S,115-57E,United States,Submarine,sunk
+31,1942-03-04,1942,Taki Maru,Cargo,1244,28-37N,129-10E,United States,Submarine,sunk
+32,1942-03-04,1942,Erimo,Tanker,6500,4-19S,108-25E,United States,Submarine,sunk
+33,1942-03-04,1942,Unknown Maru,Cargo,4000,32-33N,133-26E,United States,Submarine,sunk
+34,1942-03-10,1942,Yokohama Maru,Cargo,6143,7-01S,147-07E,United States,Aircraft,sunk
+35,1942-03-10,1942,Kongo Maru,Converted Light Cruiser,8624,6-49S,147-02E,United States,Aircraft,sunk
+36,1942-03-10,1942,Tenyo Maru,Converted Minesweeper,6843,6-49S,147-02E,United States,Aircraft,sunk
+37,1942-03-11,1942,Fukushu Maru,Cargo,1454,30-53N,126-20E,United States,Submarine,sunk
+38,1942-03-13,1942,Chichibu Maru,Cargo,1520,33-53N,139-29E,United States,Submarine,sunk
+39,1942-03-17,1942,Yubari Maru,Cargo,4109,3-05S,114-21E,Netherlands,Aircraft,na
+40,1942-03-17,1942,Ishikari Maru,Cargo,3291,27-05N,142-05E,United States,Submarine,sunk
+41,1942-03-26,1942,Unknown Maru,Cargo,4000,32-31N,127-10E,United States,Submarine,sunk
+42,1942-03-27,1942,Unknown Maru,Passenger-cargo,4000,33-53N,127-33E,United States,Submarine,sunk
+43,1942-03-30,1942,Choko Maru,Cargo,842,5-39S,119-00E,United States,Submarine,sunk
+44,1942-04-01,1942,Yae Maru,Cargo,6781,5-42N,98-57E,Great Britain,Submarine,sunk
+45,1942-04-01,1942,Shunsei Maru,Cargo,4939,5-42N,93-57E,Great Britain,Submarine,sunk
+46,1942-04-10,1942,Sado Maru,Cargo,3039,34-52N,139-15E,United States,Submarine,sunk
+47,1942-04-11,1942,Taijun Maru,Cargo,1274,6-49S,147-02E,United States,Aircraft,sunk
+48,1942-04-13,1942,Ryujin Maru,Cargo,6243,31-51N,132-50E,United States,Submarine,sunk
+49,1942-04-17,1942,Unknown Maru,Cargo,4000,10-53N,121-35E,United States,Submarine,sunk
+50,1942-04-18,1942,Komaki Maru,Transport,8525,4-12S,152-10E,United States,Aircraft,sunk
+51,1942-04-23,1942,Unknown Maru,Trawler,1000,28-22N,153-18E,United States,Submarine,probably sunk
+52,1942-04-25,1942,Toba Maru,Cargo,6995,17-01N,120-15E,United States,Submarine,probably sunk
+53,1942-05-01,1942,Calcutta Maru,Passenger-cargo,5339,28-07N,123-45E,United States,Submarine,sunk
+54,1942-05-02,1942,Uzan Maru,Cargo,5014,33-26N,135-52E,United States,Submarine,sunk
+55,1942-05-04,1942,Kinjosan Maru,Cargo,3262,8-44N,150-56E,United States,Submarine,sunk
+56,1942-05-04,1942,Kongosan Maru,Converted Gunboat,2119,33-32N,136-05E,United States,Submarine,sunk
+57,1942-05-06,1942,Kanan Maru,Cargo,2567,12-05N,109-35E,United States,Submarine,sunk
+58,1942-05-06,1942,Taiei Maru,Cargo,2209,28-42N,123-50E,United States,Submarine,sunk
+59,1942-05-06,1942,Taigen Maru,Passenger-cargo,5660,28-19N,123-33E,United States,Submarine,sunk
+60,1942-05-08,1942,Bujun Maru,Cargo,4804,12-00N,111-10E,United States,Submarine,sunk
+61,1942-05-08,1942,Taiyo Maru,Transport,14457,30-40N,127-54E,United States,Submarine,sunk
+62,1942-05-09,1942,Unknown Maru,Cargo,4000,33-48N,136-08E,United States,Submarine,probably sunk
+63,1942-05-12,1942,Shoei Maru,Converted Salvage Vessel,5644,4-51S,152-54E,United States,Submarine,sunk
+64,1942-05-13,1942,Shonan Maru,Cargo,5264,34-39N,139-10E,United States,Submarine,sunk
+65,1942-05-15,1942,Toyohara Maru,Cargo,805,33-34N,125-09E,United States,Submarine,sunk
+66,1942-05-17,1942,Unknown Maru,Cargo,4000,33-28N,135-33E,United States,Submarine,sunk
+67,1942-05-17,1942,Tazan Maru,Passenger-cargo,5478,6-22N,108-36E,United States,Submarine,sunk
+68,1942-05-25,1942,Kitakata Maru,Cargo,2380,34-53N,140-04E,United States,Submarine,sunk
+69,1942-05-25,1942,Tokyo Maru,Tanker,902,27-03N,127-03E,United States,Submarine,sunk
+70,1942-05-25,1942,Shoka Maru,Cargo,4467,4-07N,143-32E,United States,Submarine,sunk
+71,1942-05-28,1942,Ganges Maru,Passenger-cargo,4382,9-00N,111-00E,United States,Submarine,sunk
+72,1942-05-28,1942,Tatsufuku Maru,Cargo,1946,7-27N,116-17E,United States,Submarine,sunk
+73,1942-05-29,1942,Unknown Maru,Cargo,1900,7-33N,116-18E,United States,Submarine,sunk
+74,1942-05-30,1942,Atsuta Maru,Transport,7983,26-07N,129-06E,United States,Submarine,sunk
+75,1942-06-01,1942,Kofuku Maru,Passenger-cargo,5822,16-16N,96-18E,United States,Aircraft,sunk
+76,1942-06-04,1942,Toyohashi Maru,Passenger-cargo,7031,7-30N,93-10E,Great Britain,Submarine,sunk
+77,1942-06-12,1942,Burma Maru,Cargo,4584,10-08N,102-34E,United States,Submarine,sunk
+78,1942-06-15,1942,Nampo Maru,Converted Gunboat,1206,14-20N,120-20E,United States,Submarine,sunk
+79,1942-06-18,1942,Nissan Maru,Cargo,6537,51-58N,177-40E,United States,Aircraft,sunk
+80,1942-06-28,1942,Saikyo Maru,Converted Gunboat,1292,12-41N,136-22E,United States,Submarine,sunk
+81,1942-06-30,1942,Unkai Maru No 5,Cargo,3282,30-04N,122-54E,United States,Submarine,sunk
+82,1942-07-01,1942,Montevideo Maru,Transport,7267,18-37N,119-29E,United States,Submarine,sunk
+83,1942-07-02,1942,Unyo Maru No 3,Cargo,2997,30-30N,120-25E,United States,Submarine,sunk
+84,1942-07-08,1942,Tenzan Maru,Passenger-cargo,2776,4-00S,151-50E,United States,Submarine,sunk
+85,1942-07-09,1942,Shinsho Maru,Motor Torpedo Boat Tender,4836,8-43N,167-33E,United States,Submarine,sunk
+86,1942-07-12,1942,Hiyama Maru,Cargo,6171,13-48N,109-33E,United States,Submarine,sunk
+87,1942-07-13,1942,Shinyo Maru,Passenger-cargo,4163,13-04N,109-39E,United States,Submarine,sunk
+88,1942-07-22,1942,Ayatosan Maru,Transport,9788,8-50S,148-50E,"United States, Australia",Aircraft,sunk
+89,1942-07-24,1942,Unknown Maru,Cargo,1500,45-05N,147-27E,United States,Submarine,sunk
+90,1942-07-28,1942,Unknown Maru,Transport,4000,33-21N,139-24E,United States,Submarine,sunk
+91,1942-08-01,1942,Meiwa Maru,Cargo,2921,41-12N,141-36E,United States,Submarine,sunk
+92,1942-08-02,1942,Zenyo Maru,Passenger-cargo,6441,5-36N,99-53E,Netherlands,Submarine,sunk
+93,1942-08-03,1942,Naniwa Maru,Cargo,4353,7-37N,150-18E,United States,Submarine,sunk
+94,1942-08-05,1942,Brasil Maru,Transport,12752,9-50N,150-38E,United States,Submarine,sunk
+95,1942-08-06,1942,Ohio Maru,Passenger-cargo,5872,13-51N,113-15E,United States,Submarine,sunk
+96,1942-08-06,1942,Palao Maru,Passenger-cargo,4495,9-04N,150-54E,United States,Submarine,sunk
+97,1942-08-07,1942,Shofuku Maru,Converted Net Tender,891,9-22N,170-12E,United States,Submarine,sunk
+98,1942-08-08,1942,Kotoku Maru,Transport,6701,7-01N,147-07E,United States,Aircraft,sunk
+99,1942-08-08,1942,Kano Maru,Cargo,8572,51-58N,177-33E,United States,Surface Craft,sunk
+100,1942-08-08,1942,Meiyo Maru,Transport,5628,4-52S,152-43E,United States,Submarine,na
+101,1942-08-08,1942,Nikkei Maru,Passenger-cargo,5811,33-33N,135-23E,United States,Submarine,sunk
+102,1942-08-08,1942,Bifuku Maru,Passenger-cargo,2559,41-14N,141-32E,United States,Submarine,sunk
+103,1942-08-12,1942,Unknown Maru,Cargo,4000,33-02N,136-00E,United States,Submarine,sunk
+104,1942-08-14,1942,Hachigen Maru,Passenger-cargo,3113,5-07N,119-37E,United States,Submarine,sunk
+105,1942-08-21,1942,Shinsei Maru No 6,Passenger-cargo,4928,6-45N,158-10E,United States,Submarine,sunk
+106,1942-08-22,1942,Unknown Maru,Transport,4000,26-07N,121-29E,United States,Submarine,sunk
+107,1942-08-24,1942,Seikai Maru,Passenger-cargo,3109,38-12N,141-30E,United States,Submarine,sunk
+108,1942-08-25,1942,Kinryu Maru,Converted Light Cruiser,9310,7-47S,160-13E,United States,Aircraft,sunk
+109,1942-08-25,1942,Showa Maru,Cargo,1349,3-55N,118-59E,United States,Submarine,probably sunk
+110,1942-08-25,1942,Senyo Maru,Converted Gunboat,2904,22-23N,120-10E,United States,Submarine,sunk
+111,1942-08-26,1942,Teishun Maru,Cargo,2251,27-05N,121-23E,United States,Submarine,sunk
+112,1942-08-31,1942,Eifuku Maru,Cargo,5866,25-43N,122-38E,United States,Submarine,sunk
+113,1942-09-02,1942,Teikyu Maru,Cargo,2332,42-08N,141-15E,United States,Submarine,sunk
+114,1942-09-04,1942,Kashino,Supply Ship,4000,25-43N,122-38E,United States,Submarine,sunk
+115,1942-09-04,1942,Chita Maru,Cargo,2276,40-10N,141-53E,United States,Submarine,sunk
+116,1942-09-04,1942,Tenyu Maru,Cargo,3738,40-14N,141-51E,United States,Submarine,sunk
+117,1942-09-04,1942,Kaimei Maru,Cargo,5254,40-14N,141-51E,United States,Submarine,sunk
+118,1942-09-07,1942,Taika Maru,Cargo,2204,25-31N,121-33E,United States,Submarine,sunk
+119,1942-09-11,1942,Kanto Maru,Aircraft Ferry,8606,3-16S,118-29E,United States,Submarine,sunk
+120,1942-09-12,1942,Niyo Maru,Cargo,1350,20-15N,92-35E,Great Britain,Aircraft,sunk
+121,1942-09-19,1942,Shirogane Maru,Passenger-cargo,3130,6-33S,156-05E,United States,Submarine,sunk
+122,1942-09-21,1942,Tone Maru,Cargo,4070,31-18N,123-27E,United States,Submarine,sunk
+123,1942-09-21,1942,Koei Maru,Converted Net Tender,863,6-54N,151-51E,United States,Submarine,sunk
+124,1942-09-25,1942,Teibo Maru,Cargo,4472,10-31N,109-31E,United States,Submarine,sunk
+125,1942-09-28,1942,Nojima Maru,Cargo,7189,51-58N,177-33E,United States,Aircraft,sunk
+126,1942-09-28,1942,Tamon Maru No 6,Cargo,4994,40-35N,141-50E,United States,Submarine,sunk
+127,1942-10-01,1942,Yomei Maru,Cargo,2860,33-35N,135-15E,United States,Submarine,sunk
+128,1942-10-01,1942,Lisbon Maru,Transport,7053,29-57N,122-56E,United States,Submarine,sunk
+129,1942-10-01,1942,Tosei Maru,Cargo,2432,41-20N,141-35E,United States,Submarine,sunk
+130,1942-10-01,1942,Katsuragi Maru,Aircraft Ferry,8033,5-51S,153-18E,United States,Submarine,sunk
+131,1942-10-03,1942,Kinkai Maru,Cargo,5852,38-46N,142-02E,United States,Submarine,sunk
+132,1942-10-04,1942,Setsuyo Maru,Cargo,4147,39-48N,142-08E,United States,Submarine,sunk
+133,1942-10-07,1942,Senkai Maru,Passenger-cargo,2095,1-55N,153-42E,United States,Submarine,sunk
+134,1942-10-07,1942,Naminoue Maru,Transport,4731,3-51S,151-21E,United States,Submarine,sunk
+135,1942-10-08,1942,Borneo Maru,Cargo,5863,51-56N,177-27E,United States,Aircraft,sunk
+136,1942-10-08,1942,Hague Maru,Passenger-cargo,5641,34-06N,136-22E,United States,Submarine,sunk
+137,1942-10-09,1942,Hachimanzan Maru,Cargo,2461,33-27N,136-01E,United States,Submarine,sunk
+138,1942-10-10,1942,Shigure Maru,Cargo,2445,1-01S,117-23E,United States,Submarine,sunk
+139,1942-10-14,1942,Teison Maru,Transport,7007,25-22N,121-15E,United States,Submarine,sunk
+140,1942-10-14,1942,Sumiyoshi Maru,Cargo,1921,3-20S,150-03E,United States,Submarine,sunk
+141,1942-10-14,1942,Shunko Maru,Cargo,6781,5-35N,144-25E,United States,Submarine,sunk
+142,1942-10-14,1942,Takusei Maru,Cargo,3515,39-33N,142-15E,United States,Submarine,sunk
+143,1942-10-15,1942,Kyushu Maru,Passenger-cargo,8666,9-25S,159-55E,United States,Aircraft,sunk
+144,1942-10-15,1942,Sasako,Passenger-cargo,9258,9-25S,159-55E,United States,Aircraft,sunk
+145,1942-10-15,1942,Azumasan,Passenger-cargo,7623,9-25S,159-55E,United States,Aircraft,sunk
+146,1942-10-17,1942,Holland Maru,Cargo,5869,32-21N,132-04E,United States,Submarine,sunk
+147,1942-10-18,1942,Hakonesan Maru,Cargo,6673,38-46N,142-03E,United States,Submarine,sunk
+148,1942-10-20,1942,Ryunan Maru,Cargo,5106,34-08N,136-46E,United States,Submarine,sunk
+149,1942-10-20,1942,Yamafuji Maru,Cargo,5359,24-26N,120-26E,United States,Submarine,sunk
+150,1942-10-20,1942,Africa Maru,Cargo,9475,24-26N,120-26E,United States,Submarine,sunk
+151,1942-10-21,1942,Choko Maru,Passenger-cargo,6783,3-30S,150-30E,United States,Submarine,sunk
+152,1942-10-21,1942,Unknown Maru,Cargo,4000,27-03N,122-42E,United States,Submarine,sunk
+153,1942-10-21,1942,Nichiho Maru,Cargo,6363,27-03N,122-42E,United States,Submarine,sunk
+154,1942-10-22,1942,Hakkaisan Maru,Converted Gunboat,3311,3-30S,175-15E,United States,Surface Craft,sunk
+155,1942-10-23,1942,Seikyo Maru,Converted Gunboat,2608,33-45N,135-25E,United States,Submarine,sunk
+156,1942-10-24,1942,Kenun Maru,Cargo,4643,41-24N,141-50E,United States,Submarine,sunk
+157,1942-10-25,1942,Kotobuki Maru No 5,Converted Net Tender,720,4-13S,152-11E,United States,Aircraft,sunk
+158,1942-10-26,1942,Keizan Maru,Cargo,2864,50-09N,155-37E,United States,Submarine,sunk
+159,1942-10-27,1942,Unknown Maru,Passenger-cargo,4000,10-20N,108-43E,United States,Submarine,sunk
+160,1942-10-31,1942,Unknown Maru,Cargo,3000,4-40S,118-54E,United States,Submarine,probably sunk
+161,1942-11-02,1942,Yasukawa Maru,Passenger-cargo,6710,8-41S,148-27E,United States,Aircraft,sunk
+162,1942-11-02,1942,Gifu Maru,Cargo,2933,6-14N,126-07E,United States,Submarine,sunk
+163,1942-11-03,1942,Tekkai Maru,Cargo,1925,32-02N,126-15E,United States,Submarine,sunk
+164,1942-11-03,1942,Sagami Maru,Passenger-cargo,7189,7-02N,125-33E,United States,Submarine,sunk
+165,1942-11-03,1942,Chikugo Maru,Cargo,2461,20-18N,108-39E,United States,Submarine,sunk
+166,1942-11-08,1942,Keiko Maru,Converted Gunboat,2929,6-22N,126-03E,United States,Submarine,sunk
+167,1942-11-10,1942,Unknown Maru,Cargo,4000,7-12N,150-47E,United States,Submarine,sunk
+168,1942-11-11,1942,Hokoku Maru,Converted Light Cruiser,10439,20-00S,93-00E,"Great Britain, Netherlands",Surface Craft,sunk
+169,1942-11-11,1942,Venice Maru,Passenger-cargo,6571,35-36N,123-44E,United States,Submarine,sunk
+170,1942-11-14,1942,Shinanogawa Maru,Cargo,7503,8-30S,158-45E,United States,Aircraft,sunk
+171,1942-11-14,1942,Nako Maru,Cargo,7145,8-30S,158-45E,United States,Aircraft,sunk
+172,1942-11-14,1942,Nagara Maru,Passenger-cargo,7148,8-30S,158-45E,United States,Aircraft,sunk
+173,1942-11-14,1942,Sado Maru,Cargo,7180,8-30S,158-45E,United States,Aircraft,sunk
+174,1942-11-14,1942,Canberra Maru,Cargo,6477,8-30S,158-45E,United States,Aircraft,sunk
+175,1942-11-14,1942,Brisbane Maru,Cargo,5425,8-30S,158-45E,United States,Aircraft,sunk
+176,1942-11-14,1942,Arizona Maru,Cargo,9684,8-30S,158-45E,United States,Aircraft,sunk
+177,1942-11-15,1942,Yamazuki Maru,Cargo,6439,9-20S,159-50E,United States,Aircraft,sunk
+178,1942-11-15,1942,Yamaura Maru,Cargo,6798,9-20S,159-50E,United States,Surface Craft,sunk
+179,1942-11-15,1942,Kinugawa Maru,Cargo,6937,9-20S,159-50E,United States,Surface Craft,sunk
+180,1942-11-15,1942,Hirokawa Maru,Cargo,6872,9-20S,159-50E,United States,Surface Craft,sunk
+181,1942-11-16,1942,Boston Maru,Transport,5477,6-18N,135-20E,United States,Submarine,sunk
+182,1942-11-17,1942,Oregon Maru,Converted Salvage Vessel,5873,14-46N,119-44E,United States,Submarine,sunk
+183,1942-11-18,1942,Havana Maru,Passenger-cargo,5652,6-48S,155-49E,United States,Aircraft,sunk
+184,1942-11-22,1942,Khai Dinh,Cargo,5110,20-58N,106-40E,United States,Aircraft,sunk
+185,1942-11-26,1942,Cheribon Maru,Cargo,4016,52-45N,173-15E,United States,Aircraft,sunk
+186,1942-11-27,1942,Ryokusei Maru,Cargo,1907,23-11N,113-14E,United States,Aircraft,sunk
+187,1942-12-07,1942,Hino Maru No 3,Passenger-cargo,4391,23-59N,138-43E,United States,Submarine,sunk
+188,1942-12-08,1942,Heinan Maru,Cargo,661,00-52N,118-54E,United States,Submarine,sunk
+189,1942-12-10,1942,Kamoi Maru,Cargo,5355,4-56S,154-58E,United States,Submarine,sunk
+190,1942-12-12,1942,Gyokuzan Maru,Cargo,1970,40-19N,142-27E,United States,Submarine,sunk
+191,1942-12-16,1942,Genzan Maru,Passenger-cargo,5708,41-10N,141-32E,United States,Submarine,sunk
+192,1942-12-16,1942,Shingo Maru,Cargo,4740,41-10N,141-32E,United States,Submarine,sunk
+193,1942-12-17,1942,Bandoeng Maru,Passenger-cargo,4003,4-54S,154-17E,United States,Submarine,sunk
+194,1942-12-20,1942,Unknown Maru,Cargo,4000,35-45N,140-55E,United States,Mine,sunk
+195,1942-12-22,1942,Teifuku Maru,Cargo,5198,34-52N,139-49E,United States,Submarine,sunk
+196,1942-12-24,1942,Tama Maru No 2,Cargo,515,6-15S,150-10E,United States,Aircraft,sunk
+197,1942-12-24,1942,Amakasu Maru No 1,Converted Water Carrier,1913,19-16N,166-37E,United States,Submarine,sunk
+198,1942-12-25,1942,Banshu Maru No 2,Cargo,1000,9-00S,124-00E,United States,Submarine,sunk
+199,1942-12-26,1942,Iwami Maru,Passenger-cargo,773,8-44S,158-06E,United States,Aircraft,sunk
+200,1942-12-27,1942,Italy Maru,Transport,5859,4-15S,152-10E,United States,Aircraft,sunk
+201,1942-12-27,1942,Tsurugisan Maru,Cargo,3108,4-13S,152-11E,United States,Aircraft,sunk
+202,1942-12-28,1942,Choyo Maru,Cargo,5388,24-46N,120-40E,United States,Submarine,sunk
+203,1942-12-28,1942,Omi Maru,Passenger-cargo,3393,6-23N,160-17E,United States,Submarine,sunk
+204,1942-12-29,1942,Fukken Maru,Passenger-cargo,2558,20-04N,109-18E,United States,Mine,sunk
+205,1942-12-29,1942,Azusa Maru,Cargo,540,8-39S,158-00E,United States,Aircraft,sunk
+206,1942-12-29,1942,Hachian Maru,Cargo,2733,4-45S,113-54E,United States,Submarine,sunk
+207,1942-12-30,1942,Tomiura Maru,Passenger-cargo,3821,4-15S,152-10E,United States,Aircraft,sunk
+208,1942-12-30,1942,Urajio Maru,Cargo,3110,51-58N,177-33E,United States,Aircraft,sunk
+209,1942-12-30,1942,Unknown Maru,Cargo,4000,00-41N,148-52E,United States,Submarine,sunk
+210,1942-12-30,1942,Hiteru Maru,Cargo,5857,00-41N,148-52E,United States,Submarine,sunk
+211,1943-01-01,1943,Renzan Maru,Cargo,4999,39-11N,141-44E,United States,Submarine,sunk
+212,1943-01-05,1943,Kotohira Maru,Cargo,6101,53-00N,173-10E,United States,Aircraft,sunk
+213,1943-01-05,1943,Keifuku Maru,Cargo,5833,4-21S,152-17E,United States,Aircraft,sunk
+214,1943-01-05,1943,Montreal Maru,Cargo,6577,52-40N,178-15E,United States,Aircraft,sunk
+215,1943-01-07,1943,Nichiryu Maru,Passenger-cargo,5447,6-30S,149-00E,United States,Aircraft,sunk
+216,1943-01-08,1943,Myoko Maru,Cargo,4103,6-49S,147-04E,United States,Aircraft,sunk
+217,1943-01-09,1943,Yoshinogawa Maru,Cargo,1430,6-13S,156-00E,United States,Submarine,sunk
+218,1943-01-13,1943,Iwashiro Maru,Cargo,3550,9-54N,167-07E,United States,Submarine,sunk
+219,1943-01-14,1943,Shiraha Maru,Cargo,5693,9-12N,130-38E,United States,Submarine,sunk
+220,1943-01-15,1943,Nichimei Maru,Cargo,4704,13-30N,98-30E,United States,Aircraft,sunk
+221,1943-01-16,1943,Chifuku Maru,Passenger-cargo,5857,4-00S,151-55E,United States,Submarine,sunk
+222,1943-01-16,1943,Kinposan Maru,Cargo,3261,2-47S,149-10E,United States,Submarine,sunk
+223,1943-01-17,1943,Unknown Maru,Cargo,4000,34-31N,137-48E,United States,Submarine,sunk
+224,1943-01-17,1943,Heiyo Maru,Passenger-cargo,9815,10-13N,151-25E,United States,Submarine,sunk
+225,1943-01-18,1943,Sensan Maru,Cargo,2775,3-53S,149-20E,United States,Aircraft,sunk
+226,1943-01-18,1943,Toei Maru,Tanker,10023,6-21N,150-23E,United States,Submarine,sunk
+227,1943-01-19,1943,Myoho Maru,Cargo,4122,5-30S,156-00E,United States,Submarine,sunk
+228,1943-01-20,1943,Somedono Maru,Passenger-cargo,5154,3-52N,153-56E,United States,Submarine,sunk
+229,1943-01-20,1943,Surabaya Maru,Cargo,4391,3-52N,153-56E,United States,Submarine,sunk
+230,1943-01-20,1943,Meiu Maru,Cargo,8230,3-52N,153-56E,United States,Submarine,sunk
+231,1943-01-21,1943,Kenkon Maru,Transport,4575,6-12S,155-51S,United States,Submarine,sunk
+232,1943-01-21,1943,Unknown Maru,Cargo,2934,11-25N,109-22E,United States,Submarine,sunk
+233,1943-01-22,1943,Tetsuzan Maru,Cargo,1922,4-15S,152-10E,United States,Aircraft,sunk
+234,1943-01-22,1943,Unknown Maru,Cargo,4000,3-55S,152-07E,United States,Submarine,sunk
+235,1943-01-22,1943,Hasshu Maru,Passenger-cargo,1873,5-40S,120-35E,United States,Submarine,sunk
+236,1943-01-26,1943,Ushio Maru,Cargo,749,13-26N,121-16E,United States,Submarine,sunk
+237,1943-01-26,1943,Tokai Maru,Passenger-cargo,8358,13-27N,144-37E,United States,Submarine,sunk
+238,1943-01-26,1943,Unknown Maru,Cargo,4000,2-37N,139-42E,United States,Submarine,sunk
+239,1943-01-26,1943,Buyo Maru,Transport,5447,1-55N,139-14E,United States,Submarine,sunk
+240,1943-01-26,1943,Fukuei Maru No 2,Cargo,1901,1-55N,139-14E,United States,Submarine,sunk
+241,1943-01-27,1943,Shoan Maru,Passenger-cargo,5624,14-15N,153-43E,United States,Submarine,sunk
+242,1943-01-29,1943,Nichiun Maru,Cargo,2723,6-21S,156-04E,United States,Submarine,sunk
+243,1943-01-31,1943,Toa Maru No 2,Cargo,6732,7-50S,156-50E,United States,Aircraft,sunk
+244,1943-02-01,1943,Fushimi Maru,Passenger-cargo,10935,34-16N,138-17E,United States,Submarine,sunk
+245,1943-02-06,1943,Gisho Maru,Cargo,543,4-30S,151-30E,United States,Aircraft,sunk
+246,1943-02-08,1943,Kusuyama Maru,Cargo,5306,22-40N,119-12E,United States,Submarine,sunk
+247,1943-02-08,1943,Tatsuta Maru,Transport,16975,33-45N,140-25E,United States,Submarine,sunk
+248,1943-02-14,1943,Hitachi Maru,Cargo,6540,6-45S,155-50E,United States,Aircraft,sunk
+249,1943-02-14,1943,Hirotama Maru,Converted Gunboat,1911,4-11S,117-45E,United States,Submarine,sunk
+250,1943-02-15,1943,Kokoku Maru,Cargo,544,5-32S,150-09S,United States,Aircraft,sunk
+251,1943-02-15,1943,Suruga Maru,Cargo,991,6-27S,156-02E,United States,Submarine,sunk
+252,1943-02-15,1943,Tateyama Maru,Cargo,1990,39-18N,142-08E,United States,Submarine,sunk
+253,1943-02-16,1943,Hyuga Maru,Cargo,994,13-30N,145-47E,United States,Submarine,sunk
+254,1943-02-19,1943,Hibari Maru,Cargo,6550,6-45S,155-50E,United States,Aircraft,sunk
+255,1943-02-19,1943,Unknown Maru,Cargo,6500,6-45S,155-50E,United States,Aircraft,sunk
+256,1943-02-19,1943,Akagane Maru,Cargo,3121,53-05N,171-22E,United States,Surface Craft,sunk
+257,1943-02-20,1943,Shinkoku Maru,Passenger-cargo,3991,15-09N,159-30E,United States,Submarine,sunk
+258,1943-02-21,1943,Kuwayama Maru,Cargo,5724,7-53S,119-13E,United States,Submarine,sunk
+259,1943-02-27,1943,Kirikawa Maru,Transport,3836,7-30S,136-40E,United States,Aircraft,sunk
+260,1943-02-27,1943,Asakasan Maru,Passenger-cargo,8709,15-53,97-40E,United States,Aircraft,sunk
+261,1943-03-02,1943,Kyokusei Maru,Cargo,5493,5-05S,148-28E,United States,Aircraft,sunk
+262,1943-03-02,1943,Toen Maru,Tanker,5232,3-29S,117-17E,United States,Submarine,sunk
+263,1943-03-03,1943,Kembu Maru,Cargo,953,7-15S,148-30E,United States,Aircraft,sunk
+264,1943-03-03,1943,Taimei Maru,Cargo,2883,7-15S,148-30E,"United States, Australia",Aircraft,sunk
+265,1943-03-03,1943,Shinai Maru,Cargo,3793,7-15S,148-30E,"United States, Australia",Aircraft,sunk
+266,1943-03-03,1943,Teiyo Maru,Cargo,6869,7-15S,148-30E,"United States, Australia",Aircraft,sunk
+267,1943-03-03,1943,Nojima,Collier,4500,7-15S,148-30E,"United States, Australia",Aircraft,sunk
+268,1943-03-03,1943,Aiyo Maru,Cargo,2746,7-15S,148-30E,"United States, Australia",Aircraft,sunk
+269,1943-03-03,1943,Oigawa Maru,Cargo,6493,7-15S,148-30E,"United States, Australia",Surface Craft,sunk
+270,1943-03-03,1943,Nichiyu Maru,Passenger-cargo,6817,10-22N,145-21E,United States,Submarine,sunk
+271,1943-03-06,1943,Kiriha Maru,Cargo,3057,00-00N,145-00E,United States,Submarine,sunk
+272,1943-03-08,1943,Hisashima Maru,Cargo,2742,41-16N,142-27E,United States,Submarine,sunk
+273,1943-03-10,1943,Kaijo Maru,Tanker,3270,5-33S,122-55E,United States,Aircraft,sunk
+274,1943-03-12,1943,Taihosan Maru,Converted Water Carrier,1805,7-15N,159-10E,United States,Submarine,sunk
+275,1943-03-13,1943,Kasuga Maru No 2,Cargo,3967,11-40N,92-50E,Netherlands,Submarine,sunk
+276,1943-03-13,1943,Momoyama Maru,Cargo,5217,2-45S,143-20E,United States,Aircraft,sunk
+277,1943-03-13,1943,Kosei Maru,Cargo,3262,29-04N,129-17E,United States,Submarine,sunk
+278,1943-03-15,1943,Momoha Maru,Cargo,3103,00-00N,145-00E,United States,Submarine,sunk
+279,1943-03-19,1943,Takachiho Maru,Transport,8154,26-00N,122-18E,United States,Submarine,sunk
+280,1943-03-19,1943,Zogen Maru,Cargo,1428,38-29N,122-19E,United States,Submarine,sunk
+281,1943-03-19,1943,Kowa Maru,Transport,3217,38-27N,122-18E,United States,Submarine,sunk
+282,1943-03-21,1943,Nittsu Maru,Cargo,2183,38-05N,124-33E,United States,Submarine,sunk
+283,1943-03-21,1943,Hozan Maru,Cargo,2260,38-11N,124-33E,United States,Submarine,sunk
+284,1943-03-22,1943,Meigen Maru,Cargo,5434,6-31S,112-47E,United States,Submarine,sunk
+285,1943-03-23,1943,Unknown Maru,Cargo,2427,38-37N,121-01E,United States,Submarine,sunk
+286,1943-03-23,1943,Kenyo Maru,Cargo,6486,17-16N,144-56E,United States,Submarine,sunk
+287,1943-03-24,1943,Takaosan Maru,Cargo,2076,39-01N,122-25E,United States,Submarine,sunk
+288,1943-03-25,1943,Satsuki Maru,Cargo,827,38-10N,123-26E,United States,Submarine,sunk
+289,1943-03-25,1943,Unknown Maru,Cargo,2556,38-13N,123-24E,United States,Submarine,sunk
+290,1943-03-28,1943,Suwa Maru,Transport,10672,19-13N,166-34E,United States,Submarine,sunk
+291,1943-03-29,1943,Toho Maru,Tanker,9997,00-00N,118-18E,United States,Submarine,sunk
+292,1943-03-29,1943,Yamabato Maru,Cargo,2556,30-26N,129-41E,United States,Submarine,sunk
+293,1943-03-30,1943,Kurohime Maru,Cargo,4697,00-22S,147-46E,United States,Submarine,sunk
+294,1943-04-02,1943,Florida Maru,Passenger-cargo,5854,2-40S,150-40E,United States,Aircraft,sunk
+295,1943-04-02,1943,Toyo Maru No 2,Cargo,4163,7-23N,149-13E,United States,Submarine,sunk
+296,1943-04-03,1943,Arima Maru,Passenger-cargo,7389,10-26N,135-00E,United States,Submarine,sunk
+297,1943-04-04,1943,Koa Maru,Cargo,2024,13-11N,161-57E,United States,Submarine,sunk
+298,1943-04-07,1943,Kosei Maru,Passenger-cargo,8237,8-50N,147-06E,United States,Submarine,sunk
+299,1943-04-07,1943,Fukuei Maru,Cargo,1113,41-00N,142-00E,United States,Submarine,sunk
+300,1943-04-08,1943,Toyo Maru,Cargo,1916,10-26N,135-00E,United States,Submarine,sunk
+301,1943-04-09,1943,Oyama Maru,Cargo,3809,00-32N,150-05E,United States,Submarine,sunk
+302,1943-04-09,1943,Shanghai Maru,Cargo,4103,13-11N,121-45E,United States,Submarine,sunk
+303,1943-04-09,1943,Penang Maru,Cargo,5214,5-29S,123-02E,United States,Submarine,sunk
+304,1943-04-12,1943,Sapporo Maru No 12,Cargo,2865,41-23N,141-30E,United States,Submarine,sunk
+305,1943-04-14,1943,India Maru,Cargo,5872,3-25S,143-40E,United States,Aircraft,sunk
+306,1943-04-14,1943,Sydney Maru,Passenger-cargo,4105,4-10S,144-55E,United States,Aircraft,sunk
+307,1943-04-15,1943,Kaihei Maru,Cargo,4575,21-06N,151-45E,United States,Submarine,sunk
+308,1943-04-17,1943,Amaho Maru,Cargo,2769,42-04N,143-22E,United States,Submarine,sunk
+309,1943-04-17,1943,Tatsunan Maru,Cargo,6417,6-50S,155-45E,United States,Mine,sunk
+310,1943-04-18,1943,Nisshun Maru,Cargo,6380,1-55N,148-24E,United States,Submarine,sunk
+311,1943-04-20,1943,Kosei Maru,Cargo,864,3-30S,143-30S,United States,Aircraft,sunk
+312,1943-04-20,1943,Meiji Maru No 1,Converted Gunboat,1934,37-10N,141-25E,United States,Submarine,sunk
+313,1943-04-22,1943,Yamazato Maru,Passenger-cargo,6925,3-28N,99-47E,Netherlands,Submarine,sunk
+314,1943-04-24,1943,Kasuga Maru,Cargo,1377,41-43N,141-21E,United States,Submarine,sunk
+315,1943-04-27,1943,Yuzan Maru,Passenger-cargo,6380,33-08N,143-03E,United States,Submarine,sunk
+316,1943-04-28,1943,Kamakura Maru,Transport,17526,10-18N,121-44E,United States,Submarine,sunk
+317,1943-05-01,1943,Keishin Maru,Converted Gunboat,1434,37-04N,141-06E,United States,Submarine,sunk
+318,1943-05-02,1943,Tamon Maru,Cargo,8156,27-18N,121-38E,United States,Submarine,sunk
+319,1943-05-04,1943,San Clemente Maru,Tanker,7354,6-54N,134-55E,United States,Submarine,sunk
+320,1943-05-05,1943,Hakkai Maru,Cargo,2921,34-11N,137-41E,United States,Submarine,sunk
+321,1943-05-05,1943,Kinko Maru,Cargo,1268,38-39N,122-36E,United States,Submarine,sunk
+322,1943-05-05,1943,Daifuku Maru,Cargo,3194,38-39N,122-36E,United States,Submarine,sunk
+323,1943-05-07,1943,Tamon Maru No 5,Passenger-cargo,5260,40-05N,141-53E,United States,Submarine,sunk
+324,1943-05-07,1943,Tosei Maru,Cargo,4363,36-05N,123-21E,United States,Submarine,sunk
+325,1943-05-08,1943,Tomioka Maru,Cargo,970,5-12S,145-50E,United States,Aircraft,sunk
+326,1943-05-08,1943,Sumida Maru,Cargo,546,5-12S,145-50E,United States,Aircraft,sunk
+327,1943-05-09,1943,Aso Maru,Cargo,703,9-09N,122-50E,United States,Submarine,sunk
+328,1943-05-09,1943,Takao Maru,Passenger-cargo,3204,38-57N,141-49E,United States,Submarine,sunk
+329,1943-05-09,1943,Jinmu Maru,Cargo,1912,38-57N,141-49E,United States,Submarine,sunk
+330,1943-05-10,1943,Kinai Maru,Passenger-cargo,8360,14-29N,149-00E,United States,Submarine,sunk
+331,1943-05-11,1943,Yodogawa Maru,Cargo,6441,00-47S,149-02E,United States,Submarine,sunk
+332,1943-05-12,1943,Sumatra Maru,Cargo,5862,12-43N,124-08E,United States,Submarine,sunk
+333,1943-05-14,1943,Houn Maru,Cargo,1917,6-47S,155-51E,United States,Aircraft,sunk
+334,1943-05-15,1943,Meikai Maru,Passenger-cargo,3197,13-07N,121-49E,United States,Submarine,sunk
+335,1943-05-15,1943,Indus Maru,Passenger-cargo,4361,13-07N,121-49E,United States,Submarine,sunk
+336,1943-05-17,1943,England Maru,Cargo,5830,1-00S,148-40E,United States,Submarine,sunk
+337,1943-05-18,1943,Terushima Maru,Converted Gunboat,3110,8-45N,170-30E,United States,Submarine,probably sunk
+338,1943-05-20,1943,Bangkok Maru,Converted Light Cruiser,5350,5-47N,169-42E,United States,Submarine,sunk
+339,1943-05-26,1943,Tainan Maru,Cargo,1989,37-03N,141-09E,United States,Submarine,sunk
+340,1943-05-26,1943,Kagi Maru,Transport,2343,28-45N,129-37E,United States,Submarine,sunk
+341,1943-05-26,1943,Shoei Maru,Cargo,3580,14-17N,144-53E,United States,Submarine,sunk
+342,1943-05-27,1943,Kochi Maru,Cargo,2910,8-41N,134-02E,United States,Submarine,sunk
+343,1943-05-28,1943,Kamikawa Maru,Converted Seaplane Tender,6853,1-36S,150-24E,United States,Submarine,sunk
+344,1943-05-28,1943,Seiki Maru,Cargo,1036,50-38N,155-15E,United States,Submarine,sunk
+345,1943-05-28,1943,Akatsuki Maru,Tanker,10216,27-32N,126-08E,United States,Submarine,sunk
+346,1943-05-29,1943,Eisho Maru,Cargo,2486,17-35N,110-45E,United States,Submarine,sunk
+347,1943-05-30,1943,Takamisan Maru,Cargo,1992,30-07N,124-32E,United States,Submarine,sunk
+348,1943-05-30,1943,Shoko Maru,Cargo,5335,30-07N,124-32E,United States,Submarine,sunk
+349,1943-06-01,1943,Noborikawa Maru,Cargo,2182,35-02N,140-14E,United States,Submarine,sunk
+350,1943-06-05,1943,Shintoku Maru,Cargo,780,6-50S,155-45S,United States,Aircraft,sunk
+351,1943-06-06,1943,Shinei Maru,Cargo,973,7-00N,123-37E,United States,Submarine,sunk
+352,1943-06-08,1943,Kahoku Maru,Converted Gunboat,3350,9-07N,134-31E,United States,Submarine,sunk
+353,1943-06-11,1943,Genoa Maru,Cargo,6785,7-36N,134-17E,United States,Submarine,sunk
+354,1943-06-11,1943,Jinbu Maru,Cargo,5228,50-23N,155-36E,United States,Submarine,sunk
+355,1943-06-11,1943,Hide Maru,Cargo,5256,2-47N,152-00E,United States,Submarine,sunk
+356,1943-06-11,1943,Seinan Maru,Cargo,1338,41-00N,141-30E,United States,Submarine,sunk
+357,1943-06-13,1943,Konan Maru,Passenger-cargo,5226,6-05N,138-25E,United States,Submarine,sunk
+358,1943-06-13,1943,Suzuya Maru,Cargo,901,3-08S,151-24E,United States,Submarine,sunk
+359,1943-06-15,1943,Koyo Maru,Cargo,6435,33-55N,127-38E,United States,Submarine,sunk
+360,1943-06-15,1943,Shinju Maru,Cargo,3617,39-13N,142-00E,United States,Submarine,sunk
+361,1943-06-15,1943,Sanraku Maru,Tanker,3000,5-09N,119-38E,United States,Submarine,sunk
+362,1943-06-17,1943,Myoko Maru,Passenger-cargo,5087,2-03S,153-44E,United States,Submarine,sunk
+363,1943-06-19,1943,Tokiwa Maru,Cargo,6971,32-31N,126-19E,United States,Submarine,sunk
+364,1943-06-19,1943,Miyadono Maru,Passenger-cargo,5196,1-38N,148-14E,United States,Submarine,sunk
+365,1943-06-20,1943,Shojin Maru,Cargo,4739,24-39N,118-52E,United States,Submarine,sunk
+366,1943-06-20,1943,Meiten Maru,Cargo,4474,15-57N,140-55E,United States,Submarine,sunk
+367,1943-06-23,1943,Sagara Maru,Converted Seaplane Tender,7189,33-45N,138-10E,United States,Submarine,sunk
+368,1943-06-25,1943,Iburi Maru,Passenger-cargo,3291,39-34N,142-06E,United States,Submarine,sunk
+369,1943-06-26,1943,Shinryu Maru,Passenger-cargo,4936,48-06N,153-15E,United States,Submarine,sunk
+370,1943-06-26,1943,Toyo Maru,Passenger-cargo,4163,33-22N,138-56E,United States,Submarine,sunk
+371,1943-06-26,1943,Shozan Maru,Cargo,5859,33-22N,138-56E,United States,Submarine,sunk
+372,1943-06-28,1943,Shotoku Maru,Converted Gunboat,1964,14-10N,145-03E,United States,Submarine,sunk
+373,1943-07-01,1943,Yoneyama Maru,Passenger-cargo,5274,00-20N,119-32E,United States,Submarine,sunk
+374,1943-07-02,1943,Kashi Maru,Cargo,654,8-06S,157-20E,United States,Aircraft,sunk
+375,1943-07-02,1943,Canton Maru,Cargo,2820,25-07N,119-18E,United States,Submarine,sunk
+376,1943-07-02,1943,Banshu Maru No 7,Cargo,5430,52-30N,156-12E,United States,Submarine,sunk
+377,1943-07-02,1943,Isuzu Maru,Cargo,2866,13-36N,121-49E,United States,Submarine,sunk
+378,1943-07-03,1943,Anzan Maru,Cargo,3890,38-08N,124-20E,United States,Submarine,sunk
+379,1943-07-03,1943,Kokuryu Maru,Passenger-cargo,6112,38-08N,124-20E,United States,Submarine,sunk
+380,1943-07-04,1943,Nikkyu Maru,Cargo,6529,34-31N,138-35E,United States,Submarine,sunk
+381,1943-07-04,1943,Koki Maru,Cargo,5290,28-40N,124-10E,United States,Submarine,sunk
+382,1943-07-04,1943,Liverpool Maru,Cargo,5865,28-40N,124-10E,United States,Submarine,sunk
+383,1943-07-06,1943,Banshu Maru No 33,Cargo,737,43-35N,140-21E,United States,Submarine,sunk
+384,1943-07-07,1943,Showa Maru,Passenger-cargo,2212,43-14N,139-53E,United States,Submarine,sunk
+385,1943-07-11,1943,Taiko Maru,Cargo,1925,12-53N,131-49E,United States,Submarine,sunk
+386,1943-07-12,1943,Tairyo Maru,Cargo,1423,20-52N,106-41E,United States,Aircraft,sunk
+387,1943-07-12,1943,Chikuzan Maru,Cargo,1840,20-52N,106-41E,United States,Aircraft,sunk
+388,1943-07-12,1943,Niitaka Maru,Passenger-cargo,2478,43-02N,140-00E,United States,Submarine,sunk
+389,1943-07-19,1943,Mikage Maru No 20,Passenger-cargo,2718,18-34N,166-20E,United States,Submarine,sunk
+390,1943-07-21,1943,Saipan Maru,Transport,5533,16-18N,134-09E,United States,Submarine,sunk
+391,1943-07-24,1943,Mie Maru,Cargo,2913,2-45S,133-40E,Australia,Mine,sunk
+392,1943-07-25,1943,Thames Maru,Cargo,5871,2-40N,148-26E,United States,Submarine,sunk
+393,1943-07-27,1943,Teikin Maru,Cargo,1972,19-57N,109-05E,United States,Mine,sunk
+394,1943-07-28,1943,Tamishima Maru,Cargo,1931,13-52N,97-50E,United States,Aircraft,sunk
+395,1943-07-30,1943,Ryuzan Maru,Cargo,4720,6-31S,111-26E,United States,Submarine,sunk
+396,1943-08-01,1943,Mogamigawa Maru,Aircraft Ferry,7497,11-16N,153-34E,United States,Submarine,sunk
+397,1943-08-03,1943,Kaisho Maru,Passenger-cargo,6070,5-18S,111-52E,United States,Submarine,sunk
+398,1943-08-05,1943,Shoju Maru,Passenger-cargo,2022,24-37N,152-45E,United States,Submarine,sunk
+399,1943-08-08,1943,Naruto Maru,Aircraft Ferry,7149,24-12N,142-51E,United States,Submarine,sunk
+400,1943-08-09,1943,Sekko Maru,Passenger-cargo,3183,24-51N,122-12E,United States,Submarine,sunk
+401,1943-08-10,1943,Wakanoura Maru,Passenger-cargo,2411,46-58N,143-30E,United States,Submarine,sunk
+402,1943-08-13,1943,Edo Maru,Converted Gunboat,1299,23-24N,142-26E,United States,Submarine,sunk
+403,1943-08-20,1943,Chosa Maru,Converted Gunboat,2538,5-09N,100-10E,Netherlands,Submarine,sunk
+404,1943-08-20,1943,Seitai Maru,Cargo,3404,42-15N,139-53E,United States,Submarine,sunk
+405,1943-08-20,1943,Seizan Maru,Cargo,955,00-58N,119-01E,United States,Submarine,sunk
+406,1943-08-22,1943,Ryokai Maru,Cargo,4655,42-40N,139-48E,United States,Submarine,sunk
+407,1943-08-22,1943,Kaisho Maru,Passenger-cargo,4164,10-09N,147-25E,United States,Submarine,sunk
+408,1943-08-22,1943,Nishiyama Maru,Cargo,3016,2-40N,137-10E,United States,Submarine,sunk
+409,1943-08-23,1943,Heito Maru,Cargo,4468,9-10N,92-50E,United States,Aircraft,sunk
+410,1943-08-23,1943,Ataka Maru,Passenger-cargo,5248,34-37N,137-53E,United States,Submarine,sunk
+411,1943-08-27,1943,Meizan Maru,Pa+d399:e412ssenger-cargo,5480,13-13N,121-23E,United States,Submarine,sunk
+412,1943-08-27,1943,Taifuku Maru,Passenger-cargo,3520,32-27N,132-24E,United States,Submarine,sunk
+413,1943-08-30,1943,Taibun Maru,Passenger-cargo,6581,41-53N,141-10E,United States,Submarine,sunk
+414,1943-08-31,1943,Shoto Maru,Passenger-cargo,5254,28-27N,123-03E,United States,Submarine,sunk
+415,1943-08-31,1943,Kokko Maru,Cargo,5486,28-27N,123-03E,United States,Submarine,sunk
+416,1943-09-01,1943,Fusei Maru,Passenger-cargo,2256,31-28N,127-24E,United States,Submarine,sunk
+417,1943-09-02,1943,Hankow Maru,Passenger-cargo,4105,3-35S,143-39E,United States,Aircraft,sunk
+418,1943-09-02,1943,Nagato Maru,Cargo,5901,3-35S,143-39E,United States,Aircraft,sunk
+419,1943-09-03,1943,Akama Maru,Cargo,5600,41-00N,141-30E,United States,Submarine,sunk
+420,1943-09-03,1943,Tagonoura Maru,Cargo,3521,34-10N,140-12E,United States,Submarine,sunk
+421,1943-09-04,1943,Heijo Maru,Converted Gunboat,2627,5-32N,156-23E,United States,Submarine,sunk
+422,1943-09-04,1943,Kozan Maru,Passenger-cargo,4180,22-22N,120-04E,United States,Submarine,sunk
+423,1943-09-05,1943,Tenkai Maru,Cargo,3203,1-10N,142-10E,United States,Submarine,sunk
+424,1943-09-06,1943,Annan Maru,Cargo,2941,16-46N,96-10E,United States,Aircraft,sunk
+425,1943-09-06,1943,Milan Maru,Cargo,5467,16-46N,96-10E,United States,Aircraft,sunk
+426,1943-09-06,1943,Shogen Maru,Cargo,3362,42-13N,142-16E,United States,Submarine,sunk
+427,1943-09-08,1943,Hakutetsu Maru No 13,Cargo,1334,2-44S,141-36E,United States,Submarine,sunk
+428,1943-09-09,1943,Koyo Maru,Cargo,3010,35-20N,140-40E,United States,Submarine,sunk
+429,1943-09-11,1943,Yoko Maru,Cargo,1050,33-50N,139-33E,United States,Submarine,sunk
+430,1943-09-11,1943,Hokusho Maru,Cargo,4211,00-28S,166-52E,United States,Submarine,sunk
+431,1943-09-13,1943,Yamato Maru,Transport,9656,30-18N,123-35E,United States,Submarine,sunk
+432,1943-09-16,1943,Seikai Maru,Converted Gunboat,2663,2-30S,150-48E,Australia,Mine,sunk
+433,1943-09-18,1943,Yowa Maru,Cargo,6435,27-31N,126-57E,United States,Submarine,sunk
+434,1943-09-18,1943,Kansai Maru,Passenger-cargo,8614,00-25N,146-21E,United States,Submarine,sunk
+435,1943-09-19,1943,Katsura Maru No 2,Converted Gunboat,1368,49-05N,151-45E,United States,Submarine,sunk
+436,1943-09-19,1943,Kachisan Maru,Cargo,814,33-30N,135-40E,United States,Submarine,sunk
+437,1943-09-21,1943,Shiriya,Tanker,6500,26-27N,122-40E,United States,Submarine,sunk
+438,1943-09-21,1943,Shoyo Maru,Tanker,7498,26-27N,122-40E,United States,Submarine,sunk
+439,1943-09-21,1943,Argun Maru,Cargo,6662,26-27N,122-40E,United States,Submarine,sunk
+440,1943-09-22,1943,Katsurahama Maru,Cargo,715,39-11N,123-20E,United States,Submarine,sunk
+441,1943-09-23,1943,Kowa Maru,Cargo,4520,34-15N,137-00E,United States,Submarine,sunk
+442,1943-09-23,1943,Daishin Maru,Tanker,5878,34-15N,137-00E,United States,Submarine,sunk
+443,1943-09-23,1943,Ryotoku Maru,Cargo,3483,21-17N,142-00E,United States,Submarine,sunk
+444,1943-09-23,1943,Yamashiro Maru,Passenger-cargo,3429,21-17N,142-00E,United States,Submarine,sunk
+445,1943-09-24,1943,Shonan Maru,Cargo,521,00-27S,147-43E,United States,Aircraft,sunk
+446,1943-09-25,1943,Taiko Maru,Cargo,2958,41-30N,139-00E,United States,Submarine,sunk
+447,1943-09-25,1943,Kirishima Maru,Passenger-cargo,8120,9-44N,111-56E,United States,Submarine,sunk
+448,1943-09-27,1943,Taisei Maru,Cargo,1957,3-19S,143-33E,United States,Aircraft,sunk
+449,1943-09-27,1943,Hakusan Maru,Cargo,2197,1-18N,103-52E,Great Britain,Sabotage,sunk
+450,1943-09-27,1943,Kizan Maru,Cargo,5077,1-18N,103-52E,Great Britain,Sabotage,sunk
+451,1943-09-27,1943,Kashima Maru,Transport,9908,10-14N,109-45E,United States,Submarine,sunk
+452,1943-09-28,1943,Akashi Maru,Cargo,3227,6-11S,126-00E,United States,Submarine,sunk
+453,1943-09-28,1943,Taian Maru,Passenger-cargo,3158,15-22N,145-38E,United States,Submarine,sunk
+454,1943-09-29,1943,Masaki Maru No 2,Cargo,1238,40-00N,130-00E,United States,Submarine,sunk
+455,1943-09-30,1943,Maebashi Maru,Passenger-cargo,7005,6-01N,139-08E,United States,Submarine,sunk
+456,1943-10-01,1943,Tonei Maru,Passenger-cargo,4930,4-01N,143-47E,United States,Submarine,sunk
+457,1943-10-01,1943,Kinkasan Maru,Cargo,4980,4-01N,143-47E,United States,Submarine,sunk
+458,1943-10-05,1943,Konron Maru,Transport,7908,34-00N,130-00E,United States,Submarine,sunk
+459,1943-10-06,1943,Kazahaya,Tanker,8000,10-01N,148-31E,United States,Submarine,sunk
+460,1943-10-06,1943,Kanko Maru,Passenger-cargo,1288,37-18N,129-33E,United States,Submarine,sunk
+461,1943-10-06,1943,Shinyu Maru,Cargo,529,3-35S,143-36E,United States,Aircraft,sunk
+462,1943-10-08,1943,Taian Maru,Cargo,5655,18-24N,119-09E,United States,Submarine,sunk
+463,1943-10-08,1943,Dainichi Maru,Passenger-cargo,5813,18-24N,119-09E,United States,Submarine,sunk
+464,1943-10-08,1943,Kashu Maru,Cargo,5460,00-25S,146-22E,United States,Submarine,sunk
+465,1943-10-09,1943,Kanko Maru,Cargo,2995,37-18N,129-33E,United States,Submarine,sunk
+466,1943-10-09,1943,Kogane Maru,Passenger-cargo,3132,3-36S,127-44E,United States,Submarine,sunk
+467,1943-10-10,1943,Hino Maru No 5,Cargo,2725,5-35S,154-25E,United States,Aircraft,sunk
+468,1943-10-10,1943,Teibi Maru,Transport,10086,14-44N,110-19E,United States,Submarine,sunk
+469,1943-10-10,1943,Isuzugawa Maru,Cargo,4212,14-44N,110-19E,United States,Submarine,sunk
+470,1943-10-11,1943,Sanwa Maru,Cargo,547,5-30S,154-45E,United States,Aircraft,sunk
+471,1943-10-12,1943,Keisho Maru,Passenger-cargo,5879,4-13S,152-12E,United States,Aircraft,sunk
+472,1943-10-12,1943,Tsukinada Maru,Passenger-cargo,530,4-13S,152-11E,United States,Aircraft,sunk
+473,1943-10-13,1943,Daigen Maru No 8,Cargo,1365,24-28N,118-04E,United States,Aircraft,sunk
+474,1943-10-13,1943,Kenkoku Maru,Cargo,3127,3-47S,127-41E,United States,Submarine,sunk
+475,1943-10-14,1943,Kozui Maru,Passenger-cargo,7072,27-35N,127-27E,United States,Submarine,sunk
+476,1943-10-15,1943,Chicago Maru,Passenger-cargo,5866,24-35N,120-31E,United States,Submarine,sunk
+477,1943-10-18,1943,Taichu Maru,Cargo,1906,34-00N,136-24E,United States,Submarine,sunk
+478,1943-10-18,1943,Tairin Maru,Cargo,1915,1-00N,143-16E,United States,Submarine,sunk
+479,1943-10-20,1943,Sana Maru,Cargo,3365,12-36N,109-30E,United States,Submarine,sunk
+480,1943-10-22,1943,Awata Maru,Converted Light Cruiser,7397,26-48N,124-56E,United States,Submarine,sunk
+481,1943-10-24,1943,Tennan Maru,Cargo,5407,2-05N,144-39E,United States,Submarine,sunk
+482,1943-10-24,1943,Kazan Maru,Cargo,1893,2-05N,144-39E,United States,Submarine,sunk
+483,1943-10-24,1943,Johore Maru,Passenger-cargo,6182,2-05N,144-39E,United States,Submarine,sunk
+484,1943-10-26,1943,Dover Maru,Cargo,3212,16-16N,96-18E,United States,Aircraft,sunk
+485,1943-10-26,1943,Hokuzan Maru,Cargo,1329,20-05N,110-25E,United States,Aircraft,sunk
+486,1943-10-26,1943,Yamatogawa Maru,Cargo,776,20-05N,110-25E,United States,Aircraft,sunk
+487,1943-10-26,1943,Shozan Maru,Cargo,2937,20-52N,106-40E,United States,Mine,sunk
+488,1943-10-27,1943,Fuji Maru,Transport,9138,28-25N,128-04E,United States,Submarine,sunk
+489,1943-10-27,1943,Nanman Maru,Cargo,6550,12-34N,134-48E,United States,Submarine,sunk
+490,1943-10-29,1943,Wuhu Maru,Cargo,3222,22-30N,115-25E,United States,Submarine,sunk
+491,1943-10-31,1943,Koryo Maru,Tanker,589,1-25N,120-46E,United States,Submarine,sunk
+492,1943-11-02,1943,Chihaya Maru,Cargo,7089,28-37N,134-47E,United States,Submarine,sunk
+493,1943-11-02,1943,Ume Maru,Passenger-cargo,5859,28-37N,134-45E,United States,Submarine,sunk
+494,1943-11-02,1943,Yawata Maru,Cargo,1852,28-49N,134-50E,United States,Submarine,sunk
+495,1943-11-02,1943,Delagoa Maru,Passenger-cargo,7148,28-55N,134-43E,United States,Submarine,sunk
+496,1943-11-02,1943,Manko Maru,Cargo,1503,4-15S,152-10E,United States,Aircraft,sunk
+497,1943-11-02,1943,Shinko Maru,Cargo,3119,4-13S,152-11E,United States,Aircraft,sunk
+498,1943-11-02,1943,Ehime Maru,Cargo,4653,28-18N,134-48E,United States,Submarine,sunk
+499,1943-11-03,1943,Minato Maru,Cargo,664,00-43N,169-10E,United States,Aircraft,sunk
+500,1943-11-04,1943,Chinko Maru,Passenger-cargo,3222,23-20N,116-45E,United States,Aircraft,sunk
+501,1943-11-04,1943,Ryuosan Maru,Cargo,2455,2-40S,150-40E,Australia,Mine,sunk
+502,1943-11-04,1943,Kaifuku Maru,Passenger-cargo,3177,21-22N,113-20E,United States,Submarine,sunk
+503,1943-11-06,1943,Asayama Maru,Converted Water Carrier,1917,5-44S,154-45E,United States,Aircraft,sunk
+504,1943-11-06,1943,Ujigawa Maru,Cargo,782,5-16N,154-33E,United States,Aircraft,sunk
+505,1943-11-07,1943,Inushima Maru No 6,Cargo,586,24-28N,118-04E,United States,Aircraft,sunk
+506,1943-11-07,1943,Nagata Maru,Cargo,670,24-28N,118-04E,United States,Aircraft,sunk
+507,1943-11-08,1943,Kyokuei Maru,Tanker,10570,16-44N,116-22E,United States,Submarine,sunk
+508,1943-11-08,1943,Tango Maru,Tanker,2046,00-22N,119-44E,United States,Submarine,sunk
+509,1943-11-09,1943,Taga Maru,Cargo,2868,21-38N,131-19E,United States,Submarine,sunk
+510,1943-11-10,1943,Kisogawa Maru,Converted Water Carrier,1914,6-12N,99-25E,Great Britain,Submarine,sunk
+511,1943-11-10,1943,Giyu Maru,Cargo,877,5-30S,154-45E,United States,Aircraft,sunk
+512,1943-11-10,1943,Tokyo Maru,Passenger-cargo,6486,3-36N,150-34E,United States,Submarine,sunk
+513,1943-11-11,1943,Kunitama Maru,Cargo,3127,3-08S,127-38E,United States,Submarine,sunk
+514,1943-11-11,1943,Kosei Maru,Passenger-cargo,3551,27-36N,130-32E,United States,Submarine,sunk
+515,1943-11-13,1943,Nachisan Maru,Passenger-cargo,4433,32-57N,125-06E,United States,Submarine,sunk
+516,1943-11-13,1943,Muko Maru,Transport,4862,8-57N,152-36E,United States,Submarine,sunk
+517,1943-11-15,1943,Kyokko Maru,Passenger-cargo,6783,14-53N,119-54E,United States,Submarine,sunk
+518,1943-11-16,1943,Kyoritsu Maru No 2,Cargo,830,3-25S,145-30E,United States,Aircraft,sunk
+519,1943-11-16,1943,Tetsuwa Maru,Cargo,1951,23-42N,117-35E,United States,Aircraft,sunk
+520,1943-11-17,1943,Hie Maru,Converted Submarine Tender,11621,1-48N,148-24E,United States,Submarine,sunk
+521,1943-11-19,1943,Daigen Maru,Cargo,1517,19-54N,110-10E,United States,Aircraft,probably sunk
+522,1943-11-19,1943,Udo Maru,Cargo,3936,22-27N,147-15E,United States,Submarine,sunk
+523,1943-11-19,1943,Hokko Maru,Cargo,5385,22-27N,147-15E,United States,Submarine,sunk
+524,1943-11-20,1943,Naples Maru,Cargo,5824,3-22S,151-45E,United States,Aircraft,sunk
+525,1943-11-20,1943,Nikko Maru,Cargo,5949,22-47N,147-20E,United States,Submarine,sunk
+526,1943-11-21,1943,Eizan Maru,Cargo,1681,36-40N,125-31E,United States,Submarine,sunk
+527,1943-11-21,1943,Nichii Maru,Cargo,6550,2-00S,149-15E,United States,Aircraft,sunk
+528,1943-11-21,1943,Shinwa Maru,Cargo,3328,2-24S,134-36E,United States,Aircraft,sunk
+529,1943-11-22,1943,Kanayamasan Maru,Cargo,2869,1-00N,149-00E,United States,Aircraft,sunk
+530,1943-11-22,1943,Yamato Maru,Cargo,4379,7-09N,134-34E,United States,Submarine,sunk
+531,1943-11-22,1943,Daishu Maru,Cargo,3322,33-36N,128-35E,United States,Submarine,sunk
+532,1943-11-22,1943,Kiso Maru,Cargo,4071,7-09N,134-34E,United States,Submarine,sunk
+533,1943-11-23,1943,Kizan Maru,Cargo,2841,1-50N,127-55E,United States,Aircraft,sunk
+534,1943-11-23,1943,Nekka Maru,Transport,6784,28-49N,122-11E,United States,Submarine,sunk
+535,1943-11-25,1943,Kenzan Maru,Cargo,4705,00-51N,145-56E,United States,Submarine,sunk
+536,1943-11-25,1943,Toa Maru,Tanker,10052,8-20N,158-00E,United States,Submarine,sunk
+537,1943-11-26,1943,Ogurasan Maru,Tanker,5069,12-48N,109-34E,United States,Submarine,sunk
+538,1943-11-26,1943,Tainan Maru,Cargo,5407,13-02N,109-28E,United States,Submarine,sunk
+539,1943-11-26,1943,Onoe Maru,Cargo,6667,00-40N,148-14E,United States,Submarine,sunk
+540,1943-11-26,1943,Nikkai Maru,Converted Gunboat,2562,4-00N,147-50E,United States,Submarine,sunk
+541,1943-11-26,1943,Unknown Maru,Cargo,4000,33-36N,128-57E,United States,Submarine,sunk
+542,1943-11-26,1943,Shini Maru,Cargo,3811,6-56N,134-38E,United States,Submarine,sunk
+543,1943-11-27,1943,Buenos Aires Maru,Cargo,9625,2-44S,149-15E,United States,Aircraft,sunk
+544,1943-11-27,1943,Hakone Maru,Passenger-cargo,10420,25-20N,120-00E,United States,Aircraft,sunk
+545,1943-11-27,1943,Van Vollenhoven,Cargo,691,13-01N,109-30E,United States,Submarine,sunk
+546,1943-11-27,1943,San Ramon Maru,Tanker,7309,33-38N,129-05E,United States,Submarine,sunk
+547,1943-11-28,1943,Sydney Maru,Passenger-cargo,5425,12-46N,109-42E,United States,Submarine,sunk
+548,1943-11-28,1943,Tonan Maru,Tanker,9866,12-46N,109-42E,United States,Submarine,sunk
+549,1943-11-28,1943,Hokko Maru,Cargo,5347,1-40N,141-45E,United States,Submarine,sunk
+550,1943-11-28,1943,Yuri Maru,Cargo,6787,1-40N,141-45E,United States,Submarine,sunk
+551,1943-11-29,1943,Suez Maru,Cargo,4646,6-22S,116-35E,United States,Submarine,sunk
+552,1943-11-29,1943,Kenryu Maru,Cargo,4575,33-19N,139-34E,United States,Submarine,sunk
+553,1943-11-29,1943,Manju Maru,Cargo,5877,18-23N,140-18E,United States,Submarine,sunk
+554,1943-11-29,1943,Yamafuku Maru,Passenger-cargo,4928,18-37N,139-45E,United States,Submarine,sunk
+555,1943-11-29,1943,Shiganoura Maru,Cargo,3512,18-38N,139-35E,United States,Submarine,sunk
+556,1943-11-30,1943,Columbia Maru,Passenger-cargo,5618,1-56N,147-23E,United States,Submarine,sunk
+557,1943-11-30,1943,Shoko Maru,Cargo,1933,14-31N,140-18E,United States,Submarine,sunk
+558,1943-12-01,1943,Teiren Maru,Passenger-cargo,3044,22-13N,114-05E,United States,Aircraft,sunk
+559,1943-12-01,1943,Nichiryo Maru,Passenger-cargo,2721,1-31N,120-51E,United States,Submarine,sunk
+560,1943-12-01,1943,Konei Maru,Cargo,2345,1-02N,146-42E,United States,Submarine,sunk
+561,1943-12-02,1943,Himalaya Maru,Passenger-cargo,5228,00-52S,148-50E,United States,Aircraft,sunk
+562,1943-12-03,1943,Assam,Cargo,1668,18-51N,95-17E,United States,Aircraft,sunk
+563,1943-12-03,1943,Azuma Maru,Passenger-cargo,6646,6-29N,131-28E,United States,Submarine,sunk
+564,1943-12-04,1943,Hiyoshi Maru,Passenger-cargo,4046,29-45N,145-55E,United States,Submarine,sunk
+565,1943-12-04,1943,Daido Maru,Converted Gunboat,2962,8-15N,159-06E,United States,Submarine,sunk
+566,1943-12-05,1943,Asakaze Maru,Passenger-cargo,6517,9-19N,167-25E,United States,Aircraft,sunk
+567,1943-12-05,1943,Choko Maru,Cargo,3515,9-19N,167-25E,United States,Aircraft,sunk
+568,1943-12-05,1943,Tatebu Maru,Cargo,6816,9-19N,167-25E,United States,Aircraft,sunk
+569,1943-12-05,1943,Tateyama Maru,Converted Water Carrier,3787,9-19N,167-25E,United States,Aircraft,sunk
+570,1943-12-05,1943,Himeno Maru,Cargo,834,9-10N,124-30E,United States,Submarine,sunk
+571,1943-12-07,1943,Soyo Maru,Converted Submarine Tender,6081,14-04N,152-09E,United States,Submarine,sunk
+572,1943-12-08,1943,Sansei Maru,Passenger-cargo,3267,25-20N,141-46E,United States,Submarine,sunk
+573,1943-12-12,1943,Tosei Maru,Cargo,5484,2-44N,126-14E,United States,Submarine,sunk
+574,1943-12-13,1943,Tokiwa Maru,Cargo,1203,3-30S,151-30E,United States,Aircraft,sunk
+575,1943-12-13,1943,Fukkai Maru,Passenger-cargo,3829,7-07N,134-31E,United States,Submarine,sunk
+576,1943-12-13,1943,Totai Maru,Cargo,3195,30-55N,132-33E,United States,Submarine,sunk
+577,1943-12-14,1943,Hakozaki Maru,Passenger-cargo,3948,33-10N,125-55E,United States,Submarine,sunk
+578,1943-12-16,1943,Wakatsu Maru,Cargo,5123,8-26S,126-48E,Netherlands,Aircraft,sunk
+579,1943-12-16,1943,Genmei Maru,Cargo,3180,8-26S,126-48E,Australia,Aircraft,sunk
+580,1943-12-16,1943,Ginyo Maru,Cargo,8613,22-27N,120-08E,United States,Submarine,sunk
+581,1943-12-18,1943,Gyokurei Maru,Cargo,5588,26-22N,128-20E,United States,Submarine,sunk
+582,1943-12-19,1943,Kaito Maru,Cargo,2745,3-05S,151-15E,United States,Aircraft,sunk
+583,1943-12-19,1943,Alaska Maru,Cargo,7378,2-37S,150-52E,United States,Aircraft,sunk
+584,1943-12-20,1943,Shoei Maru,Cargo,3083,8-42N,167-44E,United States,Aircraft,sunk
+585,1943-12-20,1943,Tsuneshima Maru,Cargo,2926,1-30N,148-36E,United States,Submarine,sunk
+586,1943-12-21,1943,Uyo Maru,Cargo,6376,32-38N,132-04E,United States,Submarine,sunk
+587,1943-12-21,1943,Terukawa Maru,Cargo,6429,9-50N,151-55E,United States,Submarine,sunk
+588,1943-12-21,1943,Konan Maru,Cargo,2627,30-24N,129-53E,United States,Submarine,sunk
+589,1943-12-21,1943,Kashiwa Maru,Converted Net Tender,515,30-24N,129-53E,United States,Submarine,sunk
+590,1943-12-22,1943,Ginrei Maru,Passenger-cargo,5949,20-12N,113-42E,China,Aircraft,sunk
+591,1943-12-23,1943,Nankai Maru No 2,Cargo,1960,6-05N,171-43E,United States,Aircraft,sunk
+592,1943-12-24,1943,Seizan Maru No 2,Cargo,1898,34-02N,136-19E,United States,Submarine,sunk
+593,1943-12-24,1943,Tofuku Maru,Cargo,5857,33-58N,136-16E,United States,Submarine,sunk
+594,1943-12-24,1943,Heiwa Maru,Cargo,5578,2-45N,127-41E,United States,Submarine,sunk
+595,1943-12-25,1943,Tenryu Maru,Cargo,4861,2-36S,150-49E,United States,Aircraft,sunk
+596,1943-12-27,1943,Kyuei Maru,Tanker,10171,21-42N,118-05E,United States,Submarine,sunk
+597,1943-12-27,1943,Kyoko Maru,Tanker,5792,5-00S,121-22E,United States,Submarine,sunk
+598,1943-12-28,1943,Heizan Maru,Passenger-cargo,1061,30-31N,117-02E,United States,Aircraft,sunk
+599,1943-12-28,1943,Unyo Maru,Passenger-cargo,1037,30-31N,117-02E,United States,Aircraft,sunk
+600,1943-12-29,1943,Daitei Maru,Passenger-cargo,2421,30-31N,117-02E,United States,Aircraft,sunk
+601,1943-12-29,1943,Kakuzan Maru,Cargo,2938,30-31N,117-02E,United States,Aircraft,sunk
+602,1943-12-29,1943,Tenposan Maru,Cargo,1970,8-00N,133-51E,United States,Submarine,sunk
+603,1943-12-29,1943,Shichisei Maru,Cargo,1911,8-03N,134-04E,United States,Submarine,sunk
+604,1943-12-29,1943,Ryuto Maru,Cargo,3311,8-00N,133-51E,United States,Submarine,sunk
+605,1943-12-30,1943,Ichiyu Maru,Tanker,5061,2-45S,109-10E,United States,Submarine,sunk
+606,1943-12-31,1943,Shoho Maru,Cargo,1936,5-18N,160-16E,United States,Submarine,sunk
+607,1944-01-01,1944,Kanaiyama Maru,Cargo,543,2-03S,147-27E,United States,Aircraft,sunk
+608,1944-01-01,1944,Ryuyo Maru,Cargo,6707,8-24N,122-56E,United States,Submarine,sunk
+609,1944-01-01,1944,Okuyo Maru,Converted Gunboat,2904,3-51S,128-04E,United States,Submarine,sunk
+610,1944-01-01,1944,Nagoya Maru,Aircraft Ferry,6072,32-10N,138-37E,United States,Submarine,sunk
+611,1944-01-02,1944,Isshin Maru,Tanker,10000,29-30N,128-50E,United States,Submarine,sunk
+612,1944-01-03,1944,Saishu Maru,Cargo,2082,33-44N,136-02E,United States,Submarine,sunk
+613,1944-01-03,1944,Ryuei Maru,Tanker,5144,8-06N,112-30E,United States,Submarine,sunk
+614,1944-01-03,1944,Bokuei Maru,Tanker,5135,6-58N,112-02E,United States,Submarine,sunk
+615,1944-01-04,1944,Heimei Maru,Cargo,4364,10-10S,123-35E,United States,Aircraft,sunk
+616,1944-01-04,1944,Kiyo Maru,Tanker,7251,5-46N,108-36E,United States,Submarine,sunk
+617,1944-01-04,1944,Usa Maru,Cargo,3943,34-09N,136-50E,United States,Submarine,sunk
+618,1944-01-04,1944,Hakko Maru,Tanker,6046,7-10N,108-25E,United States,Submarine,sunk
+619,1944-01-04,1944,Tamon Maru No 8,Cargo,2705,11-05N,109-10E,United States,Submarine,sunk
+620,1944-01-07,1944,Fushimi Maru No 3,Tanker,4292,9-27N,117-36E,United States,Submarine,sunk
+621,1944-01-10,1944,Yamabiko Maru,Converted Salvage Vessel,6795,31-28N,137-44E,United States,Submarine,sunk
+622,1944-01-10,1944,Getsuyo Maru,Cargo,6440,27-22N,127-31E,United States,Submarine,sunk
+623,1944-01-10,1944,Asuka Maru,Cargo,7523,27-35N,127-30E,United States,Submarine,sunk
+624,1944-01-11,1944,Yahiko Maru,Cargo,5747,27-10N,127-28E,United States,Submarine,sunk
+625,1944-01-11,1944,Erie Maru,Cargo,5493,32-56N,132-02E,United States,Submarine,sunk
+626,1944-01-12,1944,Ikuta Maru,Converted Gunboat,2969,8-42N,167-44E,United States,Aircraft,sunk
+627,1944-01-12,1944,Kanjo Maru,Cargo,2197,22-37N,120-15E,United States,Mine,sunk
+628,1944-01-12,1944,Nigitsu Maru,Transport,9547,23-15N,133-49E,United States,Submarine,sunk
+629,1944-01-12,1944,Choko Maru,Converted Gunboat,2629,3-30N,147-27E,United States,Submarine,sunk
+630,1944-01-13,1944,Haguro Maru,Cargo,3352,2-43S,149-25E,United States,Aircraft,sunk
+631,1944-01-14,1944,Gyoei Maru,Cargo,2790,20-35N,113-44E,United States,Aircraft,sunk
+632,1944-01-14,1944,Nippon Maru,Tanker,9975,5-02N,140-43E,United States,Submarine,sunk
+633,1944-01-14,1944,Yamatsuru Maru,Cargo,3651,28-30N,133-40E,United States,Submarine,sunk
+634,1944-01-14,1944,Kenyo Maru,Tanker,10022,5-22N,141-27E,United States,Submarine,sunk
+635,1944-01-14,1944,Yamakuni Maru,Passenger-cargo,6921,33-16N,139-30E,United States,Submarine,sunk
+636,1944-01-15,1944,Ryuko Maru,Passenger-cargo,2962,10-00N,93-00E,Great Britain,Submarine,sunk
+637,1944-01-15,1944,Tatsuno Maru,Cargo,6960,19-45N,120-40E,United States,Submarine,sunk
+638,1944-01-15,1944,Toho Maru,Cargo,4092,19-45N,120-40E,United States,Submarine,sunk
+639,1944-01-16,1944,Meisho Maru,Cargo,2735,2-20S,149-42E,United States,Aircraft,sunk
+640,1944-01-16,1944,Hozugawa Maru,Cargo,1925,2-20S,149-42E,United States,Aircraft,sunk
+641,1944-01-16,1944,Shunko Maru,Cargo,4027,2-30S,149-42E,United States,Aircraft,sunk
+642,1944-01-16,1944,Nikko Maru,Cargo,734,12-49N,150-19E,United States,Submarine,sunk
+643,1944-01-16,1944,Denmark Maru,Cargo,5870,23-09N,135-14E,United States,Submarine,sunk
+644,1944-01-16,1944,Delhi Maru,Converted Gunboat,2182,34-04N,139-56E,United States,Submarine,sunk
+645,1944-01-16,1944,Kaika Maru,Cargo,2087,4-03N,148-41E,United States,Submarine,sunk
+646,1944-01-17,1944,Chiburi Maru,Cargo,1943,2-27S,148-58E,United States,Aircraft,sunk
+647,1944-01-17,1944,Fukei Maru No 9,Cargo,617,2-00S,149-00E,United States,Aircraft,sunk
+648,1944-01-17,1944,Hakkai Maru,Converted Salvage Vessel,5114,4-13S,152-12E,United States,Aircraft,sunk
+649,1944-01-17,1944,Kenshin Maru,Cargo,3126,4-13S,152-12E,United States,Aircraft,sunk
+650,1944-01-17,1944,Kosei Maru,Cargo,1920,4-13S,152-12E,United States,Aircraft,sunk
+651,1944-01-17,1944,Lyons Maru,Cargo,7017,4-13S,152-12E,United States,Aircraft,sunk
+652,1944-01-17,1944,Tenshin Maru,Cargo,1500,4-13S,152-12E,United States,Aircraft,sunk
+653,1944-01-17,1944,Shoyu Maru,Cargo,4408,00-18N,118-37E,United States,Submarine,sunk
+654,1944-01-17,1944,Tarushima Maru,Cargo,4865,22-45N,135-00E,United States,Submarine,sunk
+655,1944-01-18,1944,Yoshida Maru,Converted Gunboat,2900,23-50N,151-28E,United States,Submarine,sunk
+656,1944-01-20,1944,Jintsu Maru,Dredge,558,3-04S,142-10E,United States,Aircraft,sunk
+657,1944-01-20,1944,Menado Maru,Cargo,2166,23-10N,118-15E,United States,Aircraft,sunk
+658,1944-01-20,1944,Kuzan Maru,Cargo,1000,22-10N,118-15E,United States,Aircraft,sunk
+659,1944-01-20,1944,Koyu Maru,Cargo,5325,6-40N,134-17E,United States,Submarine,sunk
+660,1944-01-20,1944,Hidaka Maru,Cargo,5486,31-28N,134-52E,United States,Submarine,sunk
+661,1944-01-21,1944,Yasukuni Maru,Cargo,3025,3-19N,137-02E,United States,Submarine,sunk
+662,1944-01-21,1944,Ikoma Maru,Passenger-cargo,3156,3-19N,137-02E,United States,Submarine,sunk
+663,1944-01-22,1944,Koshin Maru,Passenger-cargo,5485,7-22N,115-05E,United States,Submarine,sunk
+664,1944-01-22,1944,Seinan Maru,Cargo,5401,7-22N,115-05E,United States,Submarine,sunk
+665,1944-01-23,1944,Seikai Maru,Cargo,3180,12-26N,98-36E,United States,Aircraft,sunk
+666,1944-01-23,1944,Panama Maru,Cargo,5287,27-08N,120-30E,China,Aircraft,sunk
+667,1944-01-23,1944,Taian Maru,Cargo,3670,5-45N,134-45E,United States,Submarine,sunk
+668,1944-01-23,1944,Magane Maru,Converted Gunboat,3120,29-49N,140-07E,United States,Submarine,sunk
+669,1944-01-24,1944,Liu Hsing,Cargo,1076,26-58N,120-04E,United States,Aircraft,sunk
+670,1944-01-24,1944,Unknown Maru,Cargo,1000,26-58N,120-04E,United States,Aircraft,sunk
+671,1944-01-24,1944,Unknown Maru,Cargo,1000,26-58N,120-04E,United States,Aircraft,sunk
+672,1944-01-24,1944,Koan Maru,Converted Water Carrier,3462,4-13S,152-11E,United States,Aircraft,sunk
+673,1944-01-24,1944,Ogashima Maru,Cargo,1424,8-14N,168-02E,United States,Aircraft,sunk
+674,1944-01-24,1944,Naruto,Tanker,6500,4-13S,152-11E,United States,Aircraft,sunk
+675,1944-01-24,1944,Taisho Maru,Cargo,4815,4-13S,152-11E,United States,Aircraft,sunk
+676,1944-01-24,1944,Yamayuri Maru,Cargo,5028,4-13S,152-11E,United States,Aircraft,sunk
+677,1944-01-24,1944,Chosen Maru,Cargo,3110,32-25N,133-00E,United States,Submarine,sunk
+678,1944-01-24,1944,Haraji Maru,Converted Minesweeper,500,21-33N,112-00E,United States,Aircraft,probably sunk
+679,1944-01-26,1944,Okitsu Maru,Converted Seaplane Tender,6666,9-22N,157-26E,United States,Submarine,sunk
+680,1944-01-26,1944,Busho Maru,Converted Gunboat,2552,8-27N,109-12E,United States,Submarine,sunk
+681,1944-01-27,1944,Kasagi Maru,Converted Salvage Vessel,3140,33-31N,139-36E,United States,Submarine,sunk
+682,1944-01-27,1944,Kikuzuki Maru,Cargo,1266,22-11N,119-12E,United States,Submarine,sunk
+683,1944-01-27,1944,Kosei Maru,Cargo,2205,22-11N,119-12E,United States,Submarine,sunk
+684,1944-01-28,1944,Neikai Maru,Cargo,2827,3-45S,150-38E,United States,Aircraft,sunk
+685,1944-01-28,1944,Uji Maru,Converted Net Tender,872,9-20N,167-28E,United States,Aircraft,sunk
+686,1944-01-29,1944,Shuntai Maru,Cargo,2253,27-22N,128-29E,United States,Submarine,sunk
+687,1944-01-29,1944,Shuko Maru,Converted Net Tender,889,23-07N,142-27E,United States,Submarine,sunk
+688,1944-01-30,1944,Eiko Maru,Cargo,3535,9-10N,167-20E,United States,Surface Craft,sunk
+689,1944-01-30,1944,Tokihime Maru,Cargo,741,4-10S,144-51E,United States,Aircraft,sunk
+690,1944-01-30,1944,Akibasan Maru  ,Cargo,4603,8-42N,167-44E,United States,Aircraft,sunk
+691,1944-01-30,1944,Iwate Maru,Converted Water Carrier,2984,4-12S,152-12E,United States,Aircraft,sunk
+692,1944-01-30,1944,Katsura Maru,Converted Net Tender,540,11-32N,162-22E,United States,Surface Craft,sunk
+693,1944-01-30,1944,Paran Maru,Cargo,562,8-42N,167-44E,United States,Surface Craft,probably sunk
+694,1944-01-30,1944,Toko Maru,Passenger-cargo,2747,6-10N,138-14E,United States,Submarine,sunk
+695,1944-01-30,1944,Tamashima Maru,Passenger-cargo,3560,21-15N,149-18E,United States,Submarine,sunk
+696,1944-01-31,1944,Yasukuni Maru,Converted Submarine Tender,11933,9-21N,147-02E,United States,Submarine,sunk
+697,1944-01-31,1944,Hiro Maru,Converted Net Tender,549,15-23N,145-35E,United States,Submarine,sunk
+698,1944-02-01,1944,Toei Maru,Cargo,4004,4-21N,143-16E,United States,Submarine,sunk
+699,1944-02-01,1944,Tacoma Maru,Passenger-cargo,5772,1-35N,128-58E,United States,Submarine,sunk
+700,1944-02-01,1944,Nanka Maru,Cargo,4065,1-35N,128-58E,United States,Submarine,sunk
+701,1944-02-02,1944,Toyo Maru No 5,Cargo,2193,33-32N,135-58E,United States,Submarine,sunk
+702,1944-02-02,1944,Toyo Maru No 8,Cargo,2191,33-32N,135-58E,United States,Submarine,sunk
+703,1944-02-03,1944,Nichiai Maru,Cargo,5439,3-00S,150-10E,United States,Aircraft,sunk
+704,1944-02-03,1944,Ariake Maru,Cargo,5000,29-11N,124-45E,United States,Submarine,sunk
+705,1944-02-03,1944,Goyo Maru,Tanker,8496,29-11N,124-45E,United States,Submarine,sunk
+706,1944-02-04,1944,Goryu Maru,Converted Water Carrier,1912,6-00N,169-44E,United States,Aircraft,sunk
+707,1944-02-05,1944,Seikyo Maru,Passenger-cargo,2565,22-00N,116-00E,United States,Aircraft,sunk
+708,1944-02-05,1944,Lushan Maru,Cargo,2531,22-00N,116-00E,United States,Aircraft,sunk
+709,1944-02-05,1944,Tatsumi Maru,Cargo,850,3-21S,143-33E,United States,Aircraft,sunk
+710,1944-02-05,1944,Suzan Maru,Passenger-cargo,2539,22-00N,116-00E,United States,Aircraft,sunk
+711,1944-02-05,1944,Taishin Maru,Cargo,1723,13-09N,120-24E,United States,Submarine,sunk
+712,1944-02-08,1944,Lima Maru,Cargo,6989,32-18N,129-20E,United States,Submarine,sunk
+713,1944-02-10,1944,Malta Maru,Passenger-cargo,5500,23-12N,121-30E,United States,Submarine,sunk
+714,1944-02-11,1944,Satsuma Maru,Passenger-cargo,3091,28-01N,121-30E,China,Aircraft,sunk
+715,1944-02-12,1944,Choko Maru,Converted Net Tender,889,5-45N,99-50E,Great Britain,Submarine,sunk
+716,1944-02-12,1944,Ronsan Maru,Passenger-cargo,2735,27-43N,128-35E,United States,Submarine,sunk
+717,1944-02-13,1944,Yoshino Maru,Cargo,872,3-20S,143-00E,United States,Aircraft,sunk
+718,1944-02-13,1944,Shoka Maru,Cargo,1381,18-35N,108-30E,United States,Aircraft,sunk
+719,1944-02-14,1944,Nittoku Maru,Cargo,3591,33-48N,128-49E,United States,Submarine,sunk
+720,1944-02-14,1944,Minryo Maru,Cargo,2193,13-44N,120-40E,United States,Submarine,sunk
+721,1944-02-14,1944,Hokuan Maru,Cargo,3712,13-40N,120-27E,United States,Submarine,sunk
+722,1944-02-15,1944,Matsu Maru,Converted Net Tender,509,2-36S,150-36E,United States,Aircraft,sunk
+723,1944-02-15,1944,Odatsuki Maru,Cargo,1988,10-03N,126-54E,United States,Submarine,sunk
+724,1944-02-15,1944,Hoshi Maru No 2,Cargo,875,34-23N,128-12E,United States,Submarine,sunk
+725,1944-02-15,1944,Ryoka Maru,Passenger-cargo,5307,31-16N,121-45E,United States,Mine,sunk
+726,1944-02-16,1944,Sanko Maru,Tanker,5461,2-24S,150-06E,United States,Aircraft,sunk
+727,1944-02-16,1944,Chojo Maru,Transport,2610,9-15N,127-05E,United States,Submarine,sunk
+728,1944-02-17,1944,Kashi Maru,Converted Net Tender,540,2-24S,150-06E,United States,Aircraft,sunk
+729,1944-02-17,1944,Aikoku Maru,Converted Light Cruiser,10437,7-22N,151-54E,United States,Aircraft,sunk
+730,1944-02-17,1944,Akagi Maru,Converted Light Cruiser,7389,7-54N,151-25E,United States,Aircraft,sunk
+731,1944-02-17,1944,Amagisan Maru,Passenger-cargo,7620,7-18N,151-53E,United States,Aircraft,sunk
+732,1944-02-17,1944,Fujikawa Maru,Aircraft Ferry,6938,7-20N,151-53E,United States,Aircraft,sunk
+733,1944-02-17,1944,Fujisan Maru,Tanker,9524,7-23N,151-53E,United States,Aircraft,sunk
+734,1944-02-17,1944,Gosei Maru,Cargo,1931,7-18N,151-53E,United States,Aircraft,sunk
+735,1944-02-17,1944,Hanagawa Maru,Tanker,4739,7-25N,151-45E,United States,Aircraft,sunk
+736,1944-02-17,1944,Heian Maru,Converted Submarine Tender,11614,7-23N,151-51E,United States,Aircraft,sunk
+737,1944-02-17,1944,Hoki Maru,Cargo,7112,7-22N,151-45E,United States,Aircraft,sunk
+738,1944-02-17,1944,Hokuyo Maru,Passenger-cargo,4216,7-18N,151-53E,United States,Aircraft,sunk
+739,1944-02-17,1944,Hoyo Maru,Tanker,8691,7-23N,151-50E,United States,Aircraft,sunk
+740,1944-02-17,1944,Kensho Maru,Passenger-cargo,4862,7-18N,151-53E,United States,Aircraft,sunk
+741,1944-02-17,1944,Kiyosumi Maru,Converted Light Cruiser,8613,7-23N,151-53E,United States,Aircraft,sunk
+742,1944-02-17,1944,Reiyo Maru,Cargo,5445,7-25N,151-45E,United States,Aircraft,sunk
+743,1944-02-17,1944,Rio De Janeiro Maru,Converted Submarine Tender,9626,7-20N,151-53E,United States,Aircraft,sunk
+744,1944-02-17,1944,San Francisco Maru,Passenger-cargo,5831,7-22N,151-54E,United States,Aircraft,sunk
+745,1944-02-17,1944,Sankisan Maru,Cargo,4776,7-25N,151-45E,United States,Aircraft,sunk
+746,1944-02-17,1944,Seiko Maru,Cargo,5385,7-22N,151-45E,United States,Aircraft,sunk
+747,1944-02-17,1944,Momogawa Maru,Passenger-cargo,3829,7-20N,151-53E,United States,Aircraft,sunk
+748,1944-02-17,1944,Nagano Maru,Passenger-cargo,3824,7-25N,151-45E,United States,Aircraft,sunk
+749,1944-02-17,1944,Nippo Maru,Converted Water Carrier,3763,7-18N,151-53E,United States,Aircraft,sunk
+750,1944-02-17,1944,Matsutan Maru,Cargo,1999,7-23N,151-05E,United States,Aircraft,sunk
+751,1944-02-17,1944,Tonan Maru No 3,Tanker,19209,7-23N,151-51E,United States,Aircraft,sunk
+752,1944-02-17,1944,Unkai Maru No 6,Cargo,3220,7-25N,151-45E,United States,Aircraft,sunk
+753,1944-02-17,1944,Yamagiri Maru,Passenger-cargo,6438,7-23N,151-51E,United States,Aircraft,sunk
+754,1944-02-17,1944,Yubae Maru,Cargo,3217,7-18N,151-53E,United States,Aircraft,sunk
+755,1944-02-17,1944,Zuikai Maru,Cargo,2827,7-46N,150-27E,United States,Aircraft,sunk
+756,1944-02-17,1944,Tatsuha Maru,Passenger-cargo,5784,7-46N,150-27E,United States,Aircraft,sunk
+757,1944-02-17,1944,Shinkoku Maru,Tanker,10020,7-20N,151-40E,United States,Aircraft,sunk
+758,1944-02-17,1944,Taiho Maru,Cargo,2829,7-22N,151-54E,United States,Aircraft,sunk
+759,1944-02-17,1944,Nichiro Maru,Passenger-cargo,6534,8-50N,135-57E,United States,Submarine,sunk
+760,1944-02-17,1944,Gyoten Maru,Cargo,6854,8-04N,149-28E,United States,Submarine,sunk
+761,1944-02-18,1944,Shinsoku Maru,Cargo,3202,28-21N,121-51E,United States,Aircraft,sunk
+762,1944-02-19,1944,Tatsukiku Maru,Cargo,892,2-50S,150-42E,United States,Aircraft,sunk
+763,1944-02-19,1944,Shinto Maru No 1,Cargo,1934,2-50S,150-42E,United States,Aircraft,sunk
+764,1944-02-19,1944,Tairyu Maru,Cargo,4994,25-25N,121-30E,United States,Aircraft,sunk
+765,1944-02-19,1944,Kokuei Maru,Tanker,5154,14-34N,114-11E,United States,Submarine,sunk
+766,1944-02-19,1944,Nanei Maru,Tanker,5019,14-34N,114-11E,United States,Submarine,sunk
+767,1944-02-19,1944,Nichirin Maru,Tanker,5162,15-45N,115-39E,United States,Submarine,sunk
+768,1944-02-19,1944,Ichiyo Maru,Tanker,5106,15-40N,115-48E,United States,Submarine,sunk
+769,1944-02-19,1944,Taikei Maru,Cargo,4739,21-48N,119-50E,United States,Submarine,sunk
+770,1944-02-19,1944,Toshin Maru,Cargo,1917,21-46N,120-06E,United States,Submarine,sunk
+771,1944-02-20,1944,Taijin Maru,Cargo,5154,24-12N,123-20E,United States,Submarine,sunk
+772,1944-02-20,1944,Manyo Maru,Cargo,3610,24-28N,123-31E,United States,Submarine,sunk
+773,1944-02-21,1944,Daigen Maru No 6,Cargo,510,3-15N,100-40E,Great Britain,Submarine,sunk
+774,1944-02-21,1944,Kokai Maru,Cargo,3871,2-30S,150-15E,United States,Aircraft,sunk
+775,1944-02-21,1944,Kowa Maru,Cargo,1106,2-30S,150-15E,United States,Aircraft,sunk
+776,1944-02-22,1944,Kyosei Maru,Cargo,556,2-00S,149-50E,United States,Surface Craft,sunk
+777,1944-02-22,1944,Teiko Maru,Transport,15105,3-03N,109-16E,United States,Submarine,sunk
+778,1944-02-22,1944,Fukuyama Maru,Passenger-cargo,3581,14-47N,144-50E,United States,Submarine,sunk
+779,1944-02-22,1944,Taisho Maru,Cargo,4815,4-10S,152-18E,United States,Aircraft,sunk
+780,1944-02-23,1944,Seizan Maru,Passenger-cargo,4232,15-00N,145-30E,United States,Aircraft,sunk
+781,1944-02-23,1944,Kimishima Maru,Cargo,5193,30-30N,140-20E,United States,Submarine,sunk
+782,1944-02-23,1944,Horei Maru,Cargo,5588,26-22N,126-15E,United States,Submarine,sunk
+783,1944-02-23,1944,Koyo Maru,Passenger-cargo,5471,28-58N,141-15E,United States,Submarine,sunk
+784,1944-02-23,1944,Shinyubari Maru,Cargo,5354,15-17N,145-03E,United States,Submarine,sunk
+785,1944-02-23,1944,Kunishima Maru,Cargo,4083,15-23N,145-02E,United States,Submarine,sunk
+786,1944-02-23,1944,Yamashimo Maru,Cargo,6776,14-45N,144-32E,United States,Submarine,sunk
+787,1944-02-23,1944,Ogura Maru No 3,Tanker,7350,3-53N,129-17E,United States,Submarine,sunk
+788,1944-02-23,1944,Nikki Maru,Passenger-cargo,5857,00-07N,135-42E,United States,Submarine,sunk
+789,1944-02-24,1944,Shunsan Maru No 2,Cargo,608,5-20N,162-58E,United States,Aircraft,sunk
+790,1944-02-24,1944,Nampo Maru,Tanker,10033,24-20N,122-25E,United States,Submarine,sunk
+791,1944-02-24,1944,Echizen Maru,Cargo,2424,15-16N,143-12E,United States,Submarine,sunk
+792,1944-02-25,1944,Tango Maru,Cargo,6200,7-46S,115-09E,United States,Submarine,sunk
+793,1944-02-25,1944,Ryusei Maru,Passenger-cargo,4797,7-56S,115-14E,United States,Submarine,sunk
+794,1944-02-25,1944,Choko Maru,Cargo,1794,15-50N,144-21E,United States,Submarine,sunk
+795,1944-02-25,1944,Nissho Maru,Tanker,10526,5-55N,126-05E,United States,Submarine,sunk
+796,1944-02-26,1944,Daigen Maru No 3,Passenger-cargo,5256,00-55S,139-02E,United States,Submarine,sunk
+797,1944-02-27,1944,Taisoku Maru,Cargo,2473,1-48N,127-32E,United States,Submarine,sunk
+798,1944-02-27,1944,Ceylon Maru,Cargo,4905,31-50N,127-45E,United States,Submarine,sunk
+799,1944-02-28,1944,Akiura Maru,Passenger-cargo,6803,00-06N,132-53E,United States,Submarine,sunk
+800,1944-02-28,1944,Kaiko Maru,Cargo,3548,50-02N,155-30E,United States,Submarine,sunk
+801,1944-02-28,1944,Shoho Maru,Cargo,2723,00-06N,132-53E,United States,Submarine,sunk
+802,1944-02-29,1944,Uchide Maru,Passenger-cargo,5275,8-57N,132-52E,United States,Submarine,sunk
+803,1944-02-29,1944,Sakito Maru,Passenger-cargo,7126,22-40N,131-50E,United States,Submarine,sunk
+804,1944-03-02,1944,Shinkyo Maru,Converted Gunboat,2672,6-25N,148-31E,United States,Submarine,sunk
+805,1944-03-03,1944,Nittai Maru,Cargo,6484,3-17N,123-55E,United States,Submarine,sunk
+806,1944-03-03,1944,Akashisan Maru,Cargo,4541,45-52N,149-16E,United States,Submarine,sunk
+807,1944-03-04,1944,Kayo Maru,Passenger-cargo,4368,1-28S,138-40E,United States,Submarine,sunk
+808,1944-03-04,1944,Ominesan Maru,Tanker,10536,5-32N,109-09E,United States,Submarine,sunk
+809,1944-03-06,1944,America Maru,Transport,6070,21-50N,143-54E,United States,Submarine,sunk
+810,1944-03-08,1944,Shobu Maru,Cargo,1950,3-38N,99-12E,Great Britain,Submarine,sunk
+811,1944-03-08,1944,Juyo Maru,Cargo,5457,13-10N,100-50E,United States,Mine,sunk
+812,1944-03-08,1944,Toyokuni Maru,Cargo,5792,19-23N,116-13E,United States,Submarine,sunk
+813,1944-03-09,1944,Nichirei Maru,Cargo,5396,19-47N,116-13E,United States,Submarine,sunk
+814,1944-03-10,1944,Hasshu Maru,Cargo,2655,2-33S,140-43E,United States,Aircraft,sunk
+815,1944-03-10,1944,Tsukikawa Maru,Cargo,4470,1-30S,128-17E,United States,Submarine,sunk
+816,1944-03-12,1944,Okinoyama Maru No 3,Cargo,871,00-25S,132-55E,United States,Submarine,sunk
+817,1944-03-12,1944,Taijin Maru,Cargo,1937,25-53N,131-19E,United States,Submarine,sunk
+818,1944-03-13,1944,Kokuyo Maru,Cargo,4667,32-58N,138-52E,United States,Submarine,sunk
+819,1944-03-13,1944,Ryua Maru,Cargo,1925,47-41N,152-41E,United States,Submarine,sunk
+820,1944-03-13,1944,Shojin Maru,Cargo,1942,47-41N,152-41E,United States,Submarine,sunk
+821,1944-03-16,1944,Kofuku Maru,Cargo,1920,4-28N,136-56E,United States,Submarine,sunk
+822,1944-03-16,1944,Nichiren Maru,Passenger-cargo,5460,42-25N,144-55E,United States,Submarine,sunk
+823,1944-03-16,1944,Anzan Maru,Passenger-cargo,5493,27-41N,128-41E,United States,Submarine,sunk
+824,1944-03-18,1944,Hokuroku Maru,Passenger-cargo,8359,19-22N,116-52E,United States,Submarine,sunk
+825,1944-03-19,1944,Yakumo Maru,Cargo,3198,2-55S,143-40E,United States,Aircraft,sunk
+826,1944-03-19,1944,Taiei Maru,Cargo,3221,2-55S,143-40E,United States,Aircraft,sunk
+827,1944-03-20,1944,Hakuyo Maru,Cargo,1327,30-53N,140-42E,United States,Submarine,sunk
+828,1944-03-20,1944,Hoko Maru,Cargo,1504,10-06N,138-10E,United States,Submarine,sunk
+829,1944-03-24,1944,Shinkyo Maru,Cargo,5139,5-27N,125-38E,United States,Submarine,sunk
+830,1944-03-24,1944,Bengal Maru,Cargo,5399,5-27N,125-38E,United States,Submarine,sunk
+831,1944-03-27,1944,Shinsei Maru,Cargo,575,7-44S,130-02E,Australia,Aircraft,sunk
+832,1944-03-27,1944,Nichinan Maru,Cargo,2750,7-31S,115-57E,United States,Submarine,sunk
+833,1944-03-27,1944,Yamamizu Maru,Tanker,5174,3-52S,109-40E,United States,Submarine,sunk
+834,1944-03-28,1944,Yasushima Maru,Cargo,1911,3-38N,100-50E,Great Britain,Submarine,sunk
+835,1944-03-28,1944,Fukusei Maru,Cargo,2219,24-25N,131-11E,United States,Submarine,sunk
+836,1944-03-30,1944,Matsuei Maru,Cargo,1877,7-30N,134-30E,United States,Aircraft,sunk
+837,1944-03-30,1944,Urakami Maru,Converted Submarine Tender,4317,7-30N,134-30E,United States,Aircraft,sunk
+838,1944-03-30,1944,Teshio Maru,Cargo,2840,7-30N,134-30E,United States,Aircraft,sunk
+839,1944-03-30,1944,Shinsei Maru No 18,Cargo,2711,7-30N,134-30E,United States,Aircraft,sunk
+840,1944-03-30,1944,Unyu Maru No 2,Tanker,634,7-30N,134-35E,United States,Aircraft,sunk
+841,1944-03-30,1944,Shosei Maru,Converted Net Tender,773,7-50S,134-30E,United States,Aircraft,sunk
+842,1944-03-30,1944,Akebono Maru,Tanker,10182,7-30N,134-30E,United States,Aircraft,sunk
+843,1944-03-30,1944,Amatsu Maru,Tanker,10567,7-30N,134-30E,United States,Aircraft,sunk
+844,1944-03-30,1944,Asashio Maru,Tanker,5111,7-30N,134-30E,United States,Aircraft,sunk
+845,1944-03-30,1944,Chuyo Maru,Cargo,1900,7-30N,134-30E,United States,Aircraft,sunk
+846,1944-03-30,1944,Goshu Maru,Aircraft Ferry,8592,7-30N,134-30E,United States,Aircraft,sunk
+847,1944-03-30,1944,Gozan Maru,Cargo,3213,7-30N,134-30E,United States,Aircraft,sunk
+848,1944-03-30,1944,Hokutai Maru,Cargo,5220,7-30N,134-30E,United States,Aircraft,sunk
+849,1944-03-30,1944,Iro,Tanker,6500,7-30N,134-30E,United States,Aircraft,sunk
+850,1944-03-30,1944,Kamikaze Maru,Motor Torpedo Boat Tender,4916,7-30N,134-30E,United States,Aircraft,sunk
+851,1944-03-30,1944,Kibi Maru,Cargo,2961,7-19N,134-28E,United States,Aircraft,sunk
+852,1944-03-30,1944,Kibi Maru,Cargo,2759,7-30N,134-30E,United States,Aircraft,sunk
+853,1944-03-30,1944,Nissho Maru No 5  ,Converted Net Tender,783,7-30N,134-30E,United States,Aircraft,sunk
+854,1944-03-30,1944,Ose,Tanker,7987,7-30N,134-30E,United States,Aircraft,sunk
+855,1944-03-30,1944,Raizan Maru,Cargo,2813,7-30N,134-30E,United States,Aircraft,sunk
+856,1944-03-30,1944,Ryuko Maru,Passenger-cargo,2764,7-30N,134-30E,United States,Aircraft,sunk
+857,1944-03-30,1944,Sata,Tanker,6500,7-30N,134-30E,United States,Aircraft,sunk
+858,1944-03-30,1944,Nagisan Maru,Passenger-cargo,4391,7-30N,134-30E,United States,Aircraft,sunk
+859,1944-03-30,1944,Atlantic Maru,Cargo,5873,12-15N,145-42E,United States,Submarine,sunk
+860,1944-03-30,1944,Ikushima Maru,Cargo,3943,20-42N,143-00E,United States,Submarine,sunk
+861,1944-03-30,1944,Fujikawa Maru,Cargo,2829,1-56N,133-00E,United States,Submarine,sunk
+862,1944-04-01,1944,Minami Maru,Cargo,2398,25-56N,131-18E,United States,Submarine,sunk
+863,1944-04-03,1944,Tosei Maru,Passenger-cargo,2814,30-00N,139-44E,United States,Submarine,sunk
+864,1944-04-05,1944,Tenryu Maru,Cargo,554,3-35S,143-38E,United States,Aircraft,sunk
+865,1944-04-08,1944,Aratama Maru,Converted Submarine Tender,6784,13-16N,144-45E,United States,Submarine,sunk
+866,1944-04-08,1944,Kizugawa Maru,Cargo,1915,13-16N,144-45E,United States,Submarine,sunk
+867,1944-04-09,1944,Hokurei Maru,Cargo,515,19-00N,110-00E,United States,Aircraft,sunk
+868,1944-04-09,1944,Bisaku Maru,Cargo,4467,15-22N,145-06E,United States,Submarine,sunk
+869,1944-04-09,1944,Honan Maru,Cargo,5401,33-50N,128-01E,United States,Submarine,sunk
+870,1944-04-12,1944,Narita Maru,Cargo,1915,2-30S,140-52E,United States,Aircraft,sunk
+871,1944-04-12,1944,Taichu Maru,Passenger-cargo,3213,28-07N,129-01E,United States,Submarine,sunk
+872,1944-04-12,1944,Shinyu Maru,Passenger-cargo,4621,6-41N,123-40E,United States,Submarine,sunk
+873,1944-04-12,1944,Yamagata Maru,Passenger-cargo,3807,7-04N,123-27E,United States,Submarine,sunk
+874,1944-04-12,1944,Mito Maru,Passenger-cargo,7061,2-02S,127-20E,United States,Submarine,sunk
+875,1944-04-12,1944,Hino Maru No 1,Cargo,2671,2-02S,127-20E,United States,Submarine,sunk
+876,1944-04-12,1944,Mikage Maru No 2,Cargo,617,2-41S,141-18E,United States,Aircraft,sunk
+877,1944-04-12,1944,Matsue Maru,Cargo,7061,9-22N,142-18E,United States,Submarine,sunk
+878,1944-04-12,1944,Kunitsu Maru,Cargo,2724,5-54N,95-20E,"United States, Great Britain",Aircraft,sunk
+879,1944-04-12,1944,Haruno Maru,Cargo,776,5-54N,95-20E,"United States, Great Britain",Aircraft,sunk
+880,1944-04-20,1944,Iwakuni Maru,Cargo,619,2-10S,139-50E,United States,Aircraft,sunk
+881,1944-04-22,1944,Koryu Maru,Cargo,6680,10-19N,107-05E,United States,Aircraft,sunk
+882,1944-04-22,1944,Nagata Maru,Converted Gunboat,2969,10-19N,107-05E,United States,Aircraft,sunk
+883,1944-04-22,1944,London Maru,Cargo,7190,10-19N,107-05E,United States,Aircraft,sunk
+884,1944-04-22,1944,Yamamizu Maru No 3,Tanker,5244,10-19N,107-05E,United States,Aircraft,sunk
+885,1944-04-23,1944,Daiju Maru,Cargo,1279,33-35N,135-45E,United States,Submarine,sunk
+886,1944-04-25,1944,Kashiwa Maru,Converted Net Tender,976,7-09N,116-48E,United States,Submarine,sunk
+887,1944-04-26,1944,Wazan Maru,Cargo,4851,33-30N,135-27E,United States,Submarine,sunk
+888,1944-04-26,1944,Noshiro Maru,Cargo,2333,28-37N,141-00E,United States,Submarine,sunk
+889,1944-04-26,1944,Tokiwa Maru,Passenger-cargo,806,6-12N,125-47E,United States,Submarine,sunk
+890,1944-04-26,1944,Yoshida Maru No 1,Passenger-cargo,5425,18-06N,119-47E,United States,Submarine,sunk
+891,1944-04-27,1944,Akigawa Maru,Cargo,5244,14-50N,142-23E,United States,Submarine,sunk
+892,1944-04-27,1944,Miike Maru,Passenger-cargo,11739,8-20N,134-53E,United States,Submarine,sunk
+893,1944-04-27,1944,Genbu Maru,Passenger-cargo,1872,27-20N,128-15E,United States,Submarine,sunk
+894,1944-04-29,1944,Song Giang Maru,Cargo,1065,13-02N,109-28E,United States,Submarine,sunk
+895,1944-04-29,1944,Takegawa Maru,Cargo,1930,19-26N,118-45E,United States,Submarine,sunk
+896,1944-04-30,1944,Hino Maru No 2,Converted Gunboat,998,7-22N,151-45E,United States,Aircraft,sunk
+897,1944-04-30,1944,Nittatsu Maru,Cargo,2859,19-11N,119-10E,United States,Submarine,sunk
+898,1944-05-01,1944,Asosan Maru,Cargo,8812,7-07N,129-56E,United States,Submarine,sunk
+899,1944-05-02,1944,Ryoyo Maru,Passenger-cargo,5973,48-04N,153-16E,United States,Submarine,sunk
+900,1944-05-03,1944,Amagi Maru,Passenger-cargo,3165,11-00N,92-00E,Great Britain,Submarine,sunk
+901,1944-05-03,1944,Shingu Maru,Cargo,2745,22-05N,117-50E,United States,Aircraft,sunk
+902,1944-05-03,1944,Kenan Maru,Cargo,3129,15-29N,145-42E,United States,Submarine,sunk
+903,1944-05-03,1944,Fushimi Maru,Passenger-cargo,4935,45-28N,149-56E,United States,Submarine,sunk
+904,1944-05-03,1944,Teisen Maru,Cargo,5050,12-54N,114-07E,United States,Submarine,sunk
+905,1944-05-04,1944,Toyohi Maru,Cargo,6436,20-51N,118-02E,United States,Submarine,sunk
+906,1944-05-04,1944,Shoryu Maru,Cargo,6475,20-48N,118-03E,United States,Submarine,sunk
+907,1944-05-04,1944,Eiryu Maru,Converted Net Tender,758,7-04N,129-18E,United States,Submarine,sunk
+908,1944-05-04,1944,Taibu Maru,Cargo,6440,20-54N,118-14E,United States,Submarine,sunk
+909,1944-05-04,1944,Taiyoku Maru,Cargo,5244,20-48N,118-03E,United States,Submarine,sunk
+910,1944-05-04,1944,Kinrei Maru,Cargo,5947,20-58N,117-59E,United States,Submarine,sunk
+911,1944-05-05,1944,Shirane Maru,Cargo,2825,33-31N,135-28E,United States,Submarine,sunk
+912,1944-05-06,1944,Toyoura Maru,Cargo,2510,32-16N,127-08E,United States,Submarine,sunk
+913,1944-05-06,1944,Nisshin Maru,Tanker,16801,7-17N,116-51E,United States,Submarine,sunk
+914,1944-05-06,1944,Tenshinzan Maru,Cargo,6886,2-42N,124-10E,United States,Submarine,sunk
+915,1944-05-06,1944,Taijima Maru,Passenger-cargo,6995,2-42N,124-10E,United States,Submarine,sunk
+916,1944-05-06,1944,Aden Maru,Passenger-cargo,5824,2-42N,124-10E,United States,Submarine,sunk
+917,1944-05-07,1944,Rossbach,Tanker,5894,33-14N,134-40E,United States,Submarine,sunk
+918,1944-05-08,1944,Miyazaki Maru,Passenger-cargo,3944,41-49N,141-12E,United States,Submarine,sunk
+919,1944-05-10,1944,Okinawa Maru,Cargo,2254,11-26N,143-46E,United States,Submarine,sunk
+920,1944-05-10,1944,Mikage Maru No 18,Passenger-cargo,4319,11-26N,143-46E,United States,Submarine,sunk
+921,1944-05-10,1944,Choan Maru No 2,Converted Gunboat,2631,11-26N,143-46E,United States,Submarine,sunk
+922,1944-05-10,1944,Shohei Maru,Cargo,7256,15-38N,119-25E,United States,Submarine,sunk
+923,1944-05-11,1944,Choi Maru,Cargo,1074,3-30S,126-06E,United States,Submarine,sunk
+924,1944-05-11,1944,Mitakesan Maru,Passenger-cargo,4441,14-58N,145-26E,United States,Submarine,sunk
+925,1944-05-11,1944,Seiryu Maru,Cargo,1904,29-30N,141-40E,United States,Submarine,sunk
+926,1944-05-12,1944,Banei Maru No 2,Cargo,1186,40-01N,141-58E,United States,Submarine,sunk
+927,1944-05-13,1944,Anbo Maru,Cargo,4523,34-31N,138-33E,United States,Submarine,sunk
+928,1944-05-14,1944,Koho Maru,Cargo,4291,13-42N,144-43E,United States,Submarine,sunk
+929,1944-05-14,1944,Bisan Maru,Cargo,4500,9-00N,133-34E,United States,Submarine,sunk
+930,1944-05-15,1944,Jokuja Maru,Cargo,6440,10-10N,131-25E,United States,Submarine,sunk
+931,1944-05-17,1944,Shinrei Maru,Cargo,987,5-00S,110-00E,Great Britain,Aircraft,sunk
+932,1944-05-17,1944,Taikoku Maru,Cargo,2633,14-57N,144-47E,United States,Submarine,sunk
+933,1944-05-17,1944,Fukko Maru,Passenger-cargo,3834,14-55N,142-30E,United States,Submarine,sunk
+934,1944-05-17,1944,Nichiwa Maru,Cargo,4955,14-45N,142-40E,United States,Submarine,sunk
+935,1944-05-18,1944,Shinryu Maru,Cargo,3181,7-36S,113-12E,United States,Submarine,sunk
+936,1944-05-20,1944,Jinju Maru,Cargo,3192,21-05N,117-00E,United States,Aircraft,sunk
+937,1944-05-20,1944,Shosei Maru,Converted Gunboat,998,13-32N,144-36E,United States,Submarine,sunk
+938,1944-05-20,1944,Miyaura Maru,Cargo,1856,2-14N,128-00E,United States,Submarine,sunk
+939,1944-05-20,1944,Otori Maru,Cargo,2105,5-40S,105-27E,United States,Submarine,sunk
+940,1944-05-22,1944,Kosho Maru,Cargo,1365,4-55N,100-21E,Great Britain,Submarine,sunk
+941,1944-05-22,1944,Tenpei Maru,Passenger-cargo,6094,5-43N,127-37E,United States,Submarine,sunk
+942,1944-05-22,1944,Tsukuba Maru,Cargo,3172,21-20N,117-10E,United States,Aircraft,sunk
+943,1944-05-23,1944,Taijun Maru,Cargo,2825,2-38N,128-08E,United States,Submarine,sunk
+944,1944-05-24,1944,Tatekawa Maru,Tanker,10090,5-45N,125-45E,United States,Submarine,sunk
+945,1944-05-24,1944,Wales Maru,Passenger-cargo,6586,7-16N,109-04E,United States,Submarine,sunk
+946,1944-05-24,1944,Bizen Maru,Cargo,4667,7-25N,108-43E,United States,Submarine,sunk
+947,1944-05-25,1944,Taito Maru,Passenger-cargo,4466,11-30N,134-55E,United States,Submarine,sunk
+948,1944-05-25,1944,Osaka Maru,Passenger-cargo,3740,11-30N,134-55E,United States,Submarine,sunk
+949,1944-05-26,1944,Chiyo Maru,Cargo,657,20-30N,141-45E,United States,Submarine,sunk
+950,1944-05-26,1944,Sanyo Maru,Converted Seaplane Tender,8360,2-48N,124-19E,United States,Submarine,sunk
+951,1944-05-26,1944,Akishima Maru,Cargo,1993,33-48N,131-33E,United States,Mine,sunk
+952,1944-05-29,1944,Anshu Maru,Converted Gunboat,2601,3-40S,126-58E,United States,Submarine,sunk
+953,1944-05-29,1944,Shoken Maru,Cargo,1949,16-23N,144-59E,United States,Submarine,sunk
+954,1944-05-29,1944,Horaizan Maru,Cargo,1999,16-23N,144-59E,United States,Submarine,sunk
+955,1944-05-30,1944,Shiga Maru,Cargo,742,33-15N,134-11E,United States,Submarine,sunk
+956,1944-05-30,1944,Shisen Maru,Cargo,2201,24-30N,122-30E,United States,Submarine,sunk
+957,1944-05-31,1944,Hokuyo Maru,Cargo,1590,48-00N,153-00E,United States,Submarine,sunk
+958,1944-05-31,1944,Koto Maru,Cargo,1053,47-52N,151-02E,United States,Submarine,sunk
+959,1944-05-31,1944,Madras Maru,Passenger-cargo,3802,48-21N,151-19E,United States,Submarine,sunk
+960,1944-06-01,1944,Toho Maru,Cargo,4716,18-13N,141-19E,United States,Submarine,sunk
+961,1944-06-01,1944,Iwaki Maru,Cargo,3124,48-00N,153-00E,United States,Submarine,sunk
+962,1944-06-01,1944,Hiburi Maru,Passenger-cargo,4365,48-00N,153-00E,United States,Submarine,sunk
+963,1944-06-02,1944,Chiyo Maru,Cargo,4700,20-53N,140-17E,United States,Submarine,sunk
+964,1944-06-04,1944,Katsukawa Maru,Cargo,6886,19-35N,138-43E,United States,Submarine,sunk
+965,1944-06-04,1944,Hakusan Maru,Transport,10380,22-55N,136-44E,United States,Submarine,sunk
+966,1944-06-05,1944,Ashizuri,Tanker,2166,6-32N,120-40E,United States,Submarine,sunk
+967,1944-06-05,1944,Takasaki,Tanker,2500,6-32N,120-40E,United States,Submarine,sunk
+968,1944-06-05,1944,Tamahime Maru,Cargo,3080,17-37N,140-32E,United States,Submarine,sunk
+969,1944-06-05,1944,Takaoka Maru,Passenger-cargo,7006,17-37N,140-32E,United States,Submarine,sunk
+970,1944-06-06,1944,Kashimasan Maru,Cargo,2825,16-41N,142-43E,United States,Submarine,sunk
+971,1944-06-06,1944,Harve Maru,Cargo,5652,16-41N,142-43E,United States,Submarine,sunk
+972,1944-06-08,1944,Shioya,Tanker,4000,3-04N,124-03E,United States,Submarine,sunk
+973,1944-06-10,1944,Hiyoshi Maru,Cargo,535,3-05N,99-56E,Great Britain,Submarine,sunk
+974,1944-06-11,1944,Asanagi Maru,Tanker,5142,6-20N,120-47E,United States,Submarine,sunk
+975,1944-06-11,1944,Toten Maru,Cargo,3823,46-58N,143-50E,United States,Submarine,sunk
+976,1944-06-11,1944,Chihaya Maru,Cargo,1161,46-58N,143-50E,United States,Submarine,sunk
+977,1944-06-12,1944,Kainan Maru,Cargo,1133,7-54N,98-27E,Great Britain,Submarine,sunk
+978,1944-06-12,1944,Keiyo Maru,Passenger-cargo,6442,15-14N,145-44E,United States,Surface Craft,sunk
+979,1944-06-12,1944,Batavia Maru,Passenger-cargo,4392,17-32N,143-17E,United States,Aircraft,sunk
+980,1944-06-12,1944,Fukoku Maru,Cargo,2851,17-30N,144-00E,United States,Aircraft,sunk
+981,1944-06-12,1944,Hinko Maru,Cargo,5418,17-28N,144-19E,United States,Aircraft,sunk
+982,1944-06-12,1944,Imizu Maru,Passenger-cargo,2924,17-30N,144-00E,United States,Aircraft,sunk
+983,1944-06-12,1944,Kokko Maru,Converted Net Tender,716,17-32N,144-01E,United States,Aircraft,sunk
+984,1944-06-12,1944,Nitcho Maru,Cargo,1900,17-31N,143-10E,United States,Aircraft,sunk
+985,1944-06-12,1944,Reikai Maru,Cargo,2750,17-30N,144-00E,United States,Aircraft,sunk
+986,1944-06-12,1944,Moji Maru,Passenger-cargo,3831,17-31N,144-10E,United States,Aircraft,sunk
+987,1944-06-12,1944,Mutsuyo Maru,Cargo,2726,15-14N,145-44E,United States,Aircraft,sunk
+988,1944-06-12,1944,Tenryugawa Maru,Cargo,3883,17-30N,144-00E,United States,Aircraft,sunk
+989,1944-06-12,1944,Shinto Maru,Cargo,2245,17-28N,144-19E,United States,Aircraft,sunk
+990,1944-06-13,1944,Takashima Maru,Passenger-cargo,5633,50-47N,151-20E,United States,Submarine,sunk
+991,1944-06-14,1944,Koan Maru,Cargo,3183,4-31N,122-25E,United States,Submarine,sunk
+992,1944-06-15,1944,Koa Maru No 2 Go,Cargo,572,15-10N,145-58E,United States,Aircraft,probably sunk
+993,1944-06-15,1944,Tatsutagawa Maru,Cargo,1923,25-02N,144-37E,United States,Surface Craft,sunk
+994,1944-06-15,1944,Kanseishi Maru,Cargo,4804,29-30N,141-11E,United States,Submarine,sunk
+995,1944-06-16,1944,Hinode Maru,Cargo,1916,1-01N,127-49E,United States,Aircraft,sunk
+996,1944-06-16,1944,Shofuku Maru,Cargo,839,00-53S,131-15E,United States,Aircraft,sunk
+997,1944-06-16,1944,Yuki Maru,Cargo,5704,2-19N,128-40E,United States,Submarine,sunk
+998,1944-06-16,1944,Nanshin Maru,Passenger-cargo,1422,2-28N,118-09E,United States,Submarine,sunk
+999,1944-06-17,1944,Minyu Maru,Cargo,529,00-54S,131-15E,United States,Aircraft,sunk
+1000,1944-06-17,1944,Nipponkai Maru,Motor Torpedo Boat Tender,2681,6-58N,127-52E,United States,Submarine,sunk
+1001,1944-06-17,1944,Kinshu Maru,Cargo,5591,6-17N,126-17E,United States,Submarine,sunk
+1002,1944-06-18,1944,Eiko Maru,Cargo,3011,5-59N,99-10E,Great Britain,Submarine,sunk
+1003,1944-06-20,1944,Genyo Maru,Tanker,10018,15-30N,133-55E,United States,Aircraft,sunk
+1004,1944-06-20,1944,Seiyo Maru,Tanker,10536,15-30N,133-55E,United States,Aircraft,sunk
+1005,1944-06-20,1944,Hibi Maru,Passenger-cargo,5874,5-35N,125-15E,United States,Submarine,sunk
+1006,1944-06-21,1944,Kanan Maru,Cargo,3312,4-04S,116-45E,United States,Submarine,sunk
+1007,1944-06-22,1944,Nagaragawa Maru,Passenger-cargo,990,34-35N,137-56E,United States,Submarine,sunk
+1008,1944-06-23,1944,Shoun Maru,Passenger-cargo,4396,14-10N,145-10E,United States,Aircraft,sunk
+1009,1944-06-24,1944,Aso Maru,Passenger-cargo,3028,9-57N,125-07E,United States,Submarine,sunk
+1010,1944-06-24,1944,Kumanoyama Maru,Cargo,2857,34-36N,139-32E,United States,Submarine,sunk
+1011,1944-06-24,1944,Tamahoko Maru,Passenger-cargo,6780,32-30N,129-35E,United States,Submarine,sunk
+1012,1944-06-24,1944,Tainan Maru,Cargo,3175,32-30N,129-35E,United States,Submarine,sunk
+1013,1944-06-24,1944,Nasusan Maru,Passenger-cargo,4399,32-30N,129-35E,United States,Submarine,sunk
+1014,1944-06-24,1944,Kennichi Maru,Cargo,1938,32-30N,129-35E,United States,Submarine,sunk
+1015,1944-06-25,1944,Yamamiya Maru,Cargo,6440,3-36N,127-14E,United States,Submarine,sunk
+1016,1944-06-25,1944,San Pedro Maru,Tanker,7268,16-07N,119-44E,United States,Submarine,sunk
+1017,1944-06-26,1944,Harukiku Maru,Passenger-cargo,3040,3-15N,99-46E,Great Britain,Submarine,sunk
+1018,1944-06-27,1944,Medan Maru,Tanker,5135,21-21N,120-18E,United States,Submarine,sunk
+1019,1944-06-28,1944,Ussuri Maru,Passenger-cargo,6386,23-14N,119-49E,United States,Aircraft,sunk
+1020,1944-06-28,1944,Sansei Maru,Cargo,2386,34-03N,129-00E,United States,Submarine,sunk
+1021,1944-06-28,1944,Yamagiku Maru,Cargo,5236,6-50N,122-41E,United States,Submarine,sunk
+1022,1944-06-29,1944,Katori Maru,Cargo,1920,19-09N,120-27E,United States,Submarine,sunk
+1023,1944-06-29,1944,Toyama Maru,Passenger-cargo,7089,27-41N,129-09E,United States,Submarine,sunk
+1024,1944-06-29,1944,Nippo Maru,Cargo,6079,00-43N,105-31E,United States,Submarine,sunk
+1025,1944-06-30,1944,Hyakufuku Maru,Converted Gunboat,986,28-22N,141-17E,United States,Submarine,sunk
+1026,1944-06-30,1944,Nikkin Maru,Cargo,5705,35-03N,125-08E,United States,Submarine,sunk
+1027,1944-06-30,1944,Tsurushima Maru,Cargo,4645,14-25N,119-47E,United States,Submarine,sunk
+1028,1944-06-30,1944,Matsukawa Maru,Cargo,3825,14-25N,119-47E,United States,Submarine,sunk
+1029,1944-07-01,1944,Taiun Maru No 2,Cargo,998,34-33N,125-12E,United States,Submarine,sunk
+1030,1944-07-01,1944,Takatori Maru No 1,Tanker,878,34-27N,123-46E,United States,Submarine,sunk
+1031,1944-07-01,1944,Nikko Maru,Cargo,3098,5-39S,119-28E,United States,Mine,sunk
+1032,1944-07-03,1944,Nitto Maru,Cargo,2186,19-28N,115-41E,United States,Submarine,sunk
+1033,1944-07-03,1944,Gyoyu Maru,Passenger-cargo,2232,19-28N,115-41E,United States,Submarine,sunk
+1034,1944-07-03,1944,Konsan Maru,Passenger-cargo,2733,32-24N,128-46E,United States,Submarine,sunk
+1035,1944-07-03,1944,Kamo Maru,Passenger-cargo,7954,32-24N,128-46E,United States,Submarine,sunk
+1036,1944-07-03,1944,Tairin Maru,Cargo,6862,38-52N,129-56E,United States,Submarine,sunk
+1037,1944-07-04,1944,Ryuko Maru,Cargo,5626,27-05N,142-09E,United States,Aircraft,sunk
+1038,1944-07-04,1944,Unyo Maru No 8,Cargo,1942,27-05N,142-09E,United States,Aircraft,sunk
+1039,1944-07-04,1944,Shima Maru,Cargo,1987,27-07N,142-12E,United States,Aircraft,sunk
+1040,1944-07-04,1944,Shinmei Maru,Cargo,1942,27-07N,142-12E,United States,Aircraft,sunk
+1041,1944-07-04,1944,Shozui Maru,Cargo,2719,27-07N,142-12E,United States,Aircraft,sunk
+1042,1944-07-04,1944,Taiko Maru,Cargo,897,27-05N,142-09E,United States,Aircraft,sunk
+1043,1944-07-04,1944,Kyodo Maru No 28,Cargo,1506,20-20N,114-54E,United States,Submarine,sunk
+1044,1944-07-04,1944,Tama Maru,Passenger-cargo,3052,7-33N,133-45E,United States,Submarine,sunk
+1045,1944-07-04,1944,Asukazan Maru,Cargo,6886,35-22N,125-56E,United States,Submarine,sunk
+1046,1944-07-04,1944,Yamaoka Maru,Cargo,6932,36-05N,125-48E,United States,Submarine,sunk
+1047,1944-07-05,1944,Kogi Maru,Converted Net Tender,857,27-43N,141-02E,United States,Submarine,sunk
+1048,1944-07-05,1944,Shinmei Maru,Passenger-cargo,2577,51-35N,156-30E,United States,Submarine,sunk
+1049,1944-07-06,1944,Setsuzan Maru,Cargo,1922,29-59N,122-53E,United States,Submarine,sunk
+1050,1944-07-06,1944,Dori Maru,Cargo,1469,38-40N,123-40E,United States,Submarine,sunk
+1051,1944-07-07,1944,Koto Maru,Cargo,3557,13-02N,109-26E,United States,Submarine,sunk
+1052,1944-07-08,1944,Matsu Maru,Cargo,887,40-56N,141-27E,United States,Submarine,sunk
+1053,1944-07-09,1944,Oyashima Maru,Cargo,853,00-34N,128-30E,United States,Aircraft,sunk
+1054,1944-07-09,1944,Taihei Maru,Cargo,6284,51-17N,155-34E,United States,Submarine,sunk
+1055,1944-07-10,1944,Iyang Maru,Cargo,943,31-00N,122-30E,United States,Mine,sunk
+1056,1944-07-11,1944,Tsukushi Maru No 2   ,Cargo,2417,37-24N,124-31E,United States,Submarine,sunk
+1057,1944-07-11,1944,Taian Maru No 2,Cargo,1034,37-30N,124-32E,United States,Submarine,sunk
+1058,1944-07-12,1944,Nichiran Maru,Passenger-cargo,6504,18-33N,122-53E,United States,Submarine,sunk
+1059,1944-07-13,1944,Tokai Maru,Cargo,519,1-32N,127-32E,United States,Aircraft,sunk
+1060,1944-07-13,1944,Taishi Maru,Cargo,2800,27-23N,140-33E,United States,Submarine,sunk
+1061,1944-07-14,1944,Taiko Maru,Converted Gunboat,2984,6-00S,121-30E,United States,Submarine,sunk
+1062,1944-07-15,1944,Miho Maru,Cargo,515,48-07N,148-06E,United States,Submarine,sunk
+1063,1944-07-16,1944,Nippo Maru,Cargo,1942,48-12N,148-03E,United States,Submarine,sunk
+1064,1944-07-16,1944,Seattle Maru,Passenger-cargo,5773,19-26N,120-18E,United States,Submarine,sunk
+1065,1944-07-16,1944,Jinzan Maru,Passenger-cargo,5215,18-20N,119-42E,United States,Submarine,sunk
+1066,1944-07-16,1944,Mantai Maru,Cargo,5863,18-20N,119-42E,United States,Submarine,sunk
+1067,1944-07-17,1944,Maya Maru,Passenger-cargo,3145,7-40N,122-03E,United States,Submarine,sunk
+1068,1944-07-17,1944,Hiyama Maru,Cargo,2838,18-17N,119-50E,United States,Submarine,sunk
+1069,1944-07-17,1944,Sainei Maru,Cargo,4916,19-04N,119-26E,United States,Submarine,sunk
+1070,1944-07-17,1944,Shozan Maru,Cargo,2838,19-04N,119-26E,United States,Submarine,sunk
+1071,1944-07-18,1944,Janbi Maru,Tanker,5244,5-21S,112-30E,United States,Submarine,sunk
+1072,1944-07-18,1944,Unkai Maru No 10,Converted Gunboat,855,29-12N,139-10E,United States,Submarine,sunk
+1073,1944-07-18,1944,Nisshu Maru,Cargo,7785,28-43N,139-24E,United States,Submarine,sunk
+1074,1944-07-18,1944,Kyodo Maru No 36,Passenger-cargo,1499,8-22N,116-40E,United States,Submarine,sunk
+1075,1944-07-19,1944,Teiryu Maru,Cargo,6550,20-07N,118-20E,United States,Submarine,sunk
+1076,1944-07-23,1944,Kiso Maru,Cargo,554,14-00N,86-50E,Great Britain,Submarine,sunk
+1077,1944-07-23,1944,Takasan Maru,Cargo,1428,4-35S,122-17E,Australia,Mine,sunk
+1078,1944-07-24,1944,Asahisan Maru,Passenger-cargo,4550,1-10N,127-54E,United States,Aircraft,sunk
+1079,1944-07-25,1944,Hoshin Maru,Cargo,1000,22-50N,116-00E,United States,Aircraft,sunk
+1080,1944-07-26,1944,Aki Maru,Passenger-cargo,11409,18-28N,117-59E,United States,Submarine,sunk
+1081,1944-07-26,1944,Otoriyama Maru,Tanker,5280,18-10N,117-56E,United States,Submarine,sunk
+1082,1944-07-26,1944,Tosan Maru,Passenger-cargo,8666,18-13N,117-50E,United States,Submarine,sunk
+1083,1944-07-27,1944,Kyoei Maru No 2,Tanker,1157,5-25N,121-43E,United States,Submarine,sunk
+1084,1944-07-28,1944,Hakubasan Maru,Passenger-cargo,6650,16-18N,119-44E,United States,Submarine,sunk
+1085,1944-07-28,1944,Peking Maru,Transport,2288,17-33N,120-21E,United States,Submarine,sunk
+1086,1944-07-30,1944,Kokuyo Maru,Tanker,10026,6-03N,119-54E,United States,Submarine,sunk
+1087,1944-07-31,1944,Koei Maru,Tanker,10238,19-10N,120-58E,United States,Submarine,sunk
+1088,1944-07-31,1944,Manko Maru,Passenger-cargo,4471,19-10N,120-58E,United States,Submarine,sunk
+1089,1944-07-31,1944,Dakar Maru,Cargo,7169,18-57N,120-50E,United States,Submarine,sunk
+1090,1944-07-31,1944,Fuso Maru,Transport,8195,18-57N,120-50E,United States,Submarine,sunk
+1091,1944-07-31,1944,Tenshin Maru,Tanker,5061,8-22N,116-40E,United States,Submarine,sunk
+1092,1944-07-31,1944,Yoshino Maru,Transport,8990,19-10N,120-58E,United States,Submarine,sunk
+1093,1944-08-01,1944,Seia Maru,Passenger-cargo,6659,1-46S,125-32E,United States,Aircraft,sunk
+1094,1944-08-02,1944,Konei Maru,Cargo,1922,33-57N,136-20E,United States,Submarine,sunk
+1095,1944-08-03,1944,Seiko Maru,Converted Net Tender,708,1-45S,126-14E,United States,Submarine,sunk
+1096,1944-08-04,1944,Tonegawa Maru,Cargo,4996,27-40N,141-48E,United States,Surface Craft,sunk
+1097,1944-08-04,1944,Enju Maru,Passenger-cargo,5374,27-40N,141-48E,United States,Aircraft,sunk
+1098,1944-08-04,1944,Unkai Maru No 7,Cargo,2182,27-40N,141-48E,United States,Aircraft,sunk
+1099,1944-08-04,1944,Shogen Maru,Cargo,4739,27-40N,141-48E,United States,Aircraft,sunk
+1100,1944-08-04,1944,Koshu Maru,Cargo,2612,3-59S,117-54E,United States,Submarine,sunk
+1101,1944-08-05,1944,Shirahama Maru,Cargo,2812,4-40S,122-47E,United States,Aircraft,sunk
+1102,1944-08-05,1944,Miyako Maru,Passenger-cargo,970,27-36N,128-54E,United States,Submarine,sunk
+1103,1944-08-05,1944,Tsurumi,Tanker,6500,5-50N,125-42E,United States,Submarine,sunk
+1104,1944-08-06,1944,Uwajima Maru No 15,Passenger-cargo,824,4-31S,129-53E,Netherlands,Aircraft,sunk
+1105,1944-08-06,1944,Shiroganesan Maru,Cargo,4739,14-14N,117-16E,United States,Submarine,sunk
+1106,1944-08-06,1944,Shonan Maru,Cargo,5401,30-53N,129-47E,United States,Submarine,sunk
+1107,1944-08-07,1944,Sanju Maru,Cargo,4642,6-04N,124-22E,United States,Submarine,sunk
+1108,1944-08-09,1944,Tokuyusan Maru,Cargo,813,1-12N,128-08E,United States,Aircraft,sunk
+1109,1944-08-09,1944,Yagi Maru,Cargo,1937,27-52N,128-49E,United States,Submarine,sunk
+1110,1944-08-09,1944,Boko Maru,Cargo,2333,27-52N,128-49E,United States,Submarine,sunk
+1111,1944-08-10,1944,Shinei Maru,Cargo,5135,16-17N,119-46E,United States,Submarine,sunk
+1112,1944-08-11,1944,Roko Maru,Cargo,3328,34-12N,136-19E,United States,Submarine,sunk
+1113,1944-08-11,1944,Ikuta Maru,Tanker,1018,2-56S,104-56E,United States,Mine,sunk
+1114,1944-08-12,1944,Mayachi Maru,Cargo,2159,50-28N,144-09E,United States,Submarine,sunk
+1115,1944-08-12,1944,Teikon Maru,Tanker,5113,13-17N,120-07E,United States,Submarine,sunk
+1116,1944-08-12,1944,Shimpo Maru,Tanker,5135,13-17N,120-07E,United States,Submarine,sunk
+1117,1944-08-13,1944,Toei Maru,Cargo,2323,48-56N,129-03E,United States,Submarine,sunk
+1118,1944-08-13,1944,Kojun Maru,Cargo,1931,6-17N,126-09E,United States,Submarine,sunk
+1119,1944-08-13,1944,Asahi Maru No 2,Cargo,1322,22-00N,114-45E,United States,Aircraft,sunk
+1120,1944-08-14,1944,Miikesan Maru,Cargo,3179,22-00N,120-00E,United States,Aircraft,sunk
+1121,1944-08-14,1944,Zuisho Maru,Passenger-cargo,5289,3-52N,112-56E,United States,Submarine,sunk
+1122,1944-08-14,1944,Daigen Maru No 7,Converted Net Tender,1289,37-25N,125-12E,United States,Submarine,sunk
+1123,1944-08-14,1944,Tosho Maru,Cargo,1236,4-31S,125-26E,United States,Aircraft,sunk
+1124,1944-08-17,1944,Sansho Maru,Cargo,6862,35-38N,126-10E,United States,Submarine,sunk
+1125,1944-08-18,1944,Eishin Maru,Cargo,542,18-16N,120-20E,United States,Submarine,sunk
+1126,1944-08-18,1944,Teiyo Maru,Tanker,9849,18-09N,119-56E,United States,Submarine,sunk
+1127,1944-08-18,1944,Nansei Maru,Tanker,5878,8-48N,116-58E,United States,Submarine,sunk
+1128,1944-08-19,1944,Teia Maru,Transport,17537,18-09N,119-56E,United States,Submarine,sunk
+1129,1944-08-19,1944,Tamatsu Maru,Passenger-cargo,9589,18-49N,119-47E,United States,Submarine,sunk
+1130,1944-08-19,1944,Hayasui,Tanker,6500,17-34N,119-24E,United States,Submarine,sunk
+1131,1944-08-20,1944,Chuko Maru,Cargo,1068,22-23N,115-34E,United States,Aircraft,sunk
+1132,1944-08-21,1944,Taketoyo Maru,Passenger-cargo,6965,13-23N,120-19E,United States,Submarine,sunk
+1133,1944-08-21,1944,Uga Maru,Passenger-cargo,4433,13-23N,120-19E,United States,Submarine,sunk
+1134,1944-08-21,1944,Kinryo Maru,Passenger-cargo,4390,13-23N,120-19E,United States,Submarine,sunk
+1135,1944-08-21,1944,Norfolk Maru,Passenger-cargo,6576,13-23N,120-19E,United States,Submarine,sunk
+1136,1944-08-21,1944,Durban Maru,Passenger-cargo,7163,11-43N,109-17E,United States,Submarine,sunk
+1137,1944-08-22,1944,Sugi Maru No 5,Cargo,1983,11-40N,92-45E,Great Britain,Submarine,sunk
+1138,1944-08-22,1944,Tonan Maru No 2,Tanker,19262,29-44N,125-22E,United States,Submarine,sunk
+1139,1944-08-22,1944,Hakko Maru No 2,Tanker,10023,18-48N,120-48E,United States,Submarine,sunk
+1140,1944-08-22,1944,Tsushima Maru,Passenger-cargo,6754,29-32N,129-31E,United States,Submarine,sunk
+1141,1944-08-23,1944,Tsukushi Maru,Transport,8135,34-37N,137-50E,United States,Submarine,sunk
+1142,1944-08-24,1944,Yoshida Maru No 3,Cargo,4646,25-13N,121-49E,United States,Submarine,sunk
+1143,1944-08-24,1944,Fukurei Maru,Cargo,5969,25-13N,121-49E,United States,Submarine,sunk
+1144,1944-08-24,1944,Toan Maru,Cargo,2110,21-29N,121-18E,United States,Submarine,sunk
+1145,1944-08-24,1944,Tosei Maru,Cargo,531,42-30N,144-05E,United States,Submarine,sunk
+1146,1944-08-25,1944,Batopaha Maru,Cargo,5953,18-33N,120-34E,United States,Submarine,sunk
+1147,1944-08-25,1944,Kotoku Maru,Cargo,1943,18-46N,120-46E,United States,Submarine,sunk
+1148,1944-08-27,1944,Nanshin Maru No 27,Tanker,834,12-28N,119-57E,United States,Submarine,sunk
+1149,1944-08-29,1944,Tientsin Maru,Passenger-cargo,2349,31-23N,121-30E,United States,Mine,sunk
+1150,1944-08-29,1944,Mexico Maru,Passenger-cargo,5785,2-07N,122-28E,United States,Submarine,sunk
+1151,1944-08-30,1944,Iwaishima Maru,Cargo,695,33-07N,119-59E,United States,Mine,sunk
+1152,1944-08-31,1944,Fengyang Maru,Passenger-cargo,3977,30-11N,115-07E,United States,Aircraft,sunk
+1153,1944-08-31,1944,Tokuhei Maru,Cargo,3439,30-11N,115-07E,United States,Aircraft,sunk
+1154,1944-08-31,1944,Chiyoda Maru,Tanker,4700,21-21N,121-06E,United States,Submarine,sunk
+1155,1944-08-31,1944,Okuni Maru,Cargo,6,21-14N,121-22E,United States,Submarine,sunk
+1156,1944-09-01,1944,Sekino Maru,Cargo,997,1-10N,122-25E,United States,Aircraft,sunk
+1157,1944-09-01,1944,Ina Maru,Cargo,853,30-26N,140-53E,United States,Aircraft,sunk
+1158,1944-09-01,1944,Suruga Maru,Cargo,525,25-45N,141-29E,United States,Aircraft,sunk
+1159,1944-09-01,1944,Namba Maru,Cargo,2300,31-10N,121-50E,United States,Mine,sunk
+1160,1944-09-05,1944,Shingetsu Maru,Cargo,880,32-24N,134-15E,United States,Submarine,sunk
+1161,1944-09-05,1944,Shiretoko Maru,Cargo,1799,5-42S,104-58E,Great Britain,Submarine,sunk
+1162,1944-09-06,1944,Eiji Maru,Cargo,6968,22-19N,120-30E,United States,Mine,sunk
+1163,1944-09-07,1944,Shinyo Maru,Cargo,2518,8-11N,122-40E,United States,Submarine,sunk
+1164,1944-09-07,1944,Kokka Maru,Cargo,5300,25-12N,121-45E,United States,Mine,sunk
+1165,1944-09-07,1944,Eiyo Maru No 2,Tanker,5061,8-11N,122-40E,United States,Aircraft,sunk
+1166,1944-09-08,1944,Nichiman Maru,Cargo,1922,24-46N,123-15E,United States,Submarine,sunk
+1167,1944-09-08,1944,Nichian Maru,Cargo,6197,24-46N,123-15E,United States,Submarine,sunk
+1168,1944-09-08,1944,Shinten Maru,Cargo,1254,24-39N,123-31E,United States,Submarine,sunk
+1169,1944-09-08,1944,Shokei Maru,Cargo,2557,24-39N,123-31E,United States,Submarine,sunk
+1170,1944-09-08,1944,Yanagigawa Maru,Cargo,2813,8-14N,121-47E,United States,Submarine,sunk
+1171,1944-09-09,1944,Mihara Maru,Passenger-cargo,697,9-45N,125-30E,United States,Aircraft,sunk
+1172,1944-09-09,1944,Kurenai Maru,Passenger-cargo,1547,9-45N,125-30E,United States,Aircraft,sunk
+1173,1944-09-09,1944,Taiyu Maru,Cargo,1873,9-45N,125-30E,United States,Aircraft,sunk
+1174,1944-09-09,1944,Kuniyama Maru,Cargo,2750,6-30N,121-50E,United States,Aircraft,sunk
+1175,1944-09-09,1944,Toyooka Maru,Passenger-cargo,7097,19-45N,120-56E,United States,Submarine,sunk
+1176,1944-09-09,1944,Manshu Maru,Transport,3054,19-45N,120-56E,United States,Submarine,sunk
+1177,1944-09-09,1944,Shonan Maru,Passenger-cargo,5859,47-58N,148-20E,United States,Submarine,sunk
+1178,1944-09-09,1944,Sainan Maru,Passenger-cargo,3232,31-23N,121-30E,United States,Mine,sunk
+1179,1944-09-09,1944,Tokiwasan Maru,Cargo,1804,28-53N,137-42E,United States,Submarine,sunk
+1180,1944-09-09,1944,Shoryu Maru,Cargo,1916,28-53N,137-42E,United States,Submarine,sunk
+1181,1944-09-10,1944,Unyo Maru No 7,Cargo,839,7-03N,125-40E,United States,Aircraft,probably sunk
+1182,1944-09-10,1944,Kinmo Maru,Cargo,522,25-13N,141-01E,United States,Aircraft,sunk
+1183,1944-09-10,1944,Hinoki Maru,Converted Net Tender,599,6-27S,116-48E,United States,Submarine,sunk
+1184,1944-09-10,1944,Chihaya Maru,Tanker,4701,33-52N,127-41E,United States,Submarine,sunk
+1185,1944-09-10,1944,Hoei Maru No 2,Tanker,834,31-23N,121-37E,United States,Mine,sunk
+1186,1944-09-10,1944,Takekun Maru,Tanker,3029,3-54N,98-43E,Great Britain,Mine,sunk
+1187,1944-09-11,1944,Hakuun Maru No 2,Cargo,860,27-37N,140-21E,United States,Submarine,sunk
+1188,1944-09-11,1944,Hassho Maru,Cargo,536,27-37N,140-21E,United States,Submarine,sunk
+1189,1944-09-12,1944,Ayazono Maru,Tanker,2854,10-20N,124-00E,United States,Aircraft,sunk
+1190,1944-09-12,1944,Bugen Maru,Cargo,691,10-20N,124-00E,United States,Aircraft,sunk
+1191,1944-09-12,1944,Daiakita Maru,Cargo,2704,11-21N,124-07E,United States,Aircraft,sunk
+1192,1944-09-12,1944,Genkai Maru,Passenger-cargo,3850,10-20N,124-00E,United States,Aircraft,sunk
+1193,1944-09-12,1944,Hakumi Maru,Cargo,2857,10-34N,124-01E,United States,Aircraft,sunk
+1194,1944-09-12,1944,Keian Maru,Cargo,2084,10-20N,124-00E,United States,Aircraft,sunk
+1195,1944-09-12,1944,Kiso Maru,Cargo,703,10-20N,124-00E,United States,Aircraft,sunk
+1196,1944-09-12,1944,Korei Maru,Cargo,540,10-20N,124-00E,United States,Aircraft,sunk
+1197,1944-09-12,1944,Rakuto Maru,Passenger-cargo,2962,10-35N,124-20E,United States,Aircraft,sunk
+1198,1944-09-12,1944,Nichiei Maru,Cargo,2436,10-20N,124-00E,United States,Aircraft,sunk
+1199,1944-09-12,1944,Toyo Maru,Cargo,544,10-20N,124-00E,United States,Aircraft,sunk
+1200,1944-09-12,1944,Shintai Maru No 5,Cargo,534,10-20N,124-00E,United States,Aircraft,sunk
+1201,1944-09-12,1944,Hakutetsu Maru No 7,Cargo,1018,33-31N,135-57E,United States,Submarine,sunk
+1202,1944-09-12,1944,Nankai Maru,Passenger-cargo,8416,18-42N,114-30E,United States,Submarine,sunk
+1203,1944-09-12,1944,Rakuyo Maru,Passenger-cargo,9419,18-42N,114-30E,United States,Submarine,sunk
+1204,1944-09-12,1944,Kachidoki Maru,Transport,10509,19-18N,111-53E,United States,Submarine,sunk
+1205,1944-09-12,1944,Zuiho Maru,Tanker,5135,19-18N,111-53E,United States,Submarine,sunk
+1206,1944-09-13,1944,Akitsushima Maru,Cargo,542,3-04S,128-11E,United States,Aircraft,sunk
+1207,1944-09-13,1944,Usa Maru,Cargo,842,23-52N,118-56E,United States,Aircraft,sunk
+1208,1944-09-13,1944,Etashima Maru,Cargo,6435,35-04N,124-49E,United States,Submarine,sunk
+1209,1944-09-16,1944,Shinai Maru,Cargo,2410,4-07S,122-44E,United States,Aircraft,sunk
+1210,1944-09-16,1944,Ogura Maru No 2,Tanker,7311,21-23N,121-17E,United States,Submarine,sunk
+1211,1944-09-16,1944,Tokushima Maru,Passenger-cargo,5975,21-15N,121-29E,United States,Submarine,sunk
+1212,1944-09-16,1944,Azusa Maru,Tanker,11177,19-18N,116-26E,United States,Submarine,sunk
+1213,1944-09-18,1944,Junyo Maru,Cargo,5065,2-53S,101-10E,Great Britain,Submarine,sunk
+1214,1944-09-18,1944,Gyoku Maru,Cargo,6854,35-05N,124-24E,United States,Submarine,sunk
+1215,1944-09-18,1944,Saigon Maru,Converted Light Cruiser,5350,14-11N,120-02E,United States,Submarine,sunk
+1216,1944-09-19,1944,Tosei Maru No 2,Tanker,507,24-56N,122-14E,United States,Submarine,sunk
+1217,1944-09-21,1944,Yamabuki Maru,Cargo,5081,14-45N,120-12E,United States,Aircraft,sunk
+1218,1944-09-21,1944,China Maru,Passenger-cargo,5869,14-35N,120-55E,United States,Aircraft,sunk
+1219,1944-09-21,1944,Hioki Maru,Cargo,5320,14-35N,120-55E,United States,Aircraft,sunk
+1220,1944-09-21,1944,Hofuku Maru,Passenger-cargo,5825,15-25N,119-50E,United States,Aircraft,sunk
+1221,1944-09-21,1944,Iwashiro Maru,Cargo,873,14-35N,120-55E,United States,Aircraft,sunk
+1222,1944-09-21,1944,Niyo Maru,Tanker,10022,14-35N,120-55E,United States,Aircraft,sunk
+1223,1944-09-21,1944,Norway Maru,Passenger-cargo,5832,14-35N,120-55E,United States,Aircraft,sunk
+1224,1944-09-21,1944,Noshiro Maru,Converted Light Cruiser,7189,14-35N,120-55E,United States,Aircraft,sunk
+1225,1944-09-21,1944,Ogura Maru No 1,Tanker,7270,15-25N,119-50E,United States,Aircraft,sunk
+1226,1944-09-21,1944,Risshun Maru,Passenger-cargo,4414,14-35N,120-55E,United States,Aircraft,sunk
+1227,1944-09-21,1944,Rozan Maru,Passenger-cargo,6638,14-35N,120-55E,United States,Aircraft,sunk
+1228,1944-09-21,1944,Nansei Maru,Cargo,2218,14-45N,120-12E,United States,Aircraft,sunk
+1229,1944-09-21,1944,Kurogane Maru,Cargo,2700,14-35N,120-55E,United States,Aircraft,sunk
+1230,1944-09-21,1944,Kyokuto Maru,Tanker,10051,14-25N,120-55E,United States,Aircraft,sunk
+1231,1944-09-21,1944,Tsukubasan Maru,Cargo,1937,14-35N,120-55E,United States,Aircraft,sunk
+1232,1944-09-21,1944,Yuki Maru,Cargo,3168,15-25N,119-50E,United States,Aircraft,sunk
+1233,1944-09-21,1944,Shichiyo Maru,Cargo,557,15-25N,119-50E,United States,Aircraft,sunk
+1234,1944-09-21,1944,Surakaruta Maru,Cargo,6886,15-25N,119-50E,United States,Aircraft,sunk
+1235,1944-09-21,1944,Takasago Maru No 3,Tanker,834,14-35N,120-55E,United States,Aircraft,sunk
+1236,1944-09-21,1944,Mizuho Maru,Transport,8506,18-35N,120-39E,United States,Submarine,sunk
+1237,1944-09-21,1944,Rizan Maru,Cargo,4747,49-16N,145-29E,United States,Submarine,sunk
+1238,1944-09-21,1944,Awaji Maru,Cargo,1948,18-43N,120-52E,United States,Submarine,sunk
+1239,1944-09-21,1944,Yozan Maru,Cargo,6487,14-35N,120-55E,United States,Aircraft,sunk
+1240,1944-09-22,1944,Ceram Maru,Tanker,2858,14-35N,120-55E,United States,Aircraft,sunk
+1241,1944-09-22,1944,Horai Maru No 2,Tanker,834,14-35N,120-55E,United States,Aircraft,sunk
+1242,1944-09-22,1944,Nanmei Maru No 9,Tanker,834,14-35N,120-55E,United States,Aircraft,sunk
+1243,1944-09-22,1944,Nanshin Maru No 24,Tanker,834,16-36N,120-18E,United States,Aircraft,sunk
+1244,1944-09-22,1944,Taiyu Maru,Cargo,1942,16-36N,120-18E,United States,Aircraft,sunk
+1245,1944-09-22,1944,Shun Yuan,Cargo,1610,15-22N,119-17E,United States,Submarine,sunk
+1246,1944-09-23,1944,Tosho Maru,Cargo,1289,4-23S,122-43E,United States,Aircraft,sunk
+1247,1944-09-24,1944,Kogyo Maru,Cargo,6353,11-59N,120-02E,United States,Aircraft,sunk
+1248,1944-09-24,1944,Okigawa Maru,Tanker,10043,14-00N,119-00E,United States,Aircraft,sunk
+1249,1944-09-24,1944,Chuka Maru,Cargo,2189,11-13N,123-10E,United States,Aircraft,sunk
+1250,1944-09-24,1944,Ekkai Maru,Cargo,2984,11-59N,120-02E,United States,Aircraft,sunk
+1251,1944-09-24,1944,Fukuei Maru No 17,Cargo,830,11-54N,123-10E,United States,Aircraft,sunk
+1252,1944-09-24,1944,Irako,Collier,6500,11-59N,120-02E,United States,Aircraft,sunk
+1253,1944-09-24,1944,Kenwa Maru,Tanker,6384,11-13N,123-10E,United States,Aircraft,sunk
+1254,1944-09-24,1944,Koshu Maru No 2,Cargo,866,11-54N,123-10E,United States,Aircraft,sunk
+1255,1944-09-24,1944,Olympia Maru,Passenger-cargo,5617,11-59N,120-02E,United States,Aircraft,sunk
+1256,1944-09-24,1944,Kyokuzan Maru,Cargo,6300,11-59N,120-02E,United States,Aircraft,sunk
+1257,1944-09-24,1944,Shinyo Maru,Passenger-cargo,4658,12-21N,123-00E,United States,Aircraft,sunk
+1258,1944-09-24,1944,Siberia Maru,Transport,3461,11-54N,123-10E,United States,Aircraft,sunk
+1259,1944-09-24,1944,Taiei Maru,Tanker,10045,11-59N,120-02E,United States,Aircraft,sunk
+1260,1944-09-25,1944,Rokkosan Maru,Cargo,2174,22-28N,118-38E,United States,Aircraft,sunk
+1261,1944-09-25,1944,Bushu Maru,Cargo,1222,29-50N,130-06E,United States,Submarine,sunk
+1262,1944-09-25,1944,Miyakawa Maru No 2,Cargo,873,38-30N,124-06E,United States,Submarine,sunk
+1263,1944-09-25,1944,Nissei Maru,Cargo,1468,37-32N,124-33E,United States,Submarine,sunk
+1264,1944-09-26,1944,Koetsu Maru,Cargo,873,37-13N,123-48E,United States,Submarine,sunk
+1265,1944-09-27,1944,Ural Maru,Transport,6374,15-40N,117-18E,United States,Submarine,sunk
+1266,1944-09-27,1944,Hokki Maru,Tanker,5599,15-45N,117-48E,United States,Submarine,sunk
+1267,1944-09-27,1944,Hachirogata Maru,Cargo,1999,46-32N,146-48E,United States,Submarine,sunk
+1268,1944-09-28,1944,Tone Maru,Cargo,537,1-15S,116-50E,United States,Aircraft,sunk
+1269,1944-09-28,1944,Anjo Maru,Tanker,2068,13-16N,120-08E,United States,Submarine,sunk
+1270,1944-09-29,1944,Ekisan Maru,Cargo,3690,27-12N,128-18E,United States,Submarine,sunk
+1271,1944-10-01,1944,Seian Maru,Passenger-cargo,1990,28-11N,139-30E,United States,Submarine,sunk
+1272,1944-10-01,1944,Takunan Maru,Cargo,751,30-32N,138-17E,United States,Submarine,sunk
+1273,1944-10-01,1944,Zuiyo Maru,Tanker,7385,16-15N,119-43E,United States,Submarine,sunk
+1274,1944-10-01,1944,Kyokuho Maru,Tanker,10059,16-15N,119-43E,United States,Submarine,sunk
+1275,1944-10-01,1944,Kokusei Maru,Cargo,5396,6-30N,116-11E,United States,Submarine,sunk
+1276,1944-10-01,1944,Higane Maru,Cargo,5320,6-30N,116-11E,United States,Submarine,sunk
+1277,1944-10-01,1944,Hiyori Maru,Cargo,5320,6-30N,116-11E,United States,Submarine,sunk
+1278,1944-10-02,1944,Tsuyama Maru,Passenger-cargo,6962,21-00N,121-46E,United States,Submarine,sunk
+1279,1944-10-02,1944,Azuchisan Maru,Cargo,6888,18-25N,120-32E,United States,Submarine,sunk
+1280,1944-10-03,1944,Nanshin Maru No 14,Tanker,834,6-54N,122-04E,United States,Aircraft,sunk
+1281,1944-10-04,1944,Tateishi Maru,Passenger-cargo,3801,6-10N,121-20E,United States,Aircraft,sunk
+1282,1944-10-04,1944,Taibin Maru,Cargo,6886,15-26N,119-49E,United States,Submarine,sunk
+1283,1944-10-05,1944,Rokko Maru,Passenger-cargo,3038,23-09N,119-58E,United States,Aircraft,sunk
+1284,1944-10-05,1944,Tatsushiro Maru,Cargo,6886,13-01N,120-15E,United States,Submarine,sunk
+1285,1944-10-06,1944,Akane Maru,Tanker,10241,19-40N,118-05E,United States,Submarine,sunk
+1286,1944-10-06,1944,Yamamizu Maru No 2,Cargo,5154,17-31N,120-21E,United States,Submarine,sunk
+1287,1944-10-07,1944,Kinugasa Maru,Passenger-cargo,8407,14-30N,115-48E,United States,Submarine,sunk
+1288,1944-10-07,1944,Shinyo Maru No 8,Cargo,1959,17-50N,119-37E,United States,Submarine,sunk
+1289,1944-10-07,1944,Macassar Maru,Passenger-cargo,4026,17-54N,119-57E,United States,Submarine,sunk
+1290,1944-10-08,1944,Kohoku Maru,Passenger-cargo,2573,18-32N,116-13E,United States,Submarine,sunk
+1291,1944-10-09,1944,Tachibana Maru,Tanker,6521,19-33N,116-38E,United States,Submarine,sunk
+1292,1944-10-09,1944,Tokuwa Maru,Cargo,1943,12-46N,118-02E,United States,Submarine,sunk
+1293,1944-10-09,1944,Shinki Maru,Cargo,2211,32-08N,129-51E,United States,Submarine,sunk
+1294,1944-10-09,1944,Hato Maru,Cargo,880,31-10N,122-25E,United States,Mine,sunk
+1295,1944-10-10,1944,Fukuura Maru,Cargo,3177,26-13N,127-39E,United States,Aircraft,sunk
+1296,1944-10-10,1944,Hirota Maru,Cargo,2211,24-26N,125-20E,United States,Aircraft,sunk
+1297,1944-10-10,1944,Horai Maru,Passenger-cargo,3198,26-38N,127-54E,United States,Aircraft,sunk
+1298,1944-10-10,1944,Koryu Maru,Cargo,2170,25-51N,126-30E,United States,Aircraft,sunk
+1299,1944-10-10,1944,Nankai Maru No 1,Cargo,1163,26-13N,127-39E,United States,Aircraft,sunk
+1300,1944-10-10,1944,Nanyo Maru,Cargo,2218,26-13N,127-39E,United States,Aircraft,sunk
+1301,1944-10-10,1944,Tetsuzan Maru,Cargo,2018,26-13N,127-39E,United States,Aircraft,sunk
+1302,1944-10-10,1944,Taikai Maru,Cargo,2478,26-13N,127-39E,United States,Aircraft,sunk
+1303,1944-10-10,1944,Joshu Go,Cargo,1658,25-20N,121-32E,United States,Submarine,sunk
+1304,1944-10-10,1944,Ejiri Maru,Cargo,6968,16-10N,119-44E,United States,Submarine,sunk
+1305,1944-10-11,1944,Oita Maru,Cargo,711,25-40N,121-30E,United States,Submarine,sunk
+1306,1944-10-12,1944,Manryo Maru,Cargo,1185,2-50N,100-50E,Great Britain,Submarine,sunk
+1307,1944-10-12,1944,Shinan Maru,Cargo,1278,23-22N,120-10E,United States,Aircraft,sunk
+1308,1944-10-12,1944,Asaka Maru,Converted Light Cruiser,7398,23-30N,119-34E,United States,Aircraft,sunk
+1309,1944-10-12,1944,Asaka Maru,Passenger-cargo,4681,22-37N,120-15E,United States,Aircraft,sunk
+1310,1944-10-12,1944,Bujo Maru,Cargo,2270,22-37N,120-15E,United States,Aircraft,sunk
+1311,1944-10-12,1944,Gyoun Maru,Cargo,912,22-37N,120-15E,United States,Aircraft,sunk
+1312,1944-10-12,1944,Hakko Maru,Cargo,1132,22-37N,120-15E,United States,Aircraft,sunk
+1313,1944-10-12,1944,Horai Maru No 6,Tanker,834,23-30N,119-34E,United States,Aircraft,sunk
+1314,1944-10-12,1944,Mitsuki Maru,Passenger-cargo,6440,23-30N,119-34E,United States,Aircraft,sunk
+1315,1944-10-12,1944,Nanshin Maru No 23,Tanker,834,23-30N,119-34E,United States,Aircraft,sunk
+1316,1944-10-12,1944,Nanshin Maru No 26,Tanker,834,23-30N,119-34E,United States,Aircraft,sunk
+1317,1944-10-12,1944,Nanshin Maru No 5,Tanker,834,22-37N,120-15E,United States,Aircraft,sunk
+1318,1944-10-12,1944,Nanshin Maru No 11,Tanker,834,22-37N,120-15E,United States,Aircraft,sunk
+1319,1944-10-12,1944,Nanshin Maru No 20,Tanker,834,22-37N,120-15E,United States,Aircraft,sunk
+1320,1944-10-12,1944,Niitaka Maru,Dredge,3244,22-37N,120-15E,United States,Aircraft,sunk
+1321,1944-10-12,1944,Yamahagi Maru,Cargo,5246,22-37N,120-15E,United States,Aircraft,sunk
+1322,1944-10-12,1944,Teisho Maru,Cargo,7974,22-37N,120-16E,United States,Aircraft,sunk
+1323,1944-10-12,1944,Shirotae Maru,Cargo,2812,23-30N,119-34E,United States,Aircraft,sunk
+1324,1944-10-12,1944,Toko Maru,Passenger-cargo,4180,13-31N,120-19E,United States,Submarine,sunk
+1325,1944-10-13,1944,Shinshu Maru,Cargo,4182,11-52N,109-20E,United States,Submarine,sunk
+1326,1944-10-14,1944,Fushimi Maru,Cargo,2542,16-12N,119-45E,United States,Submarine,sunk
+1327,1944-10-14,1944,Nittetsu Maru,Cargo,5993,6-05N,115-55E,United States,Submarine,sunk
+1328,1944-10-14,1944,Eikyo Maru,Cargo,6948,6-05N,115-55E,United States,Submarine,sunk
+1329,1944-10-14,1944,Nanrei Maru,Transport,2407,11-53N,121-39E,United States,Submarine,sunk
+1330,1944-10-16,1944,Bunzan Maru,Cargo,1990,22-17N,114-10E,United States,Aircraft,sunk
+1331,1944-10-17,1944,Ishikari Maru,Cargo,830,8-02N,93-32E,Great Britain,Aircraft,sunk
+1332,1944-10-18,1944,Nichizui Maru,Cargo,6584,21-10N,114-00E,United States,Aircraft,sunk
+1333,1944-10-18,1944,Hokurei Maru,Passenger-cargo,2407,17-46N,120-25E,United States,Aircraft,sunk
+1334,1944-10-18,1944,Shiranesan Maru,Cargo,4739,12-37N,118-46E,United States,Submarine,sunk
+1335,1944-10-18,1944,Taikai Maru,Passenger-cargo,3812,12-37N,118-46E,United States,Submarine,sunk
+1336,1944-10-18,1944,Belgium Maru,Passenger-cargo,5838,14-35N,120-55E,United States,Aircraft,sunk
+1337,1944-10-18,1944,Hoeisan Maru,Passenger-cargo,6032,14-35N,120-50E,United States,Aircraft,sunk
+1338,1944-10-18,1944,Hoten Maru,Transport,3974,18-54N,121-51E,United States,Aircraft,sunk
+1339,1944-10-18,1944,Jogu Maru,Cargo,4803,14-35N,120-55E,United States,Aircraft,sunk
+1340,1944-10-18,1944,Tsingtao Maru,Transport,4017,18-54N,121-51E,United States,Aircraft,sunk
+1341,1944-10-18,1944,Urato Maru,Passenger-cargo,6042,14-35N,120-55E,United States,Aircraft,sunk
+1342,1944-10-18,1944,Tempi Maru,Cargo,6933,14-35N,120-55E,United States,Aircraft,sunk
+1343,1944-10-18,1944,Terukuni Maru,Transport,3588,18-54N,121-51E,United States,Aircraft,sunk
+1344,1944-10-18,1944,Shinko Maru,Cargo,6479,18-35N,121-40E,United States,Aircraft,sunk
+1345,1944-10-18,1944,Taiho Maru,Cargo,2720,18-54N,121-51E,United States,Aircraft,sunk
+1346,1944-10-18,1944,Arabia Maru,Transport,9480,14-06N,119-40E,United States,Submarine,sunk
+1347,1944-10-18,1944,Chinzei Maru,Cargo,1999,14-06N,119-40E,United States,Submarine,sunk
+1348,1944-10-18,1944,Hakushika Maru,Passenger-cargo,8150,14-06N,119-40E,United States,Submarine,sunk
+1349,1944-10-20,1944,Ugo Maru,Passenger-cargo,3684,4-52N,113-24E,United States,Submarine,sunk
+1350,1944-10-20,1944,Oyo Maru,Passenger-cargo,5458,4-41N,113-22E,United States,Submarine,sunk
+1351,1944-10-21,1944,Ryochi Maru,Cargo,2158,11-14N,123-44E,United States,Aircraft,sunk
+1352,1944-10-21,1944,Doko Maru,Cargo,2274,12-35N,122-16E,United States,Aircraft,sunk
+1353,1944-10-22,1944,Tomitsu Maru,Converted Gunboat,2933,29-20N,129-45E,United States,Submarine,sunk
+1354,1944-10-22,1944,Muroto,Collier,4500,29-20N,129-45E,United States,Submarine,sunk
+1355,1944-10-23,1944,Kimikawa Maru,Converted Seaplane Tender,6863,18-58N,118-31E,United States,Submarine,sunk
+1356,1944-10-23,1944,Shinsei Maru No 1,Passenger-cargo,5863,19-44N,118-25E,United States,Submarine,sunk
+1357,1944-10-23,1944,Toun Maru,Cargo,1915,24-57N,120-25E,United States,Submarine,sunk
+1358,1944-10-23,1944,Wakatake Maru,Cargo,1920,24-57N,120-25E,United States,Submarine,sunk
+1359,1944-10-23,1944,Tatsuju Maru,Cargo,1944,24-57N,120-25E,United States,Submarine,sunk
+1360,1944-10-23,1944,Byakuran Maru,Cargo,887,35-39N,126-05E,United States,Submarine,sunk
+1361,1944-10-24,1944,Taimei Maru,Cargo,989,5-50N,118-07E,United States,Aircraft,sunk
+1362,1944-10-24,1944,Fuyukawa Maru,Cargo,2844,16-30N,120-15E,United States,Aircraft,sunk
+1363,1944-10-24,1944,Eiko Maru,Cargo,1843,20-10N,118-16E,United States,Submarine,sunk
+1364,1944-10-24,1944,Taiten Maru,Passenger-cargo,6442,20-31N,118-32E,United States,Submarine,sunk
+1365,1944-10-24,1944,Kokuryu Maru,Passenger-cargo,7369,20-33N,118-34E,United States,Submarine,sunk
+1366,1944-10-24,1944,Kikusui Maru,Tanker,3887,20-54N,118-19E,United States,Submarine,sunk
+1367,1944-10-24,1944,Arisan Maru,Cargo,6886,20-31N,118-32E,United States,Submarine,sunk
+1368,1944-10-24,1944,Mikage Maru,Cargo,2761,33-00N,125-49E,United States,Submarine,sunk
+1369,1944-10-24,1944,Shikisan Maru,Passenger-cargo,4725,20-27N,118-31E,United States,Submarine,sunk
+1370,1944-10-24,1944,Tenshin Maru,Cargo,4236,19-31N,118-10E,United States,Submarine,sunk
+1371,1944-10-24,1944,Ikutagawa Maru,Cargo,2220,27-08N,143-13E,United States,Submarine,sunk
+1372,1944-10-25,1944,Shoho Maru,Tanker,834,11-18N,119-50E,United States,Aircraft,sunk
+1373,1944-10-25,1944,Hakuyo Maru,Cargo,5742,50-17N,150-50E,United States,Submarine,sunk
+1374,1944-10-25,1944,Jinei Maru,Tanker,10500,30-15N,129-45E,United States,Submarine,sunk
+1375,1944-10-25,1944,Kogen Maru,Cargo,6600,25-06N,119-31E,United States,Submarine,sunk
+1376,1944-10-25,1944,Matsumoto Maru,Cargo,7024,25-06N,119-31E,United States,Submarine,sunk
+1377,1944-10-26,1944,Kaiko Maru,Cargo,2698,20-27N,111-49E,United States,Aircraft,sunk
+1378,1944-10-26,1944,Nanshin Maru No 31,Tanker,834,8-22N,116-55E,United States,Aircraft,sunk
+1379,1944-10-26,1944,Takasago Maru No 7,Tanker,834,10-18N,117-47E,United States,Submarine,sunk
+1380,1944-10-26,1944,Taisho Maru,Cargo,6886,19-21N,120-50E,United States,Submarine,sunk
+1381,1944-10-26,1944,Taihaku Maru,Cargo,6886,19-21N,120-50E,United States,Submarine,sunk
+1382,1944-10-26,1944,Seito Maru,Cargo,2219,3-14S,116-13E,Australia,Mine,sunk
+1383,1944-10-26,1944,Taiyo Maru,Cargo,4168,19-04N,120-36E,United States,Submarine,sunk
+1384,1944-10-27,1944,Nippo Maru,Tanker,10528,7-09N,116-40E,United States,Submarine,sunk
+1385,1944-10-27,1944,Tokai Maru No 4,Cargo,537,25-22N,141-31E,United States,Submarine,sunk
+1386,1944-10-28,1944,Sumatra Maru,Cargo,984,7-54N,98-28E,Great Britain,Submarine,sunk
+1387,1944-10-29,1944,Itsukushima Maru,Tanker,10006,6-45N,116-55E,United States,Aircraft,sunk
+1388,1944-10-29,1944,Kokko Maru,Cargo,2863,1-17S,116-48E,Australia,Mine,sunk
+1389,1944-10-30,1944,Kosho Maru,Cargo,2854,5-50N,118-07E,United States,Aircraft,sunk
+1390,1944-10-30,1944,Nanshin Maru No 8,Tanker,834,5-50N,118-07E,United States,Aircraft,sunk
+1391,1944-10-30,1944,Takane Maru,Tanker,10021,30-14N,132-50E,United States,Submarine,sunk
+1392,1944-10-31,1944,Komei Maru,Cargo,2857,15-17N,119-49E,United States,Submarine,sunk
+1393,1944-10-31,1944,Pacific Maru,Passenger-cargo,5872,15-17N,119-49E,United States,Submarine,sunk
+1394,1944-11-01,1944,Horai Maru No 7,Cargo,865,13-02N,120-17E,United States,Submarine,sunk
+1395,1944-11-01,1944,Unkai Maru No 12,Cargo,2745,12-54N,120-10E,United States,Submarine,sunk
+1396,1944-11-01,1944,Asama Maru,Transport,16975,20-09N,117-38E,United States,Submarine,sunk
+1397,1944-11-02,1944,Hachijin Maru,Cargo,1918,00-48N,107-43E,Great Britain,Submarine,sunk
+1398,1944-11-02,1944,Noto Maru,Cargo,7191,10-30N,125-00E,United States,Aircraft,sunk
+1399,1944-11-02,1944,Atlas Maru,Passenger-cargo,7347,20-20N,121-30E,United States,Submarine,sunk
+1400,1944-11-02,1944,Hamburg Maru,Passenger-cargo,5271,20-20N,121-30E,United States,Submarine,sunk
+1401,1944-11-02,1944,Kuramasan Maru,Cargo,1995,4-30S,118-20E,United States,Submarine,sunk
+1402,1944-11-03,1944,Taimei Maru,Cargo,6923,5-48N,111-05E,United States,Submarine,sunk
+1403,1944-11-04,1944,Kagu Maru,Passenger-cargo,6806,15-54N,119-45E,United States,Submarine,sunk
+1404,1944-11-06,1944,Marifu Maru,Tanker,5135,14-25N,120-30E,United States,Aircraft,sunk
+1405,1944-11-06,1944,Shino Maru,Cargo,513,13-30N,123-02E,United States,Aircraft,sunk
+1406,1944-11-07,1944,Kiri Maru No 8,Cargo,939,34-32N,138-33E,United States,Submarine,sunk
+1407,1944-11-07,1944,Kotai Maru,Tanker,975,34-32N,138-33E,United States,Submarine,sunk
+1408,1944-11-08,1944,Keijo Maru,Cargo,1051,31-09N,129-38E,United States,Submarine,sunk
+1409,1944-11-08,1944,Hakko Maru,Cargo,1948,31-09N,129-38E,United States,Submarine,sunk
+1410,1944-11-08,1944,Nichinan Maru No 2,Tanker,5226,13-46N,116-53E,United States,Submarine,sunk
+1411,1944-11-08,1944,Shimotsu Maru,Tanker,2854,14-01N,117-17E,United States,Submarine,sunk
+1412,1944-11-08,1944,Manei Maru,Tanker,5226,13-53N,119-26E,United States,Submarine,sunk
+1413,1944-11-09,1944,Chojusan Maru,Converted Gunboat,2131,31-17N,129-10E,United States,Submarine,sunk
+1414,1944-11-09,1944,Hishi Maru No 2,Tanker,856,12-27N,120-05E,United States,Submarine,sunk
+1415,1944-11-10,1944,Kashii Maru,Passenger-cargo,8407,10-50N,124-35E,United States,Aircraft,sunk
+1416,1944-11-10,1944,Takatsu Maru,Cargo,5350,10-50N,124-35E,United States,Aircraft,sunk
+1417,1944-11-10,1944,Gokoku Maru,Converted Light Cruiser,10438,33-23N,129-03E,United States,Submarine,sunk
+1418,1944-11-11,1944,Saiho Maru,Passenger-cargo,4639,10-50N,124-35E,United States,Aircraft,sunk
+1419,1944-11-11,1944,Mikasa Maru,Passenger-cargo,3143,10-50N,124-35E,United States,Aircraft,sunk
+1420,1944-11-11,1944,Tensho Maru,Passenger-cargo,5013,10-50N,124-35E,United States,Aircraft,sunk
+1421,1944-11-11,1944,Taizan Maru,Cargo,3528,10-50N,124-35E,United States,Aircraft,sunk
+1422,1944-11-12,1944,Atsuta Maru,Cargo,2750,11-03N,119-12E,United States,Aircraft,sunk
+1423,1944-11-12,1944,Naruo Maru,Cargo,4823,31-29N,125-19E,United States,Submarine,sunk
+1424,1944-11-12,1944,Tatsuaki Maru,Cargo,2766,31-18N,125-30E,United States,Submarine,sunk
+1425,1944-11-13,1944,Aoki Maru,Cargo,3710,14-35N,120-55E,United States,Aircraft,sunk
+1426,1944-11-13,1944,Daitoku Maru,Cargo,6923,14-35N,120-55E,United States,Aircraft,sunk
+1427,1944-11-13,1944,Eikyu Maru,Cargo,6862,14-35N,120-55E,United States,Aircraft,sunk
+1428,1944-11-13,1944,Eiwa Maru,Cargo,6968,14-35N,120-55E,United States,Aircraft,sunk
+1429,1944-11-13,1944,Hatsu Maru,Cargo,4260,14-35N,120-55E,United States,Aircraft,sunk
+1430,1944-11-13,1944,Heian Maru,Passenger-cargo,5346,14-35N,120-55E,United States,Aircraft,sunk
+1431,1944-11-13,1944,Kakogawa Maru,Cargo,6886,14-35N,120-55E,United States,Aircraft,sunk
+1432,1944-11-13,1944,Kinka Maru,Passenger-cargo,9305,14-35N,120-55E,United States,Aircraft,sunk
+1433,1944-11-13,1944,Ondo,Tanker,6500,14-29N,120-55E,United States,Aircraft,sunk
+1434,1944-11-13,1944,Seiwa Maru,Passenger-cargo,7210,14-35N,120-55E,United States,Aircraft,sunk
+1435,1944-11-13,1944,Sekiho Maru,Cargo,5402,14-35N,120-55E,United States,Aircraft,sunk
+1436,1944-11-13,1944,Muro Maru,Cargo,1606,14-35N,120-55E,United States,Aircraft,sunk
+1437,1944-11-13,1944,Myogi Maru,Passenger-cargo,4020,14-35N,120-55E,United States,Aircraft,sunk
+1438,1944-11-13,1944,Nishi Maru,Cargo,2655,14-35N,120-55E,United States,Aircraft,sunk
+1439,1944-11-13,1944,Tatsuura Maru,Passenger-cargo,6420,14-35N,120-55E,United States,Aircraft,sunk
+1440,1944-11-13,1944,Teiyu Maru,Cargo,5753,14-35N,120-55E,United States,Aircraft,sunk
+1441,1944-11-13,1944,Shinkoku Maru,Cargo,2746,14-35N,120-55E,United States,Aircraft,sunk
+1442,1944-11-14,1944,Ayagiri Maru,Tanker,2854,12-40N,120-40E,United States,Aircraft,sunk
+1443,1944-11-14,1944,Horai Maru No 5,Tanker,834,14-35N,120-55E,United States,Aircraft,sunk
+1444,1944-11-14,1944,Sugiyama Maru,Cargo,4379,15-14N,112-13E,United States,Submarine,sunk
+1445,1944-11-14,1944,Misaki Maru,Cargo,4422,15-14N,112-13E,United States,Submarine,sunk
+1446,1944-11-14,1944,Unkai Maru No 5,Tanker,2841,17-57N,117-45E,United States,Submarine,sunk
+1447,1944-11-14,1944,Gyokuyo Maru,Cargo,5396,31-04N,123-56E,United States,Submarine,sunk
+1448,1944-11-14,1944,Nichiei Maru,Cargo,5396,11-19N,109-01E,United States,Submarine,sunk
+1449,1944-11-14,1944,Yutaka Maru,Cargo,2704,12-40N,120-40E,United States,Aircraft,sunk
+1450,1944-11-15,1944,Celebes Maru,Passenger-cargo,5863,13-17N,122-28E,United States,Aircraft,sunk
+1451,1944-11-15,1944,Akitsu Maru,Aircraft Ferry,9186,33-15N,128-10E,United States,Submarine,sunk
+1452,1944-11-15,1944,Yuzan Maru No 2,Cargo,6859,11-20N,109-03E,United States,Submarine,sunk
+1453,1944-11-16,1944,Kyoei Maru,Tanker,602,3-30N,117-30E,United States,Aircraft,sunk
+1454,1944-11-16,1944,Kisaragi Maru,Cargo,875,28-56N,141-59E,United States,Submarine,sunk
+1455,1944-11-17,1944,Mayasan Maru,Passenger-cargo,9433,33-16N,124-43E,United States,Submarine,sunk
+1456,1944-11-17,1944,Edogawa Maru,Passenger-cargo,6968,33-31N,124-32E,United States,Submarine,sunk
+1457,1944-11-17,1944,Shunten Maru,Passenger-cargo,5623,16-56N,110-30E,United States,Submarine,sunk
+1458,1944-11-18,1944,Aisakasan Maru,Cargo,6923,33-50N,124-44E,United States,Submarine,sunk
+1459,1944-11-18,1944,Chinkai Maru,Cargo,2827,33-39N,124-26E,United States,Submarine,sunk
+1460,1944-11-18,1944,Seisho Maru,Passenger-cargo,5463,33-36N,124-18E,United States,Submarine,sunk
+1461,1944-11-19,1944,Nichinan Maru,Cargo,1945,1-36N,102-53E,Great Britain,Submarine,sunk
+1462,1944-11-19,1944,Natsukawa Maru,Cargo,4500,5-20N,115-13E,United States,Aircraft,sunk
+1463,1944-11-19,1944,Esashi Maru,Cargo,6923,16-50N,120-08E,United States,Aircraft,sunk
+1464,1944-11-19,1944,Seian Maru,Passenger-cargo,3712,14-48N,120-17E,United States,Aircraft,sunk
+1465,1944-11-19,1944,Unknown Maru,Tanker,2800,14-35N,120-55E,United States,Aircraft,sunk
+1466,1944-11-19,1944,Shinko Maru No 1,Cargo,1200,19-00N,111-51E,United States,Submarine,sunk
+1467,1944-11-20,1944,Daichi Maru,Passenger-cargo,1280,31-57N,122-18E,United States,Aircraft,sunk
+1468,1944-11-21,1944,Gyosan Maru,Cargo,5698,10-39N,115-05E,United States,Submarine,sunk
+1469,1944-11-22,1944,Dowa Maru,Cargo,1916,10-22N,114-21E,United States,Submarine,sunk
+1470,1944-11-23,1944,Hozan Maru,Transport,2345,24-26N,122-46E,United States,Submarine,sunk
+1471,1944-11-23,1944,Shuyo Maru,Cargo,6933,34-15N,128-58E,United States,Submarine,sunk
+1472,1944-11-23,1944,Fukuju Maru,Passenger-cargo,5291,34-19N,128-05E,United States,Submarine,sunk
+1473,1944-11-23,1944,Sakae Maru,Cargo,2878,24-12N,122-53E,United States,Submarine,sunk
+1474,1944-11-23,1944,Amakusa Maru,Passenger-cargo,2340,24-24N,122-45E,United States,Submarine,sunk
+1475,1944-11-25,1944,Banei Maru No 6,Cargo,1191,16-37N,120-19E,United States,Aircraft,sunk
+1476,1944-11-25,1944,Kasagisan Maru,Passenger-cargo,2427,16-37N,120-19E,United States,Aircraft,sunk
+1477,1944-11-25,1944,Shoho Maru,Cargo,1356,20-18N,121-34E,United States,Submarine,sunk
+1478,1944-11-25,1944,Manila Maru,Passenger-cargo,9486,5-30N,113-21E,United States,Submarine,sunk
+1479,1944-11-25,1944,Santos Maru,Cargo,7266,20-12N,121-51E,United States,Submarine,sunk
+1480,1944-11-26,1944,Yuho Maru,Tanker,5226,4-55N,114-06E,United States,Submarine,sunk
+1481,1944-11-28,1944,Atago Maru,Tanker,7543,4-29N,114-00E,United States,Aircraft,sunk
+1482,1944-11-29,1944,Shinetsu Maru,Cargo,2212,10-47N,124-17E,United States,Aircraft,sunk
+1483,1944-11-29,1944,Shinsho Maru,Cargo,2880,11-01N,124-37E,United States,Aircraft,sunk
+1484,1944-11-29,1944,Daiboshi Maru No 6,Cargo,3925,37-17N,125-11E,United States,Submarine,sunk
+1485,1944-11-30,1944,Kumano Maru,Converted Net Tender,872,1-30N,103-00E,Great Britain,Submarine,sunk
+1486,1944-11-30,1944,Dairen Maru,Transport,3748,38-06N,124-39E,United States,Submarine,sunk
+1487,1944-12-02,1944,Akigawa Maru,Cargo,6859,30-51N,128-45E,United States,Submarine,sunk
+1488,1944-12-02,1944,Hawaii Maru,Passenger-cargo,9467,30-51N,128-45E,United States,Submarine,sunk
+1489,1944-12-03,1944,Nanshin Maru No 18,Tanker,834,5-55N,116-12E,United States,Aircraft,sunk
+1490,1944-12-03,1944,Nanshin Maru No 13,Tanker,834,1-22S,117-03E,United States,Aircraft,sunk
+1491,1944-12-04,1944,Hakko Maru,Tanker,10022,13-12N,116-37E,United States,Submarine,sunk
+1492,1944-12-04,1944,Shinto Maru,Cargo,1215,22-35N,120-30E,United States,Aircraft,sunk
+1493,1944-12-06,1944,Banshu Maru No 31,Cargo,748,18-54N,120-49E,United States,Submarine,sunk
+1494,1944-12-06,1944,Jinyo Maru,Cargo,6862,18-54N,120-49E,United States,Submarine,sunk
+1495,1944-12-06,1944,Fukuyo Maru,Cargo,5463,18-59N,121-05E,United States,Submarine,sunk
+1496,1944-12-06,1944,Yasukuni Maru,Cargo,5794,18-51N,121-07E,United States,Aircraft,sunk
+1497,1944-12-06,1944,Kenjo Maru,Cargo,6933,18-57N,120-58E,United States,Submarine,sunk
+1498,1944-12-07,1944,Hakuba Maru,Passenger-cargo,2858,11-23N,124-18E,United States,Aircraft,sunk
+1499,1944-12-07,1944,Akagisan Maru,Passenger-cargo,4634,11-23N,124-18E,United States,Aircraft,sunk
+1500,1944-12-07,1944,Shinsei Maru No 5,Cargo,2599,11-23N,124-18E,United States,Aircraft,sunk
+1501,1944-12-07,1944,Nichiyo Maru,Cargo,6300,11-23N,124-18E,United States,Aircraft,sunk
+1502,1944-12-08,1944,Shoei Maru,Tanker,2854,4-03N,111-31E,United States,Submarine,sunk
+1503,1944-12-11,1944,Mino Maru,Cargo,4667,11-20N,124-10E,United States,Aircraft,sunk
+1504,1944-12-11,1944,Tasmania Maru,Cargo,4106,11-20N,124-10E,United States,Aircraft,sunk
+1505,1944-12-11,1944,Shonan Maru,Cargo,1120,12-42N,122-10E,United States,Aircraft,sunk
+1506,1944-12-14,1944,Nikko Maru No 1,Cargo,852,14-48N,120-16E,United States,Aircraft,sunk
+1507,1944-12-15,1944,Oryoku Maru,Transport,7365,14-45N,120-13E,United States,Aircraft,sunk
+1508,1944-12-15,1944,Risen Maru,Cargo,6436,14-35N,120-55E,United States,Aircraft,sunk
+1509,1944-12-16,1944,Shoei Maru,Converted Gunboat,1986,5-45S,104-43E,Great Britain,Submarine,sunk
+1510,1944-12-16,1944,Jusan Maru,Cargo,2111,27-35N,141-35E,United States,Submarine,sunk
+1511,1944-12-19,1944,Hida Maru,Cargo,5320,22-17N,114-10E,United States,Aircraft,sunk
+1512,1944-12-19,1944,Shinfuku Maru,Cargo,2204,13-40N,115-50E,United States,Aircraft,sunk
+1513,1944-12-19,1944,Hiroshi Maru No 3,Cargo,940,44-56N,147-39E,Unknown,Submarine,sunk
+1514,1944-12-20,1944,Shoeki Maru,Converted Net Tender,898,7-00S,120-00E,Netherlands,Aircraft,sunk
+1515,1944-12-20,1944,Mamiya,Collier,7000,17-48N,114-09E,United States,Submarine,sunk
+1516,1944-12-22,1944,Omurosan Maru,Tanker,9204,15-04N,109-06E,United States,Submarine,sunk
+1517,1944-12-22,1944,Otowasan Maru,Tanker,9204,15-04N,109-06E,United States,Submarine,sunk
+1518,1944-12-22,1944,Arita Maru,Tanker,10238,15-04N,109-06E,United States,Submarine,sunk
+1519,1944-12-23,1944,Kenzui Maru,Cargo,4156,16-50N,120-18E,United States,Submarine,sunk
+1520,1944-12-25,1944,Junpo Maru,Cargo,4277,1-10N,108-20E,United States,Submarine,sunk
+1521,1944-12-28,1944,Nozaki,Collier,1000,12-39N,109-30E,United States,Submarine,sunk
+1522,1944-12-30,1944,Aobasan Maru,Cargo,8811,17-18N,119-25E,United States,Aircraft,sunk
+1523,1944-12-30,1944,Muroran Maru,Cargo,5374,17-18N,119-25E,United States,Aircraft,sunk
+1524,1944-12-30,1944,Teikai Maru,Cargo,7691,17-18N,119-25E,United States,Aircraft,sunk
+1525,1944-12-31,1944,Unryu Maru,Cargo,2515,11-40N,93-15E,Great Britain,Submarine,sunk
+1526,1945-01-01,1945,Kyokko Maru,Cargo,593,12-26N,98-38E,Great Britain,Mine,sunk
+1527,1945-01-02,1945,Hakka Maru,Cargo,889,16-37N,120-19E,United States,Aircraft,sunk
+1528,1945-01-02,1945,Hishigata Maru,Cargo,2833,16-37N,120-19E,United States,Aircraft,sunk
+1529,1945-01-02,1945,Meiryu Maru,Cargo,4739,16-37N,120-19E,United States,Aircraft,sunk
+1530,1945-01-02,1945,Taishin Maru,Cargo,534,17-00N,120-19E,United States,Aircraft,sunk
+1531,1945-01-03,1945,Iwato Maru,Cargo,526,24-36N,121-50E,United States,Aircraft,sunk
+1532,1945-01-03,1945,Kinrei Maru,Cargo,1300,25-09N,121-47E,United States,Aircraft,sunk
+1533,1945-01-03,1945,Yaei Maru,Cargo,1941,30-29N,142-03E,United States,Submarine,sunk
+1534,1945-01-03,1945,Shibazono Maru,Passenger-cargo,1831,30-29N,142-03E,United States,Submarine,sunk
+1535,1945-01-03,1945,Shinshu Maru,Aircraft Ferry,8170,21-57N,119-44E,United States,Aircraft,sunk
+1536,1945-01-05,1945,Shunsen Maru,Cargo,971,5-00S,112-16E,United States,Submarine,sunk
+1537,1945-01-05,1945,Kanko Maru,Converted Net Tender,909,5-00S,112-16E,United States,Unknown,sunk
+1538,1945-01-06,1945,Nanshin Maru No 10,Tanker,834,18-00N,120-25E,United States,Aircraft,sunk
+1539,1945-01-06,1945,Kyodo Maru,Tanker,1090,18-08N,120-35E,United States,Aircraft,sunk
+1540,1945-01-06,1945,Kyoei Maru No. 10,Tanker,1180,18-08N,120-35E,United States,Aircraft,sunk
+1541,1945-01-06,1945,Kyoei Maru No. 6,Tanker,1178,18-08N,120-35E,United States,Aircraft,sunk
+1542,1945-01-06,1945,Nichiei Maru,Tanker,10020,6-57N,102-57E,United States,Submarine,sunk
+1543,1945-01-06,1945,Tarakan Maru,Tanker,5135,19-40N,111-24E,United States,Submarine,sunk
+1544,1945-01-07,1945,Shinsei Maru,Cargo,4740,22-40N,118-45E,United States,Aircraft,sunk
+1545,1945-01-08,1945,Seikai Maru No. 2,Cargo,550,26-35N,142-08E,United States,Mine,sunk
+1546,1945-01-08,1945,Daigo Maru,Cargo,5244,34-28N,122-39E,United States,Submarine,sunk
+1547,1945-01-08,1945,Shinyo Maru,Cargo,5892,24-31N,120-28E,United States,Submarine,sunk
+1548,1945-01-08,1945,Anyo Maru,Passenger-cargo,9256,24-54N,120-26E,United States,Submarine,sunk
+1549,1945-01-08,1945,Sanyo Maru,Tanker,2854,24-54N,120-26E,United States,Submarine,sunk
+1550,1945-01-08,1945,Hikoshima Maru,Tanker,2854,24-37N,120-30E,United States,Submarine,sunk
+1551,1945-01-09,1945,Shinko Maru No. 1,Converted Gunboat,934,3-46S,111-54E,Netherlands,Submarine,sunk
+1552,1945-01-09,1945,Fukuyama Maru,Cargo,6040,22-37N,120-15E,United States,Aircraft,sunk
+1553,1945-01-09,1945,Hisagawa Maru,Cargo,6886,23-04N,119-57E,United States,Aircraft,sunk
+1554,1945-01-09,1945,Kaiho Maru,Tanker,10239,22-47N,120-11E,United States,Aircraft,sunk
+1555,1945-01-09,1945,Nanshin Maru No 4,Tanker,834,22-37N,120-15E,United States,Aircraft,sunk
+1556,1945-01-12,1945,Akashi Maru,Tanker,10045,10-20N,107-05E,United States,Aircraft,sunk
+1557,1945-01-12,1945,Ayanami Maru,Tanker,2864,10-46N,106-42E,United States,Aircraft,sunk
+1558,1945-01-12,1945,Ayayuki Maru,Tanker,2854,11-10N,108-55E,United States,Aircraft,sunk
+1559,1945-01-12,1945,Banshu Maru No. 63,Tanker,533,14-15N,109-10E,United States,Aircraft,sunk
+1560,1945-01-12,1945,Chefo Maru,Passenger-cargo,3218,10-46N,106-42E,United States,Aircraft,sunk
+1561,1945-01-12,1945,Daikyu Maru,Cargo,1517,14-15N,109-10E,United States,Aircraft,sunk
+1562,1945-01-12,1945,Eiho Maru,Tanker,5209,11-10N,108-55E,United States,Aircraft,sunk
+1563,1945-01-12,1945,Eiman Maru,Tanker,6968,14-15N,109-10E,United States,Aircraft,sunk
+1564,1945-01-12,1945,France Maru,Passenger-cargo,5828,9-10N,107-00E,United States,Aircraft,sunk
+1565,1945-01-12,1945,Horai Maru No 9,Tanker,834,14-15N,109-10E,United States,Aircraft,sunk
+1566,1945-01-12,1945,Ikutagawa Maru,Cargo,4013,10-46N,106-42E,United States,Aircraft,sunk
+1567,1945-01-12,1945,Kanju Maru,Transport,7267,10-46N,106-42E,United States,Aircraft,sunk
+1568,1945-01-12,1945,Kenei Maru,Cargo,4815,10-46N,106-42E,United States,Aircraft,sunk
+1569,1945-01-12,1945,Kensei Maru,Cargo,4646,11-10N,108-55E,United States,Aircraft,sunk
+1570,1945-01-12,1945,Kiyo Maru,Passenger-cargo,4428,10-46N,106-42E,United States,Aircraft,sunk
+1571,1945-01-12,1945,Koshin Maru,Tanker,2855,11-10N,108-55E,United States,Aircraft,sunk
+1572,1945-01-12,1945,Otsuyama Maru,Cargo,6857,14-15N,109-10E,United States,Aircraft,sunk
+1573,1945-01-12,1945,Ryusho Maru,Tanker,2863,14-15N,109-10E,United States,Aircraft,sunk
+1574,1945-01-12,1945,San Luis Maru,Tanker,7268,14-15N,109-10E,United States,Aircraft,sunk
+1575,1945-01-12,1945,Nanryu Maru No 2,Tanker,834,14-15N,109-10E,United States,Aircraft,sunk
+1576,1945-01-12,1945,Kumagawa Maru,Passenger-cargo,7508,10-20N,107-05E,United States,Aircraft,sunk
+1577,1945-01-12,1945,Kyoei Maru No 7,Cargo,1160,9-24N,106-48E,United States,Aircraft,sunk
+1578,1945-01-12,1945,Kyokuun Maru,Tanker,10045,14-15N,109-10E,United States,Aircraft,sunk
+1579,1945-01-12,1945,Toyu Maru,Cargo,4532,11-10N,108-55E,United States,Aircraft,sunk
+1580,1945-01-12,1945,Yoshu Maru,Cargo,5711,14-15N,109-10E,United States,Aircraft,sunk
+1581,1945-01-12,1945,Yusei Maru,Cargo,600,14-15N,109-10E,United States,Aircraft,sunk
+1582,1945-01-12,1945,Tatebe Maru,Cargo,4519,14-15N,109-10E,United States,Aircraft,sunk
+1583,1945-01-12,1945,Tatsubato Maru,Cargo,5396,14-15N,109-10E,United States,Aircraft,sunk
+1584,1945-01-12,1945,Shingi Maru,Cargo,6888,9-10N,107-00E,United States,Aircraft,sunk
+1585,1945-01-12,1945,Shinsei Maru,Cargo,2880,10-20N,107-05E,United States,Aircraft,sunk
+1586,1945-01-12,1945,Shinsei Maru No 17,Passenger-cargo,2556,10-46N,106-42E,United States,Aircraft,sunk
+1587,1945-01-12,1945,Shoei Maru,Cargo,2764,14-15N,109-10E,United States,Aircraft,sunk
+1588,1945-01-12,1945,Taiposek,Cargo,1960,10-46N,106-42E,United States,Aircraft,sunk
+1589,1945-01-14,1945,Akatsuki Maru,Cargo,910,29-00N,116-00E,United States,Aircraft,sunk
+1590,1945-01-15,1945,Mirii Maru,Tanker,10564,22-45N,120-15E,United States,Aircraft,sunk
+1591,1945-01-16,1945,Dosei Maru,Cargo,10893,22-20N,114-10E,United States,Aircraft,sunk
+1592,1945-01-16,1945,Anri Go No 2,Cargo,1026,22-20N,114-10E,United States,Aircraft,sunk
+1593,1945-01-16,1945,Harima Maru,Tanker,10045,18-11N,109-33E,United States,Aircraft,sunk
+1594,1945-01-16,1945,Sanko Maru,Tanker,5948,22-20N,114-10E,United States,Aircraft,sunk
+1595,1945-01-16,1945,Matsushima Maru,Tanker,10488,22-20N,114-10E,United States,Aircraft,sunk
+1596,1945-01-16,1945,Tenei Maru,Tanker,10241,22-20N,114-10E,United States,Aircraft,sunk
+1597,1945-01-18,1945,Reizan Maru,Passenger-cargo,3426,30-11N,115-07E,United States,Mine,sunk
+1598,1945-01-20,1945,Shuri Maru,Motor Torpedo Boat Tender,1857,33-37N,128-40E,United States,Submarine,sunk
+1599,1945-01-21,1945,Haruta Maru,Cargo,1500,22-20N,114-10E,United States,Aircraft,sunk
+1600,1945-01-21,1945,Eiho Maru,Tanker,5068,22-37N,120-15E,United States,Aircraft,sunk
+1601,1945-01-21,1945,Hoei Maru No 3,Tanker,865,22-37N,120-15E,United States,Aircraft,sunk
+1602,1945-01-21,1945,Munakata Maru,Tanker,10045,25-09N,121-45E,United States,Aircraft,sunk
+1603,1945-01-21,1945,Nichiyu Maru No 2,Cargo,6859,22-37N,120-15E,United States,Aircraft,sunk
+1604,1945-01-21,1945,Manju Maru,Tanker,6515,22-37N,120-15E,United States,Aircraft,sunk
+1605,1945-01-21,1945,Kuroshio Maru,Tanker,10518,22-37N,120-15E,United States,Aircraft,sunk
+1606,1945-01-21,1945,Yamazawa Maru,Cargo,6889,22-37N,120-15E,United States,Aircraft,sunk
+1607,1945-01-21,1945,Teifu Maru,Passenger-cargo,7110,22-37N,121-15E,United States,Aircraft,sunk
+1608,1945-01-21,1945,Shincho Maru,Tanker,5135,22-37N,120-15E,United States,Aircraft,sunk
+1609,1945-01-22,1945,Hikosan Maru,Cargo,2073,26-39N,127-53E,United States,Aircraft,sunk
+1610,1945-01-23,1945,Hozan Maru No 1,Tanker,868,4-08N,98-15E,Great Britain,Mine,sunk
+1611,1945-01-23,1945,Nikkaku Maru,Cargo,1946,4-08N,98-15E,Great Britain,Mine,sunk
+1612,1945-01-23,1945,Taikyo Maru,Cargo,5244,27-04N,120-27E,United States,Submarine,sunk
+1613,1945-01-24,1945,Yoneyama Maru No 1,Cargo,584,24-50N,141-22E,United States,Surface Craft,sunk
+1614,1945-01-24,1945,Taiman Maru No 1,Cargo,6888,36-47N,123-59E,United States,Submarine,sunk
+1615,1945-01-25,1945,Beiju Maru,Converted Water Carrier,539,25-09N,121-45E,United States,Aircraft,sunk
+1616,1945-01-25,1945,Malay Maru,Cargo,4556,31-18N,130-08E,United States,Submarine,sunk
+1617,1945-01-26,1945,Tamon Maru No 15,Cargo,6925,13-34N,109-17E,United States,Mine,sunk
+1618,1945-01-27,1945,Hsin Yang Maru,Cargo,1674,29-40N,115-52E,United States,Mine,sunk
+1619,1945-01-27,1945,Ryuzan Maru,Passenger-cargo,2482,29-46N,116-52E,United States,Mine,sunk
+1620,1945-01-28,1945,Sanuki Maru,Converted Seaplane Tender,7158,33-56N,123-06E,United States,Submarine,sunk
+1621,1945-01-29,1945,Clyde Maru,Passenger-cargo,5497,25-33N,120-54E,United States,Submarine,sunk
+1622,1945-01-30,1945,Issei Maru,Passenger-cargo,1864,33-30N,135-31E,United States,Submarine,sunk
+1623,1945-01-31,1945,Taietsu Maru,Cargo,6890,14-55N,109-01E,United States,Aircraft,sunk
+1624,1945-01-31,1945,Enki Maru,Cargo,6968,14-55N,109-01E,United States,Submarine,sunk
+1625,1945-02-01,1945,Shiretoko,Tanker,6500,1-20N,109-50E,United States,Aircraft,sunk
+1626,1945-02-02,1945,Nanshin Maru No 19,Tanker,834,5-40N,103-17E,United States,Submarine,sunk
+1627,1945-02-03,1945,Nanryu Maru No 3,Tanker,834,24-28N,118-13E,United States,Aircraft,sunk
+1628,1945-02-04,1945,Tairai Maru,Passenger-cargo,4273,37-18N,125-22E,United States,Submarine,sunk
+1629,1945-02-06,1945,Kinyu Maru No 3,Cargo,834,12-50N,109-23E,United States,Aircraft,sunk
+1630,1945-02-06,1945,Oei Maru,Tanker,2858,1-00N,103-36E,United States,Mine,sunk
+1631,1945-02-06,1945,Engen Maru,Cargo,6968,6-29N,106-11E,United States,Submarine,sunk
+1632,1945-02-06,1945,Shohei Maru,Passenger-cargo,1092,38-44N,121-23E,United States,Submarine,sunk
+1633,1945-02-07,1945,Taigyo Maru,Cargo,6892,7-03N,106-05E,United States,Submarine,sunk
+1634,1945-02-07,1945,Okinoyama Maru,Cargo,984,29-09N,129-45E,United States,Submarine,sunk
+1635,1945-02-08,1945,Eifuku Maru,Passenger-cargo,3520,7-04N,104-46E,United States,Submarine,sunk
+1636,1945-02-09,1945,Hekisui Maru,Cargo,572,23-28N,119-40E,United States,Aircraft,sunk
+1637,1945-02-16,1945,Iida Maru,Cargo,1105,10-20N,107-06E,United States,Aircraft,sunk
+1638,1945-02-17,1945,Daibi Maru,Cargo,531,27-05N,142-12E,United States,Aircraft,sunk
+1639,1945-02-17,1945,Yamashita Maru,Cargo,10605,35-22N,139-37E,United States,Aircraft,sunk
+1640,1945-02-20,1945,Daizen Maru,Cargo,5396,00-42S,106-18E,United States,Submarine,sunk
+1641,1945-02-20,1945,Eiyo Maru,Tanker,8673,11-17N,109-00E,United States,Submarine,sunk
+1642,1945-02-21,1945,Tairiku Maru,Cargo,2325,35-24N,125-23E,United States,Submarine,sunk
+1643,1945-02-22,1945,Tatekawa Maru No 2,Tanker,10000,11-08N,108-44E,United States,Mine,sunk
+1644,1945-02-22,1945,Nichiyoku Maru,Tanker,1945,11-28N,109-06E,United States,Submarine,sunk
+1645,1945-02-24,1945,Kyuryu Maru,Cargo,1339,13-45N,100-35E,Great Britain,Mine,sunk
+1646,1945-02-24,1945,Tatsumomo Maru,Cargo,880,32-40N,132-33E,United States,Submarine,sunk
+1647,1945-02-24,1945,Usuki Maru,Cargo,875,33-58N,136-18E,United States,Submarine,sunk
+1648,1945-02-25,1945,Koho Maru,Cargo,850,20-04N,111-22E,United States,Submarine,sunk
+1649,1945-02-26,1945,Takasago Maru No 9,Tanker,834,20-01N,111-44E,United States,Aircraft,sunk
+1650,1945-02-26,1945,Amato Maru,Tanker,10238,11-57N,109-18E,United States,Submarine,sunk
+1651,1945-03-01,1945,Chohakuzan Maru,Converted Gunboat,2132,26-30N,127-30E,United States,Aircraft,sunk
+1652,1945-03-01,1945,Kinzan Maru,Cargo,2220,28-24N,129-30E,United States,Aircraft,sunk
+1653,1945-03-01,1945,Ryuyu Maru,Cargo,731,28-09N,129-19E,United States,Aircraft,sunk
+1654,1945-03-01,1945,Sekiyo Maru,Cargo,629,26-13N,127-41E,United States,Aircraft,sunk
+1655,1945-03-01,1945,Luzon Maru,Passenger-cargo,1679,28-24N,129-30E,United States,Aircraft,sunk
+1656,1945-03-01,1945,Toyosaka Maru,Cargo,1966,24-46N,125-30E,United States,Aircraft,sunk
+1657,1945-03-01,1945,Hoshi Maru No 11,Cargo,1944,26-13N,127-41E,United States,Aircraft,sunk
+1658,1945-03-01,1945,Daishin Maru,Cargo,1306,26-30N,127-30E,United States,Aircraft,sunk
+1659,1945-03-01,1945,Taiken Maru,Cargo,2220,24-45N,125-20E,United States,Aircraft,sunk
+1660,1945-03-01,1945,Tateyama Maru,Cargo,1148,34-11N,139-43E,United States,Submarine,sunk
+1661,1945-03-02,1945,Eisho Maru,Tanker,2850,18-32N,108-11E,United States,Aircraft,sunk
+1662,1945-03-02,1945,Hokuhi Maru,Cargo,1500,23-35N,119-35E,United States,Aircraft,sunk
+1663,1945-03-02,1945,Nichirin Maru,Cargo,1020,27-10N,124-35E,United States,Aircraft,sunk
+1664,1945-03-03,1945,Yaei Maru No 1,Cargo,834,20-10N,109-31E,United States,Aircraft,sunk
+1665,1945-03-03,1945,Suiten Maru,Cargo,2500,6-29S,112-48E,United States,Submarine,sunk
+1666,1945-03-03,1945,Nissho Maru No 2,Converted Gunboat,1386,34-05N,139-54E,United States,Submarine,sunk
+1667,1945-03-04,1945,Palembang Maru,Tanker,5236,12-52N,109-30E,United States,Submarine,sunk
+1668,1945-03-05,1945,Shoto Maru,Cargo,887,15-32N,108-37E,United States,Aircraft,sunk
+1669,1945-03-05,1945,Ryoei Maru,Tanker,10016,16-46N,108-41E,United States,Submarine,sunk
+1670,1945-03-05,1945,Shoyu Maru,Cargo,853,5-42S,114-02E,United States,Submarine,sunk
+1671,1945-03-05,1945,Nagara Maru,Cargo,856,5-41S,114-01E,United States,Submarine,sunk
+1672,1945-03-05,1945,Manyo Maru,Converted Gunboat,2904,5-56S,113-45E,United States,Submarine,sunk
+1673,1945-03-07,1945,Hoyo Maru,Cargo,946,13-00N,98-00E,United States,Aircraft,sunk
+1674,1945-03-08,1945,Tangyang Maru,Passenger-cargo,1573,30-33N,114-17E,United States,Aircraft,sunk
+1675,1945-03-08,1945,Ishima Maru,Cargo,839,22-34N,114-53E,United States,Aircraft,sunk
+1676,1945-03-10,1945,Seishin Maru,Tanker,5239,16-02N,108-20E,United States,Aircraft,sunk
+1677,1945-03-10,1945,Keizan Maru,Cargo,2116,29-31N,127-55E,United States,Submarine,sunk
+1678,1945-03-10,1945,Sanka Maru,Cargo,2495,29-31N,127-55E,United States,Submarine,sunk
+1679,1945-03-10,1945,Dokan Maru,Cargo,2270,29-31N,127-55E,United States,Submarine,sunk
+1680,1945-03-11,1945,Wayo Maru,Converted Water Carrier,2726,21-38N,114-06E,United States,Aircraft,sunk
+1681,1945-03-11,1945,Koko Maru,Cargo,1520,31-22N,121-34E,United States,Mine,sunk
+1682,1945-03-11,1945,Shori Maru,Cargo,3087,34-29N,127-55E,United States,Submarine,sunk
+1683,1945-03-13,1945,Masashima Maru,Cargo,2742,23-30N,117-10E,United States,Aircraft,sunk
+1684,1945-03-16,1945,Nanryu Maru No 1,Tanker,834,29-07N,122-01E,United States,Aircraft,sunk
+1685,1945-03-17,1945,Ikomasan Maru,Passenger-cargo,3173,26-08N,119-56E,United States,Aircraft,sunk
+1686,1945-03-17,1945,Bansei Maru,Cargo,3120,31-19N,121-45E,United States,Mine,sunk
+1687,1945-03-17,1945,Samui,Tanker,1458,5-18N,103-23E,United States,Submarine,sunk
+1688,1945-03-17,1945,Nanking Maru,Passenger-cargo,3005,25-34N,120-01E,United States,Submarine,sunk
+1689,1945-03-18,1945,Kenyo Maru,Cargo,2217,31-35N,130-40E,United States,Aircraft,sunk
+1690,1945-03-18,1945,Nansei Maru No 1,Tanker,834,31-35N,130-40E,United States,Aircraft,sunk
+1691,1945-03-18,1945,Tsukushi Maru No 3,Cargo,1012,28-05N,126-44E,United States,Submarine,sunk
+1692,1945-03-19,1945,Sarawak Maru,Tanker,5135,1-20N,104-34E,United States,Mine,sunk
+1693,1945-03-19,1945,Kozan Maru,Cargo,3923,32-05N,119-56E,United States,Mine,sunk
+1694,1945-03-19,1945,Hakozaki Maru,Transport,10413,33-09N,122-08E,United States,Submarine,sunk
+1695,1945-03-20,1945,Fukusei Maru,Cargo,500,23-45N,117-38E,United States,Aircraft,sunk
+1696,1945-03-20,1945,Heishin Maru,Cargo,1577,23-45N,117-38E,United States,Aircraft,sunk
+1697,1945-03-20,1945,Yamakuni Maru,Cargo,500,11-17N,108-55E,United States,Submarine,sunk
+1698,1945-03-20,1945,Nanshin Maru No 21,Tanker,834,11-17N,108-55E,United States,Submarine,sunk
+1699,1945-03-20,1945,Hosen Maru,Cargo,1039,11-17N,108-55E,United States,Submarine,sunk
+1700,1945-03-21,1945,Fushimi Maru No 2,Cargo,779,11-50N,109-18E,United States,Aircraft,sunk
+1701,1945-03-21,1945,Takasago Maru No 6,Tanker,834,11-50N,109-18E,United States,Aircraft,sunk
+1702,1945-03-21,1945,Kainan Maru,Converted Submarine Chaser,524,11-55N,109-18E,United States,Submarine,sunk
+1703,1945-03-23,1945,Peihua,Cargo,1380,29-14N,122-03E,United States,Aircraft,sunk
+1704,1945-03-23,1945,Kachaosan Maru,Cargo,2427,28-40N,128-50E,United States,Aircraft,sunk
+1705,1945-03-23,1945,Doryo Maru,Cargo,2274,29-31N,127-41E,United States,Submarine,sunk
+1706,1945-03-24,1945,Koshin Maru,Cargo,765,5-40S,122-49E,United States,Aircraft,sunk
+1707,1945-03-24,1945,Chokai Maru,Cargo,1284,26-13N,127-39E,United States,Aircraft,sunk
+1708,1945-03-24,1945,Kaijo Maru,Passenger-cargo,2025,28-25N,124-32E,United States,Aircraft,sunk
+1709,1945-03-24,1945,Koshu Maru,Passenger-cargo,2812,28-25N,124-32E,United States,Aircraft,sunk
+1710,1945-03-24,1945,Soka Maru,Passenger-cargo,2813,28-25N,124-32E,United States,Aircraft,sunk
+1711,1945-03-25,1945,Houlee,Cargo,1339,31-11N,122-23E,United States,Aircraft,sunk
+1712,1945-03-25,1945,Okinoyama Maru No 5,Cargo,2543,26-13N,127-39E,United States,Aircraft,sunk
+1713,1945-03-25,1945,Fuji Maru,Tanker,703,31-08N,130-30E,United States,Submarine,sunk
+1714,1945-03-26,1945,Risui Maru,Cargo,1500,10-35N,94-45E,Great Britain,Surface Craft,sunk
+1715,1945-03-26,1945,Enoura Maru,Cargo,6968,22-37N,120-15E,United States,Aircraft,sunk
+1716,1945-03-26,1945,Kishu Maru,Cargo,2548,22-37N,120-15E,United States,Aircraft,sunk
+1717,1945-03-26,1945,Daia Maru,Cargo,1942,28-13N,129-16E,United States,Aircraft,sunk
+1718,1945-03-26,1945,Shinto Maru No 1,Cargo,880,35-14N,123-44E,United States,Submarine,sunk
+1719,1945-03-28,1945,Asokawa Maru,Cargo,6925,12-32N,109-08E,United States,Aircraft,sunk
+1720,1945-03-28,1945,Meiho Maru,Cargo,2857,25-00N,121-00E,United States,Aircraft,sunk
+1721,1945-03-28,1945,Honan Maru,Tanker,5542,12-39N,109-27E,United States,Submarine,sunk
+1722,1945-03-28,1945,Nase Maru,Cargo,1218,32-15N,129-55E,United States,Submarine,sunk
+1723,1945-03-29,1945,Iwakuni Maru,Tanker,2860,22-40N,120-15E,United States,Aircraft,sunk
+1724,1945-03-29,1945,Kaiko Maru,Cargo,956,15-14N,109-26E,United States,Aircraft,sunk
+1725,1945-04-01,1945,Awa Maru,Passenger-cargo,11600,25-25N,120-07E,United States,Submarine,sunk
+1726,1945-04-02,1945,Taijo Maru,Cargo,6866,34-18N,124-04E,United States,Submarine,sunk
+1727,1945-04-02,1945,Edogawa Maru,Cargo,1972,34-18N,124-04E,United States,Submarine,sunk
+1728,1945-04-02,1945,Nisshin Maru,Cargo,1179,34-18N,124-04E,United States,Submarine,sunk
+1729,1945-04-03,1945,Imari Maru,Cargo,880,33-45N,129-42E,United States,Aircraft,sunk
+1730,1945-04-03,1945,Heikei Maru,Cargo,2750,22-17N,114-10E,United States,Aircraft,sunk
+1731,1945-04-03,1945,Shozan Maru,Cargo,2172,22-17N,114-10E,United States,Aircraft,sunk
+1732,1945-04-03,1945,Nanshin Maru No 30,Tanker,834,12-16N,109-10E,United States,Aircraft,sunk
+1733,1945-04-03,1945,Yamabishi Maru No 18,Cargo,880,34-00N,131-00E,United States,Mine,sunk
+1734,1945-04-04,1945,Horei Maru,Tanker,658,23-32N,119-34E,United States,Aircraft,sunk
+1735,1945-04-04,1945,Kinyu Maru No 2,Tanker,834,23-32N,119-34E,United States,Aircraft,sunk
+1736,1945-04-04,1945,Hozan Maru,Cargo,1175,33-45N,131-46E,United States,Mine,sunk
+1737,1945-04-05,1945,Kine Maru,Cargo,2193,22-45N,116-10E,United States,Aircraft,sunk
+1738,1945-04-05,1945,Tokai Maru No 2,Cargo,839,22-24N,115-28E,United States,Aircraft,sunk
+1739,1945-04-05,1945,Nichinan Maru No 13,Cargo,880,33-58N,131-02E,United States,Mine,sunk
+1740,1945-04-06,1945,Fushimi Maru,Passenger-cargo,1229,33-59N,130-52E,United States,Mine,sunk
+1741,1945-04-06,1945,Hsing Yun Maru,Passenger-cargo,3414,32-05N,119-56E,United States,Mine,sunk
+1742,1945-04-06,1945,Araosan Maru,Cargo,6886,9-37N,102-48E,United States,Submarine,sunk
+1743,1945-04-07,1945,Hatsukari Maru,Cargo,875,33-55N,130-50E,United States,Mine,sunk
+1744,1945-04-08,1945,Tamon Maru No 12,Cargo,2220,31-16N,121-45E,United States,Mine,sunk
+1745,1945-04-09,1945,Nikko Maru,Transport,5057,36-50N,123-55E,United States,Submarine,sunk
+1746,1945-04-09,1945,Lee Tung,Cargo,1853,37-21N,125-08E,United States,Submarine,sunk
+1747,1945-04-10,1945,Hosei Maru,Tanker,696,5-25S,106-39E,Netherlands,Submarine,sunk
+1748,1945-04-10,1945,Maruko Maru,Cargo,3000,31-15N,121-29E,United States,Mine,sunk
+1749,1945-04-13,1945,Nanshin Maru No 12,Cargo,865,4-00S,116-20E,United States,Aircraft,sunk
+1750,1945-04-13,1945,Shinro Maru,Cargo,877,33-58N,131-02E,United States,Mine,sunk
+1751,1945-04-14,1945,Takko Maru,Cargo,901,31-14N,121-30E,United States,Aircraft,sunk
+1752,1945-04-14,1945,Kako Maru,Cargo,762,5-19S,117-06E,United States,Submarine,sunk
+1753,1945-04-14,1945,Juzan Maru,Passenger-cargo,3943,33-25N,126-15E,United States,Submarine,sunk
+1754,1945-04-15,1945,Sannan Maru No 3,Cargo,873,33-58N,131-02E,United States,Mine,sunk
+1755,1945-04-16,1945,Toko Maru,Cargo,6850,33-24N,139-31E,United States,Submarine,sunk
+1756,1945-04-16,1945,Manryu Maru,Cargo,1620,39-36N,142-05E,United States,Submarine,sunk
+1757,1945-04-17,1945,Sonjo Maru,Cargo,800,31-13N,121-52E,United States,Mine,sunk
+1758,1945-04-18,1945,Teizui Maru,Cargo,8426,34-03N,130-50E,United States,Mine,sunk
+1759,1945-04-19,1945,Hagane Maru,Cargo,1901,33-35N,135-23E,United States,Submarine,sunk
+1760,1945-04-19,1945,Kaiho Maru,Cargo,1093,42-22N,142-16E,United States,Submarine,sunk
+1761,1945-04-19,1945,Taisei Maru,Cargo,1948,42-23N,142-13E,United States,Submarine,sunk
+1762,1945-04-20,1945,Sanko Maru,Cargo,847,33-48N,131-00E,United States,Mine,sunk
+1763,1945-04-27,1945,Kaiho Maru,Cargo,2563,34-00N,130-50E,United States,Mine,sunk
+1764,1945-04-28,1945,Takasago Maru,Tanker,1116,6-48N,101-36E,Great Britain,Submarine,sunk
+1765,1945-04-28,1945,Takasago Maru No 8,Tanker,834,10-49N,106-41E,United States,Aircraft,sunk
+1766,1945-04-28,1945,Gakujo Maru,Cargo,2220,34-00N,130-50E,United States,Mine,sunk
+1767,1945-04-29,1945,Teishu Maru,Converted Submarine Tender,1230,4-11S,111-17E,United States,Submarine,sunk
+1768,1945-04-29,1945,Taishu Maru,Cargo,6925,39-15N,141-58E,United States,Submarine,sunk
+1769,1945-04-30,1945,Kunikawa Maru,Converted Seaplane Tender,6863,1-15S,116-50E,United States,Aircraft,sunk
+1770,1945-04-30,1945,Yuno Maru,Tanker,2345,00-58S,104-31E,Great Britain,Mine,sunk
+1771,1945-04-30,1945,Miho Maru,Cargo,4667,34-20N,123-58E,United States,Submarine,sunk
+1772,1945-05-01,1945,Komadori Maru,Tanker,880,34-35N,126-00E,United States,Aircraft,sunk
+1773,1945-05-01,1945,Kyogyoku Maru,Cargo,6859,34-35N,126-00E,United States,Aircraft,sunk
+1774,1945-05-01,1945,Chowa Maru,Passenger-cargo,2719,41-06N,144-28E,United States,Submarine,sunk
+1775,1945-05-02,1945,Toryu Maru,Cargo,1992,37-22N,123-43E,United States,Submarine,sunk
+1776,1945-05-04,1945,Tokachi Maru,Converted Submarine Chaser,500,8-50N,104-50E,United States,Aircraft,sunk
+1777,1945-05-04,1945,Shinpen Maru,Cargo,884,39-28N,142-04E,United States,Submarine,sunk
+1778,1945-05-04,1945,Yaei Maru No 2,Tanker,834,2-00N,105-00E,United States,Mine,sunk
+1779,1945-05-05,1945,Nanyo Maru No 9,Tanker,834,34-50N,126-30E,United States,Aircraft,sunk
+1780,1945-05-05,1945,Takasago Maru No 11,Tanker,834,34-40N,127-30E,United States,Aircraft,sunk
+1781,1945-05-05,1945,Taiun Maru No 9,Cargo,1004,34-00N,130-00E,United States,Aircraft,sunk
+1782,1945-05-05,1945,Takasago Maru No 15,Tanker,834,35-32N,126-20E,United States,Aircraft,sunk
+1783,1945-05-05,1945,Manshu Maru,Cargo,5266,33-47N,131-35E,United States,Mine,sunk
+1784,1945-05-06,1945,Nakagawa Maru,Transport,6886,34-30N,127-00E,United States,Aircraft,sunk
+1785,1945-05-06,1945,Tora Maru No 1,Tanker,503,36-00N,129-05E,United States,Aircraft,sunk
+1786,1945-05-06,1945,Eiko Maru,Passenger-cargo,1164,36-26N,126-37E,United States,Aircraft,sunk
+1787,1945-05-06,1945,Shinchiyo Maru,Cargo,6872,34-19N,132-26E,United States,Aircraft,sunk
+1788,1945-05-06,1945,Sagamigawa Maru,Cargo,6880,34-00N,130-50E,United States,Mine,sunk
+1789,1945-05-06,1945,Kinrei Maru,Tanker,850,8-15N,102-15E,United States,Submarine,sunk
+1790,1945-05-07,1945,Hakko Maru,Cargo,1030,5-08S,119-24E,United States,Aircraft,sunk
+1791,1945-05-07,1945,Kenzan Maru,Converted Gunboat,950,00-08S,119-24E,United States,Aircraft,sunk
+1792,1945-05-07,1945,Hogi Maru No 7,Tanker,834,34-30N,126-00E,United States,Aircraft,sunk
+1793,1945-05-07,1945,Kaba Maru,Cargo,884,34-00N,130-00E,United States,Aircraft,sunk
+1794,1945-05-07,1945,Kozan Maru No 2,Cargo,6886,35-15N,126-03E,United States,Aircraft,sunk
+1795,1945-05-07,1945,Tatsuchiyo Maru,Cargo,6873,34-00N,126-00E,United States,Aircraft,sunk
+1796,1945-05-07,1945,Harushio Maru,Cargo,1989,34-06N,130-47E,United States,Mine,sunk
+1797,1945-05-07,1945,Kashima Maru,Cargo,870,34-02N,130-54E,United States,Mine,sunk
+1798,1945-05-07,1945,Teika Maru,Passenger-cargo,8009,34-06N,130-47E,United States,Mine,sunk
+1799,1945-05-07,1945,Shofuku Maru,Passenger-cargo,1768,33-59N,130-52E,United States,Mine,sunk
+1800,1945-05-08,1945,Kotobuki Maru,Passenger-cargo,18765,34-30N,126-30E,United States,Mine,sunk
+1801,1945-05-08,1945,Daito Maru No 3,Cargo,880,39-37N,142-07E,United States,Submarine,sunk
+1802,1945-05-10,1945,Toyu Maru No 1,Tanker,834,34-34N,128-58E,United States,Aircraft,sunk
+1803,1945-05-10,1945,Tatsuwa Maru,Passenger-cargo,6332,34-05N,132-27E,United States,Mine,sunk
+1804,1945-05-11,1945,Aitoku Maru,Cargo,1328,50-42N,156-13E,United States,Aircraft,sunk
+1805,1945-05-11,1945,Seiri Maru,Cargo,1200,34-17N,126-50E,United States,Aircraft,sunk
+1806,1945-05-11,1945,Shinzan Maru,Cargo,880,34-15N,127-10E,United States,Aircraft,sunk
+1807,1945-05-11,1945,Kitsurin Maru,Passenger-cargo,6783,34-39N,135-11E,United States,Mine,sunk
+1808,1945-05-11,1945,Tamae Maru,Cargo,1282,34-06N,130-47E,United States,Mine,sunk
+1809,1945-05-12,1945,Chile Maru,Passenger-cargo,5859,34-25N,129-40E,United States,Aircraft,sunk
+1810,1945-05-12,1945,Funakawa Maru No 2,Tanker,887,34-37N,128-00E,United States,Aircraft,sunk
+1811,1945-05-12,1945,Takasago Maru No 13,Tanker,834,36-12N,126-03E,United States,Aircraft,sunk
+1812,1945-05-12,1945,Brazil Maru,Cargo,5859,34-40N,135-12E,United States,Mine,sunk
+1813,1945-05-12,1945,Nissho Maru No 1,Cargo,1362,34-06N,130-47E,United States,Mine,sunk
+1814,1945-05-12,1945,Manbo Maru,Cargo,1253,34-30N,135-10E,United States,Mine,sunk
+1815,1945-05-12,1945,Rekizan Maru,Cargo,1311,37-23N,123-42E,United States,Submarine,sunk
+1816,1945-05-13,1945,Yosei Maru,Tanker,2500,6-31S,111-19E,United States,Submarine,sunk
+1817,1945-05-13,1945,Shinnan Maru,Cargo,1025,39-07N,141-57E,United States,Submarine,sunk
+1818,1945-05-13,1945,Gyoryu Maru,Cargo,2180,34-40N,135-10E,United States,Mine,sunk
+1819,1945-05-13,1945,Kinoto Maru,Cargo,1561,34-39N,135-11E,United States,Mine,sunk
+1820,1945-05-13,1945,Takasago Maru No 2,Tanker,834,34-39N,135-11E,United States,Mine,sunk
+1821,1945-05-14,1945,Samukaze Maru,Cargo,886,34-42N,127-30E,United States,Aircraft,sunk
+1822,1945-05-14,1945,Kurokamisan Maru,Cargo,1243,34-42N,127-30E,United States,Aircraft,sunk
+1823,1945-05-14,1945,Miyajima Maru,Cargo,2000,34-20N,134-50E,United States,Mine,sunk
+1824,1945-05-15,1945,Keiun Maru,Passenger-cargo,1921,33-57N,129-51E,United States,Aircraft,sunk
+1825,1945-05-15,1945,Hakutetsu Maru No 3,Cargo,762,34-00N,129-10E,United States,Aircraft,sunk
+1826,1945-05-15,1945,Kyodo Maru No 1,Cargo,887,34-15N,126-55E,United States,Aircraft,sunk
+1827,1945-05-15,1945,Anko Maru,Cargo,2821,34-30N,134-47E,United States,Mine,sunk
+1828,1945-05-15,1945,Mishima Maru,Cargo,1934,34-30N,135-10E,United States,Mine,sunk
+1829,1945-05-15,1945,Tottori Maru,Passenger-cargo,5973,9-21N,102-25E,United States,Submarine,sunk
+1830,1945-05-16,1945,Yamanami Maru No 5,Cargo,873,34-36N,135-08E,United States,Mine,sunk
+1831,1945-05-16,1945,Eiju Maru,Cargo,2455,37-39N,124-11E,United States,Submarine,sunk
+1832,1945-05-17,1945,Koan Maru,Cargo,4305,34-38N,135-11E,United States,Mine,sunk
+1833,1945-05-17,1945,Mikazuki Maru,Passenger-cargo,1412,32-05N,119-56E,United States,Mine,sunk
+1834,1945-05-17,1945,Tairyu Maru,Cargo,1912,34-27N,135-11E,United States,Mine,sunk
+1835,1945-05-17,1945,Chosan Maru,Cargo,3939,35-41N,126-17E,United States,Submarine,sunk
+1836,1945-05-18,1945,Enkyo Maru,Cargo,2278,33-29N,126-56E,United States,Aircraft,sunk
+1837,1945-05-18,1945,Nanko Maru No 5,Cargo,834,33-58N,130-58E,United States,Mine,sunk
+1838,1945-05-19,1945,Kaiko Maru,Cargo,898,25-30N,121-50E,United States,Aircraft,sunk
+1839,1945-05-20,1945,Torai Maru,Cargo,647,26-00N,122-00E,United States,Aircraft,sunk
+1840,1945-05-21,1945,Nikkosan Maru,Cargo,880,35-07N,140-10E,United States,Aircraft,sunk
+1841,1945-05-21,1945,Santen Maru,Cargo,1210,33-57N,133-16E,United States,Mine,sunk
+1842,1945-05-22,1945,Uwajima Maru No 25,Passenger-cargo,744,34-20N,134-20E,United States,Mine,sunk
+1843,1945-05-23,1945,Kimigayo Maru,Cargo,670,33-06N,129-43E,United States,Mine,sunk
+1844,1945-05-23,1945,Shinei Maru No 2,Cargo,882,33-58N,131-02E,United States,Mine,sunk
+1845,1945-05-24,1945,Fukuei Maru,Cargo,1868,33-06N,129-43E,United States,Mine,sunk
+1846,1945-05-24,1945,Kaishin Maru No 14,Cargo,870,34-01N,130-54E,United States,Mine,sunk
+1847,1945-05-24,1945,Nanko Maru No 7,Tanker,834,33-55N,131-20E,United States,Mine,sunk
+1848,1945-05-24,1945,Tatsuine Maru,Cargo,873,33-58N,131-02E,United States,Mine,sunk
+1849,1945-05-24,1945,Kiyokawa Maru,Cargo,6862,32-44N,129-52E,United States,Mine,sunk
+1850,1945-05-25,1945,Nittei Maru,Cargo,1000,6-45S,112-31E,Great Britain,Submarine,sunk
+1851,1945-05-25,1945,Amoy Maru,Passenger-cargo,734,34-00N,129-10E,United States,Aircraft,sunk
+1852,1945-05-25,1945,Ginzan Maru,Cargo,2220,33-58N,131-02E,United States,Mine,sunk
+1853,1945-05-25,1945,Ginsei Maru,Cargo,2218,33-59N,130-52E,United States,Mine,sunk
+1854,1945-05-25,1945,Hiwaka Maru,Cargo,891,33-58N,131-02E,United States,Mine,sunk
+1855,1945-05-25,1945,Kinryuzan Maru,Cargo,1370,34-00N,130-50E,United States,Mine,sunk
+1856,1945-05-25,1945,Koei Maru,Cargo,882,33-58N,131-01E,United States,Mine,sunk
+1857,1945-05-25,1945,Shinragi Maru,Cargo,3032,33-58N,131-02E,United States,Mine,sunk
+1858,1945-05-25,1945,Toyu Maru No 3,Cargo,834,33-55N,131-20E,United States,Mine,sunk
+1859,1945-05-25,1945,Tobi Maru,Cargo,878,33-58N,130-52E,United States,Mine,sunk
+1860,1945-05-25,1945,Nitcho Maru,Cargo,549,34-01N,130-54E,United States,Mine,sunk
+1861,1945-05-26,1945,Kotobuki Maru No 7,Cargo,991,33-18N,129-20E,United States,Submarine,sunk
+1862,1945-05-26,1945,Kaishin Maru No 9,Cargo,875,34-00N,130-50E,United States,Mine,sunk
+1863,1945-05-26,1945,Nissan Maru No 1,Cargo,6889,33-58N,130-52E,United States,Mine,sunk
+1864,1945-05-26,1945,Miyakawa Maru No 6,Cargo,872,33-58N,131-02E,United States,Mine,sunk
+1865,1945-05-26,1945,Mogi Maru,Cargo,884,33-43N,131-38E,United States,Mine,sunk
+1866,1945-05-26,1945,Kunuki Maru,Cargo,884,34-39N,131-11E,United States,Mine,sunk
+1867,1945-05-26,1945,Washin Maru,Cargo,1870,33-56N,131-10E,United States,Mine,sunk
+1868,1945-05-26,1945,Yoshin Maru,Cargo,2820,34-21N,132-27E,United States,Mine,sunk
+1869,1945-05-26,1945,Shiokubi Maru,Cargo,3747,33-56N,131-11E,United States,Mine,sunk
+1870,1945-05-26,1945,Shozan Maru,Cargo,6890,33-57N,131-46E,United States,Mine,sunk
+1871,1945-05-27,1945,Taihyo Maru No 2,Cargo,882,34-31N,127-41E,United States,Aircraft,sunk
+1872,1945-05-27,1945,Chizan Maru,Cargo,884,34-39N,135-11E,United States,Mine,sunk
+1873,1945-05-27,1945,Kongo Maru,Transport,7081,33-36N,130-25E,United States,Mine,sunk
+1874,1945-05-27,1945,Kozan Maru,Cargo,882,33-30N,130-30E,United States,Mine,sunk
+1875,1945-05-29,1945,Uwatsu Maru,Cargo,882,34-00N,130-50E,United States,Mine,sunk
+1876,1945-05-29,1945,Etsunan Maru,Cargo,880,10-30N,99-24E,Great Britain,Mine,sunk
+1877,1945-05-29,1945,Kuretake Maru,Cargo,1924,46-36N,144-22E,United States,Submarine,sunk
+1878,1945-05-29,1945,Tenryo Maru,Cargo,2231,46-36N,144-22E,United States,Submarine,sunk
+1879,1945-05-30,1945,Hokoku Maru,Cargo,520,4-09S,114-16E,United States,Submarine,sunk
+1880,1945-05-30,1945,Fujitama Maru,Cargo,2218,34-38N,135-11E,United States,Mine,sunk
+1881,1945-05-30,1945,Hakuun Maru,Cargo,594,33-36N,130-25E,United States,Mine,sunk
+1882,1945-05-30,1945,Jindai Maru,Passenger-cargo,1095,33-59N,130-52E,United States,Mine,sunk
+1883,1945-05-30,1945,Takasago Maru No 14,Tanker,834,35-15N,133-44E,United States,Mine,sunk
+1884,1945-05-31,1945,Peking Maru,Cargo,3011,34-01N,130-45E,United States,Mine,sunk
+1885,1945-05-31,1945,Yoro Maru No 2,Cargo,2231,33-58N,130-56E,United States,Mine,sunk
+1886,1945-05-31,1945,Yumihari Maru No 3,Cargo,1154,34-00N,130-50E,United States,Mine,sunk
+1887,1945-05-31,1945,Tensho Maru,Passenger-cargo,601,34-35N,135-15E,United States,Mine,sunk
+1888,1945-06-01,1945,Tobi Maru,Cargo,982,4-53S,115-48E,Great Britain,Submarine,sunk
+1889,1945-06-01,1945,Kimigayo Maru No 2,Passenger-cargo,919,34-39N,135-27E,United States,Aircraft,sunk
+1890,1945-06-01,1945,Abukumagawa Maru,Cargo,6887,34-35N,134-14E,United States,Mine,sunk
+1891,1945-06-01,1945,Goko Maru,Cargo,873,33-58N,130-41E,United States,Mine,sunk
+1892,1945-06-01,1945,Kasumi Maru,Cargo,1274,33-58N,130-59E,United States,Mine,sunk
+1893,1945-06-01,1945,Kenkon Maru No 7,Cargo,880,33-58N,130-56E,United States,Mine,sunk
+1894,1945-06-01,1945,Kishun Maru,Cargo,1864,33-56N,130-56E,United States,Mine,sunk
+1895,1945-06-01,1945,Seishu Maru,Cargo,1223,34-45N,137-05E,United States,Mine,sunk
+1896,1945-06-01,1945,Myosei Maru,Cargo,6886,33-58N,131-03E,United States,Mine,sunk
+1897,1945-06-01,1945,Yoko Maru,Tanker,956,34-30N,135-10E,United States,Mine,sunk
+1898,1945-06-02,1945,Kashima Maru,Cargo,873,33-58N,130-42E,United States,Mine,sunk
+1899,1945-06-02,1945,Eika Maru,Passenger-cargo,1248,20-30N,107-57E,United States,Submarine,sunk
+1900,1945-06-02,1945,Mikamisan Maru,Cargo,861,41-22N,141-28E,United States,Submarine,sunk
+1901,1945-06-03,1945,Konei Maru,Cargo,884,33-33N,129-58E,United States,Mine,sunk
+1902,1945-06-03,1945,Momo Maru,Cargo,884,34-20N,134-20E,United States,Mine,sunk
+1903,1945-06-03,1945,Taiei Maru,Cargo,6923,33-56N,131-11E,United States,Mine,sunk
+1904,1945-06-04,1945,Shobu Maru,Cargo,882,34-20N,129-30E,United States,Aircraft,sunk
+1905,1945-06-04,1945,Taiu Maru,Cargo,2220,38-32N,124-45E,United States,Submarine,sunk
+1906,1945-06-04,1945,Kifune Maru,Cargo,1606,37-57N,137-05E,United States,Mine,sunk
+1907,1945-06-04,1945,Sawa Maru,Cargo,1264,33-59N,130-52E,United States,Mine,sunk
+1908,1945-06-04,1945,Ryujin Maru,Cargo,517,40-54N,141-29E,United States,Submarine,sunk
+1909,1945-06-05,1945,Taisho Maru,Cargo,1122,33-58N,130-52E,United States,Mine,sunk
+1910,1945-06-06,1945,Gassan Maru,Cargo,887,34-00N,130-50E,United States,Mine,sunk
+1911,1945-06-07,1945,Yumihari Maru No 2,Cargo,1186,34-00N,130-00E,United States,Mine,sunk
+1912,1945-06-07,1945,Azusa Maru,Cargo,1370,34-00N,126-45E,United States,Submarine,sunk
+1913,1945-06-08,1945,Nanshin Maru No 22,Tanker,834,8-56N,105-37E,United States,Submarine,sunk
+1914,1945-06-08,1945,Hakusa,Converted Aircraft Ferry,3841,8-56N,105-37E,United States,Submarine,sunk
+1915,1945-06-09,1945,Hokuto Maru,Cargo,2215,40-54N,139-48E,United States,Submarine,sunk
+1916,1945-06-09,1945,Inaura Maru,Cargo,873,34-00N,131-00E,United States,Mine,sunk
+1917,1945-06-09,1945,Sagawa Maru,Cargo,1186,38-13N,138-43E,United States,Submarine,sunk
+1918,1945-06-09,1945,Shoyo Maru,Cargo,2211,38-11N,138-45E,United States,Submarine,sunk
+1919,1945-06-09,1945,Wakatama Maru,Cargo,2211,37-32N,129-10E,United States,Submarine,sunk
+1920,1945-06-09,1945,Kamishika Maru,Cargo,2857,41-52N,141-08E,United States,Submarine,sunk
+1921,1945-06-10,1945,Tado Maru,Cargo,887,36-00N,125-00E,United States,Aircraft,sunk
+1922,1945-06-10,1945,Daiki Maru,Cargo,2217,40-44N,139-48E,United States,Submarine,sunk
+1923,1945-06-10,1945,Hakuyo Maru,Cargo,1391,47-25N,149-04E,United States,Submarine,sunk
+1924,1945-06-10,1945,Taga Maru,Cargo,2220,41-40N,129-52E,United States,Submarine,sunk
+1925,1945-06-10,1945,Daigen Maru No 2,Passenger-cargo,1999,43-21N,140-40E,United States,Submarine,sunk
+1926,1945-06-10,1945,Unkai Maru No 8,Passenger-cargo,1293,43-23N,140-32E,United States,Submarine,sunk
+1927,1945-06-10,1945,Jintsu Maru,Passenger-cargo,994,43-28N,140-28E,United States,Submarine,sunk
+1928,1945-06-10,1945,Shoei Maru No 6,Tanker,834,41-20N,141-29E,United States,Submarine,sunk
+1929,1945-06-11,1945,Shinyo Maru No 3,Passenger-cargo,1898,39-23N,128-59E,United States,Submarine,sunk
+1930,1945-06-11,1945,Hakusan Maru,Cargo,2211,40-43N,139-51E,United States,Submarine,sunk
+1931,1945-06-11,1945,Meisei Maru,Passenger-cargo,1893,41-47N,131-44E,United States,Submarine,sunk
+1932,1945-06-11,1945,Kofuku Maru,Cargo,753,40-28N,139-47E,United States,Submarine,sunk
+1933,1945-06-11,1945,Fukui Maru No 2,Cargo,1578,37-11N,123-23E,United States,Submarine,sunk
+1934,1945-06-11,1945,Hakuju Maru,Cargo,2220,32-37N,129-45E,United States,Submarine,sunk
+1935,1945-06-12,1945,Aizan Maru,Cargo,2221,33-38N,130-22E,United States,Mine,sunk
+1936,1945-06-12,1945,Shimonoseki Maru,Transport,527,33-36N,130-19E,United States,Mine,sunk
+1937,1945-06-12,1945,Fumitsuki Maru,Cargo,875,33-57N,130-44E,United States,Mine,sunk
+1938,1945-06-12,1945,Shinsen Maru,Cargo,880,40-09N,139-43E,United States,Submarine,sunk
+1939,1945-06-12,1945,Yozan Maru,Cargo,1227,37-07N,136-42E,United States,Submarine,sunk
+1940,1945-06-12,1945,Kenjo Maru,Cargo,3142,37-07N,136-42E,United States,Submarine,sunk
+1941,1945-06-12,1945,Zuiko Maru,Cargo,887,37-07N,136-42E,United States,Submarine,sunk
+1942,1945-06-12,1945,Keito Maru,Cargo,880,37-47N,129-10E,United States,Submarine,sunk
+1943,1945-06-13,1945,Kaisho Maru,Cargo,887,35-49N,126-25E,United States,Aircraft,sunk
+1944,1945-06-13,1945,Akiura Maru,Cargo,887,39-13N,128-07E,United States,Submarine,sunk
+1945,1945-06-13,1945,Hiyoshi Maru,Converted Gunboat,1287,33-57N,131-02E,United States,Mine,sunk
+1946,1945-06-13,1945,Matsuo Maru,Cargo,1911,33-56N,131-11E,United States,Mine,sunk
+1947,1945-06-13,1945,Koun Maru,Cargo,1665,23-30N,113-30E,United States,Mine,sunk
+1948,1945-06-13,1945,Shirahi Maru,Cargo,6872,33-57N,130-55E,United States,Mine,sunk
+1949,1945-06-13,1945,Oshikayama Maru,Cargo,6892,38-30N,136-58E,United States,Submarine,sunk
+1950,1945-06-14,1945,Koryu Maru,Tanker,974,33-55N,131-05E,United States,Mine,sunk
+1951,1945-06-14,1945,Nissho Maru No 8,Cargo,1174,33-54N,131-07E,United States,Mine,sunk
+1952,1945-06-14,1945,Uwajima Maru No 18,Passenger-cargo,885,33-39N,130-15E,United States,Mine,sunk
+1953,1945-06-14,1945,Wakamiyasan Maru,Cargo,2211,37-38N,123-34E,United States,Submarine,sunk
+1954,1945-06-14,1945,Seizan Maru,Passenger-cargo,2018,47-03N,142-01E,United States,Submarine,sunk
+1955,1945-06-15,1945,Toho Maru,Tanker,10238,9-25N,99-54E,United States,Aircraft,sunk
+1956,1945-06-15,1945,Koan Maru,Passenger-cargo,884,39-53N,139-40E,United States,Submarine,sunk
+1957,1945-06-16,1945,Takeshima Maru,Cargo,870,34-35N,125-58E,United States,Aircraft,sunk
+1958,1945-06-16,1945,Taikyu Maru,Cargo,2128,33-58N,130-34E,United States,Mine,sunk
+1959,1945-06-17,1945,Eijo Maru,Cargo,2274,42-38N,139-49E,United States,Submarine,sunk
+1960,1945-06-18,1945,Bisan Maru,Passenger-cargo,3420,33-58N,130-44E,United States,Mine,sunk
+1961,1945-06-18,1945,Nissho Maru,Cargo,1276,34-00N,130-50E,United States,Mine,sunk
+1962,1945-06-18,1945,Hakuai Maru,Transport,2614,50-30N,155-01E,United States,Submarine,sunk
+1963,1945-06-19,1945,Konzan Maru,Passenger-cargo,5488,37-13N,137-18E,United States,Submarine,sunk
+1964,1945-06-19,1945,Zaosan Maru,Cargo,2631,50-39N,154-38E,United States,Submarine,sunk
+1965,1945-06-19,1945,Kaisei Maru,Cargo,873,34-22N,130-51E,United States,Mine,sunk
+1966,1945-06-19,1945,Kokai Maru,Cargo,1272,43-12N,140-19E,United States,Submarine,sunk
+1967,1945-06-20,1945,Keijo Maru,Cargo,2220,34-47N,126-23E,United States,Aircraft,sunk
+1968,1945-06-20,1945,Huashan Maru,Cargo,2103,33-38N,130-22E,United States,Mine,sunk
+1969,1945-06-20,1945,Kenan Maru,Cargo,2220,33-59N,130-48E,United States,Mine,sunk
+1970,1945-06-20,1945,Nanki Maru No 1,Cargo,834,33-58N,131-01E,United States,Mine,sunk
+1971,1945-06-20,1945,Kaisei Maru,Cargo,884,35-39N,130-29E,United States,Submarine,sunk
+1972,1945-06-20,1945,Taito Maru,Cargo,2726,36-04N,130-26E,United States,Submarine,sunk
+1973,1945-06-21,1945,Hizen Maru,Cargo,946,41-19N,141-28E,United States,Submarine,sunk
+1974,1945-06-22,1945,Yubu Maru,Cargo,884,34-00N,131-00E,United States,Mine,sunk
+1975,1945-06-22,1945,Shimotsuki Maru,Cargo,875,33-58N,131-01E,United States,Mine,sunk
+1976,1945-06-22,1945,Taigen Maru,Cargo,884,34-00N,130-50E,United States,Mine,sunk
+1977,1945-06-22,1945,Takasegawa Maru,Cargo,879,33-55N,131-20E,United States,Mine,sunk
+1978,1945-06-23,1945,Goshu Maru,Cargo,2211,34-00N,130-50E,United States,Mine,sunk
+1979,1945-06-23,1945,Kocho Maru,Cargo,6888,33-50N,130-30E,United States,Mine,sunk
+1980,1945-06-23,1945,Sagami Maru,Cargo,877,34-00N,131-00E,United States,Mine,sunk
+1981,1945-06-24,1945,Pluto Go,Cargo,3033,34-47N,126-25E,United States,Aircraft,sunk
+1982,1945-06-24,1945,Ise Maru No 5,Cargo,880,33-20N,129-20E,United States,Aircraft,sunk
+1983,1945-06-24,1945,Katsura Maru,Cargo,884,34-19N,133-35E,United States,Mine,sunk
+1984,1945-06-24,1945,Kenkon Maru No 8,Cargo,882,33-58N,130-52E,United States,Mine,sunk
+1985,1945-06-24,1945,Wakamatsu Maru,Cargo,2722,33-48N,131-32E,United States,Mine,sunk
+1986,1945-06-24,1945,Shinka Maru,Cargo,873,33-28N,130-01E,United States,Mine,sunk
+1987,1945-06-25,1945,Anri Maru,Cargo,1668,33-58N,130-50E,United States,Mine,sunk
+1988,1945-06-25,1945,Ungatsu Maru,Cargo,887,33-59N,130-52E,United States,Mine,sunk
+1989,1945-06-26,1945,Kisei Maru,Cargo,749,34-32N,127-14E,United States,Aircraft,sunk
+1990,1945-06-26,1945,Kamitsu Maru,Converted Gunboat,2723,39-25N,142-04E,United States,Submarine,sunk
+1991,1945-06-27,1945,Kaishin Maru No 7,Cargo,873,33-50N,130-50E,United States,Mine,sunk
+1992,1945-06-27,1945,Mibunesan Maru,Cargo,872,34-35N,134-15E,United States,Mine,sunk
+1993,1945-06-27,1945,Mifuku Maru,Cargo,1211,37-06N,137-02E,United States,Mine,sunk
+1994,1945-06-27,1945,Tsuki Maru No 1,Cargo,875,33-58N,131-01E,United States,Mine,sunk
+1995,1945-06-28,1945,Daikokuzan Maru,Cargo,692,34-30N,130-30E,United States,Mine,sunk
+1996,1945-06-28,1945,Reian Maru,Cargo,1936,33-59N,130-52E,United States,Mine,sunk
+1997,1945-06-28,1945,Takasago Maru No 12,Tanker,834,34-23N,130-56E,United States,Mine,sunk
+1998,1945-06-29,1945,Nichiyu Maru No 1,Cargo,6873,34-36N,130-46E,United States,Mine,sunk
+1999,1945-06-29,1945,Soshu Maru,Cargo,1219,35-41N,136-05E,United States,Mine,sunk
+2000,1945-06-30,1945,Ryuho Maru No 1,Cargo,2241,34-03N,140-18E,United States,Aircraft,sunk
+2001,1945-06-30,1945,Taruyasu Maru,Cargo,10254,37-07N,137-04E,United States,Mine,sunk
+2002,1945-06-30,1945,Hokushin Maru,Cargo,5819,15-00N,115-00E,United States,Submarine,sunk
+2003,1945-07-01,1945,Hsin Ningshao,Cargo,3387,31-21N,121-38E,United States,Aircraft,sunk
+2004,1945-07-01,1945,Mitakesan Maru,Cargo,865,34-20N,129-24E,United States,Aircraft,sunk
+2005,1945-07-01,1945,Eijun Maru,Cargo,2156,34-02N,130-57E,United States,Mine,sunk
+2006,1945-07-01,1945,Naoshima Maru,Cargo,873,34-30N,134-17E,United States,Mine,sunk
+2007,1945-07-01,1945,Yamamichi Maru,Cargo,6850,34-28N,135-08E,United States,Mine,sunk
+2008,1945-07-01,1945,Taiun Maru No 1,Cargo,2220,38-08N,124-38E,United States,Submarine,sunk
+2009,1945-07-01,1945,Konri Maru,Cargo,3106,38-08N,124-38E,United States,Submarine,sunk
+2010,1945-07-02,1945,Himetaka Maru,Cargo,554,34-11N,132-31E,United States,Aircraft,sunk
+2011,1945-07-03,1945,Hoei Maru,Tanker,784,34-22N,126-25E,United States,Mine,sunk
+2012,1945-07-05,1945,Tone Maru,Cargo,546,3-20S,114-35E,United States,Aircraft,sunk
+2013,1945-07-05,1945,Tosei Maru No 5,Tanker,523,37-57N,139-04E,United States,Mine,sunk
+2014,1945-07-05,1945,Toyokawa Maru,Cargo,5123,33-56N,130-53E,United States,Mine,sunk
+2015,1945-07-05,1945,Sapporo Maru No 11,Cargo,2820,46-04N,142-14E,United States,Submarine,sunk
+2016,1945-07-06,1945,Tokai Maru No 5,Cargo,879,33-59N,130-52E,United States,Mine,sunk
+2017,1945-07-06,1945,Toyo Maru,Cargo,3718,33-58N,131-00E,United States,Mine,sunk
+2018,1945-07-06,1945,Ujina Maru,Cargo,2218,37-56N,139-04E,United States,Mine,sunk
+2019,1945-07-06,1945,Take Maru,Cargo,1265,33-52N,131-15E,United States,Mine,sunk
+2020,1945-07-06,1945,Shori Maru,Cargo,2080,34-06N,130-47E,United States,Mine,sunk
+2021,1945-07-07,1945,Kinyu Maru No 1,Cargo,834,34-00N,135-00E,United States,Mine,sunk
+2022,1945-07-07,1945,Nachizan Maru,Cargo,880,33-55N,130-56E,United States,Mine,sunk
+2023,1945-07-07,1945,Tairi Go,Transport,1832,33-43N,131-38E,United States,Mine,sunk
+2024,1945-07-07,1945,Koun Maru No 2,Passenger-cargo,606,41-21N,141-28E,United States,Submarine,sunk
+2025,1945-07-08,1945,Mikunisan Maru,Cargo,865,34-45N,126-19E,United States,Aircraft,sunk
+2026,1945-07-08,1945,Shinto Maru,Cargo,2211,33-06N,129-43E,United States,Mine,sunk
+2027,1945-07-08,1945,Saitsu Maru,Passenger-cargo,1045,38-48N,121-28E,United States,Submarine,sunk
+2028,1945-07-09,1945,Gakuzyo Maru,Cargo,1500,33-59N,130-48E,United States,Mine,sunk
+2029,1945-07-09,1945,Michi Maru,Cargo,1383,33-41N,130-14E,United States,Mine,sunk
+2030,1945-07-10,1945,Chikuma Maru,Cargo,9951,33-56N,131-00E,United States,Mine,sunk
+2031,1945-07-10,1945,Nippu Maru,Cargo,891,33-06N,129-43E,United States,Mine,sunk
+2032,1945-07-10,1945,Sakura Maru,Cargo,900,9-38N,101-30E,United States,Submarine,sunk
+2033,1945-07-10,1945,Nanmei Maru No 5,Tanker,834,9-38N,101-30E,United States,Submarine,sunk
+2034,1945-07-10,1945,Sakishima Maru,Cargo,1224,33-39N,126-40E,United States,Submarine,sunk
+2035,1945-07-11,1945,Takechi Maru No 3,Cargo,870,34-34N,134-21E,United States,Mine,sunk
+2036,1945-07-12,1945,Mochizuki Maru,Cargo,875,33-38N,130-22E,United States,Aircraft,sunk
+2037,1945-07-12,1945,Kojun Maru,Cargo,2177,37-57N,139-04E,United States,Mine,sunk
+2038,1945-07-12,1945,Mitsu Maru,Cargo,5682,33-38N,135-03E,United States,Mine,sunk
+2039,1945-07-12,1945,Tatsutsuyu Maru,Cargo,2220,34-24N,131-12E,United States,Mine,sunk
+2040,1945-07-12,1945,Nasu Maru,Converted Salvage Vessel,694,37-55N,139-04E,United States,Mine,sunk
+2041,1945-07-13,1945,Agata Maru No 7,Cargo,873,33-56N,130-56E,United States,Mine,sunk
+2042,1945-07-13,1945,Hayahi Maru,Cargo,6919,34-00N,130-57E,United States,Mine,sunk
+2043,1945-07-13,1945,Korasan Maru,Cargo,2300,33-56N,130-56E,United States,Mine,sunk
+2044,1945-07-13,1945,Yamabishi Maru No 20,Cargo,880,33-58N,131-01E,United States,Mine,sunk
+2045,1945-07-14,1945,Saito Maru,Cargo,874,39-38N,125-05E,United States,Aircraft,sunk
+2046,1945-07-14,1945,Setagawa Maru,Cargo,875,34-00N,126-00E,United States,Aircraft,sunk
+2047,1945-07-14,1945,Awa Maru,Cargo,1960,40-56N,141-52E,United States,Aircraft,sunk
+2048,1945-07-14,1945,Eiho Maru,Cargo,741,41-38N,141-00E,United States,Aircraft,sunk
+2049,1945-07-14,1945,Eireki Maru,Cargo,6923,42-21N,140-59E,United States,Aircraft,sunk
+2050,1945-07-14,1945,Hiran Maru,Ferry,3459,40-51N,140-45E,United States,Aircraft,sunk
+2051,1945-07-14,1945,Hokoku Maru,Cargo,1274,41-33N,140-08E,United States,Aircraft,sunk
+2052,1945-07-14,1945,Hokuryu Maru No 23,Cargo,1550,42-21N,140-59E,United States,Aircraft,sunk
+2053,1945-07-14,1945,Imizu Maru,Cargo,986,43-12N,141-02E,United States,Aircraft,sunk
+2054,1945-07-14,1945,Nissen Maru No 6,Cargo,521,41-48N,141-41E,United States,Aircraft,sunk
+2055,1945-07-14,1945,Seikan Maru No 4,Cargo,2903,41-48N,141-41E,United States,Aircraft,sunk
+2056,1945-07-14,1945,Seikan Maru No 10,Ferry,2900,41-48N,141-41E,United States,Aircraft,sunk
+2057,1945-07-14,1945,Seikan Maru No 3,Cargo,2787,41-38N,141-00E,United States,Aircraft,sunk
+2058,1945-07-14,1945,Seikan Maru No 2,Ferry,2493,40-51N,140-46E,United States,Aircraft,sunk
+2059,1945-07-14,1945,Seikan Maru No 1,Ferry,2326,41-11N,140-27E,United States,Aircraft,sunk
+2060,1945-07-14,1945,Matsumae Maru,Ferry,3429,41-48N,140-41E,United States,Aircraft,sunk
+2061,1945-07-14,1945,Kyodo Maru No 13,Cargo,1996,41-05N,140-55E,United States,Aircraft,sunk
+2062,1945-07-14,1945,Toyu Maru,Cargo,1256,43-17N,145-29E,United States,Aircraft,sunk
+2063,1945-07-14,1945,Tsugaru Maru,Ferry,3484,41-17N,140-32E,United States,Aircraft,sunk
+2064,1945-07-14,1945,Unyo Maru No 1,Cargo,2039,42-21N,140-59E,United States,Aircraft,sunk
+2065,1945-07-14,1945,Senzan Maru,Cargo,1151,41-48N,141-41E,United States,Aircraft,sunk
+2066,1945-07-14,1945,Shimosa Maru,Cargo,887,41-38N,141-00E,United States,Aircraft,sunk
+2067,1945-07-14,1945,Shoho Maru,Transport,3460,40-51N,140-47E,United States,Aircraft,sunk
+2068,1945-07-14,1945,Taisei Maru,Cargo,884,41-38N,141-00E,United States,Aircraft,sunk
+2069,1945-07-14,1945,Taka Maru,Cargo,887,42-21N,140-59E,United States,Aircraft,sunk
+2070,1945-07-14,1945,Chizu Maru,Cargo,2304,33-58N,130-59E,United States,Mine,sunk
+2071,1945-07-14,1945,Kyuko Maru,Passenger-cargo,3222,35-00N,129-43E,United States,Mine,sunk
+2072,1945-07-14,1945,Shoka Maru,Passenger-cargo,1931,43-12N,141-02E,United States,Aircraft,sunk
+2073,1945-07-15,1945,Hirano Maru,Cargo,1226,41-16N,140-04E,United States,Aircraft,sunk
+2074,1945-07-15,1945,Tokai Maru,Cargo,3099,42-47N,140-17E,United States,Aircraft,sunk
+2075,1945-07-15,1945,Shoho Maru,Cargo,1327,41-25N,140-00E,United States,Aircraft,sunk
+2076,1945-07-15,1945,Shoan Maru,Ferry,2900,40-51N,140-45E,United States,Aircraft,sunk
+2077,1945-07-15,1945,Taisho Maru No 1,Cargo,605,42-00N,140-00E,United States,Aircraft,sunk
+2078,1945-07-15,1945,Saikai Maru No 5,Cargo,880,34-00N,131-00E,United States,Mine,sunk
+2079,1945-07-15,1945,Nichiyu Maru No 5,Cargo,873,33-38N,135-24E,United States,Mine,sunk
+2080,1945-07-16,1945,Toyu Maru No 6,Tanker,834,34-00N,131-55E,United States,Aircraft,sunk
+2081,1945-07-16,1945,Koi Maru,Cargo,882,33-54N,131-08E,United States,Mine,sunk
+2082,1945-07-16,1945,Nachi Maru,Passenger-cargo,1606,33-59N,130-52E,United States,Mine,sunk
+2083,1945-07-16,1945,Nannin Maru,Cargo,2486,33-56N,130-52E,United States,Mine,sunk
+2084,1945-07-17,1945,Kitakata Maru,Cargo,2218,33-56N,130-56E,United States,Mine,sunk
+2085,1945-07-17,1945,Nissho Maru,Cargo,2284,33-59N,130-52E,United States,Mine,sunk
+2086,1945-07-17,1945,Shokai Maru No 2,Cargo,883,34-06N,135-08E,United States,Mine,sunk
+2087,1945-07-18,1945,Chishima Maru,Cargo,1368,34-36N,125-00E,United States,Aircraft,sunk
+2088,1945-07-18,1945,Kinyu Maru No 4,Tanker,865,34-48N,134-28E,United States,Aircraft,sunk
+2089,1945-07-18,1945,Shintai Maru,Cargo,933,34-25N,130-40E,United States,Aircraft,sunk
+2090,1945-07-18,1945,Tagami Maru,Cargo,844,34-47N,137-02E,United States,Aircraft,sunk
+2091,1945-07-19,1945,Daikoku Maru,Cargo,598,37-57N,139-04E,United States,Mine,sunk
+2092,1945-07-20,1945,Kyoei Maru No 3,Tanker,1189,8-08N,103-40E,United States,Submarine,sunk
+2093,1945-07-20,1945,Fuei Maru,Cargo,2822,34-00N,134-00E,United States,Mine,sunk
+2094,1945-07-20,1945,Tatsutakawa Maru,Cargo,873,33-59N,130-52E,United States,Mine,sunk
+2095,1945-07-22,1945,Banei Maru No 3,Cargo,1778,39-53N,139-52E,United States,Mine,sunk
+2096,1945-07-22,1945,Choyo Maru,Passenger-cargo,2225,42-30N,129-45E,United States,Mine,sunk
+2097,1945-07-22,1945,Hakutetsu Maru No 5,Cargo,799,34-40N,138-47E,United States,Mine,sunk
+2098,1945-07-22,1945,Katori Maru,Cargo,2218,37-57N,139-04E,United States,Mine,sunk
+2099,1945-07-22,1945,Yuyo Maru,Tanker,10045,34-16N,133-38E,United States,Mine,sunk
+2100,1945-07-23,1945,Horai Maru No 15,Cargo,834,36-02N,129-23E,United States,Aircraft,sunk
+2101,1945-07-23,1945,Daishin Maru No 2,Cargo,1153,33-54N,130-54E,United States,Mine,sunk
+2102,1945-07-23,1945,Nissho Maru No 6,Cargo,642,34-00N,130-50E,United States,Mine,sunk
+2103,1945-07-23,1945,Tsurukawa Maru No 3,Cargo,875,33-56N,130-54E,United States,Mine,sunk
+2104,1945-07-23,1945,Shoko Maru,Cargo,2208,37-57N,139-04E,United States,Mine,sunk
+2105,1945-07-23,1945,Taiha Maru No 1,Cargo,6889,33-56N,130-30E,United States,Mine,sunk
+2106,1945-07-23,1945,Taishin Maru No 2,Cargo,1152,34-00N,130-00E,United States,Mine,sunk
+2107,1945-07-24,1945,Shokai Maru,Tanker,2854,34-10N,129-04E,United States,Aircraft,sunk
+2108,1945-07-24,1945,Kinyu Maru No 9,Cargo,834,34-00N,132-30E,United States,Aircraft,sunk
+2109,1945-07-24,1945,Hanatsuki Maru,Cargo,882,33-15N,132-26E,United States,Aircraft,sunk
+2110,1945-07-24,1945,Ise Maru No 2,Cargo,873,35-14N,133-10E,United States,Aircraft,sunk
+2111,1945-07-24,1945,Kaishin Maru No 11,Cargo,880,33-31N,129-48E,United States,Aircraft,sunk
+2112,1945-07-24,1945,Kanetsu Maru,Cargo,2867,34-14N,132-23E,United States,Aircraft,sunk
+2113,1945-07-24,1945,Kinokawa Maru,Cargo,873,34-15N,132-31E,United States,Aircraft,sunk
+2114,1945-07-24,1945,Komyo Maru,Cargo,873,34-16N,134-40E,United States,Aircraft,sunk
+2115,1945-07-24,1945,Ryuei Maru No 6,Cargo,834,34-05N,132-20E,United States,Aircraft,sunk
+2116,1945-07-24,1945,Sabang Maru,Tanker,10241,34-10N,132-24E,United States,Aircraft,sunk
+2117,1945-07-24,1945,Nanki Maru No 6,Tanker,834,33-49N,132-07E,United States,Aircraft,sunk
+2118,1945-07-24,1945,Himekawa Maru,Cargo,873,33-34N,130-01E,United States,Mine,sunk
+2119,1945-07-24,1945,Inari Maru,Cargo,2759,33-55N,130-56E,United States,Mine,sunk
+2120,1945-07-24,1945,Koichi Maru,Cargo,873,39-10N,127-26E,United States,Mine,sunk
+2121,1945-07-25,1945,Kaisoku Maru,Tanker,1126,34-14N,132-33E,United States,Aircraft,sunk
+2122,1945-07-25,1945,Shokai Maru No 5,Cargo,882,34-35N,135-27E,United States,Mine,sunk
+2123,1945-07-25,1945,Eian Maru,Cargo,3825,35-33N,133-14E,United States,Mine,sunk
+2124,1945-07-25,1945,Hoshi Maru,Cargo,2853,34-35N,135-21E,United States,Mine,sunk
+2125,1945-07-26,1945,Anette Fritzen,Cargo,2774,35-00N,128-00E,United States,Mine,sunk
+2126,1945-07-26,1945,Seria Maru,Tanker,10238,34-01N,131-25E,United States,Aircraft,sunk
+2127,1945-07-27,1945,Meiko Maru,Cargo,887,34-10N,130-55E,United States,Mine,sunk
+2128,1945-07-27,1945,Unten Maru,Cargo,1025,33-56N,131-11E,United States,Mine,sunk
+2129,1945-07-27,1945,Chikuzen Maru,Passenger-cargo,2448,37-00N,134-02E,United States,Submarine,sunk
+2130,1945-07-28,1945,Kinyu Maru No 6,Tanker,865,34-23N,134-50E,United States,Aircraft,sunk
+2131,1945-07-28,1945,Kinzan Maru No 11,Cargo,873,34-48N,134-38E,United States,Mine,sunk
+2132,1945-07-28,1945,Kiyotada Maru,Cargo,3079,33-56N,131-15E,United States,Mine,sunk
+2133,1945-07-28,1945,Teiritsu Maru,Transport,9877,35-32N,135-20E,United States,Mine,sunk
+2134,1945-07-28,1945,Unkai Maru No 15,Cargo,1208,39-53N,139-43E,United States,Submarine,sunk
+2135,1945-07-28,1945,Hagikawa Maru,Cargo,2995,40-17N,139-50E,United States,Submarine,sunk
+2136,1945-07-28,1945,Hakuei Maru,Tanker,2863,39-53N,139-43E,United States,Submarine,sunk
+2137,1945-07-29,1945,Hokusei Maru,Cargo,1284,35-32N,127-30E,United States,Aircraft,sunk
+2138,1945-07-29,1945,Seishin Maru,Passenger-cargo,1336,35-32N,127-30E,United States,Aircraft,sunk
+2139,1945-07-29,1945,Yushin Maru,Cargo,886,35-32N,127-30E,United States,Aircraft,sunk
+2140,1945-07-29,1945,Shoryu Maru,Cargo,1257,35-32N,127-30E,United States,Aircraft,sunk
+2141,1945-07-30,1945,Kamokawa Maru,Cargo,865,35-20N,130-30E,United States,Aircraft,sunk
+2142,1945-07-30,1945,Kashi Maru,Cargo,884,35-40N,136-04E,United States,Aircraft,sunk
+2143,1945-07-30,1945,Tatsumiya Maru,Cargo,6343,35-33N,135-31E,United States,Aircraft,sunk
+2144,1945-07-30,1945,Shokei Maru,Passenger-cargo,3620,35-32N,135-12E,United States,Mine,sunk
+2145,1945-07-30,1945,Yuzan Maru,Passenger-cargo,6039,42-36N,139-48E,United States,Submarine,sunk
+2146,1945-08-01,1945,Hayabusa Maru,Cargo,873,33-41N,129-59E,United States,Aircraft,sunk
+2147,1945-08-02,1945,Santo Maru,Cargo,1890,37-57N,139-04E,United States,Mine,sunk
+2148,1945-08-03,1945,Aga Maru,Dredge,529,38-55N,139-45E,United States,Mine,sunk
+2149,1945-08-03,1945,Dairetsu Maru,Cargo,873,34-39N,135-12E,United States,Mine,sunk
+2150,1945-08-03,1945,Hohsing,Cargo,2111,35-40N,136-05E,United States,Mine,sunk
+2151,1945-08-03,1945,Shinei Maru No 3,Cargo,2220,42-10N,130-15E,United States,Mine,sunk
+2152,1945-08-04,1945,Koshin Maru,Cargo,975,34-37N,135-18E,United States,Mine,sunk
+2153,1945-08-05,1945,Kori Maru,Cargo,1091,38-51N,121-39E,United States,Submarine,sunk
+2154,1945-08-05,1945,Kotohirasan Maru,Cargo,2220,39-52N,138-52E,United States,Submarine,sunk
+2155,1945-08-06,1945,Kowa Maru,Cargo,884,34-26N,129-16E,United States,Aircraft,sunk
+2156,1945-08-06,1945,Shintai Maru No 7,Cargo,882,34-26N,129-16E,United States,Aircraft,sunk
+2157,1945-08-06,1945,Chokai Maru No 2,Cargo,1287,38-49N,137-04E,United States,Mine,sunk
+2158,1945-08-06,1945,Isojima Maru,Cargo,884,33-56N,130-56E,United States,Mine,sunk
+2159,1945-08-06,1945,Kozan Maru No 2,Cargo,864,33-53N,132-00E,United States,Mine,sunk
+2160,1945-08-07,1945,Kinyu Maru No 7,Cargo,834,34-55N,128-44E,United States,Aircraft,sunk
+2161,1945-08-07,1945,Nanki Maru No 9,Cargo,834,34-55N,128-44E,United States,Aircraft,sunk
+2162,1945-08-07,1945,Kibitsu Maru,Cargo,9575,34-37N,135-04E,United States,Mine,sunk
+2163,1945-08-08,1945,Kasado Maru,Passenger-cargo,6003,52-00N,156-00E,Russia,Aircraft,sunk
+2164,1945-08-08,1945,Rashin Maru,Passenger-cargo,5454,41-23N,131-25E,United States,Submarine,sunk
+2165,1945-08-09,1945,Yamanami Maru No 7,Cargo,875,25-15N,138-44E,United States,Aircraft,sunk
+2166,1945-08-09,1945,Chika Maru,Cargo,1146,41-50N,129-46E,United States,Aircraft,sunk
+2167,1945-08-09,1945,Edamitsu Maru,Cargo,6872,42-30N,129-45E,United States,Aircraft,sunk
+2168,1945-08-09,1945,Heiyu Maru,Cargo,973,42-30N,129-45E,United States,Aircraft,sunk
+2169,1945-08-09,1945,Minko Maru,Transport,800,21-26N,111-20E,United States,Aircraft,sunk
+2170,1945-08-09,1945,Rakuzan Maru,Passenger-cargo,2104,42-30N,129-45E,United States,Aircraft,sunk
+2171,1945-08-09,1945,Ryuwa Maru,Cargo,1244,42-30N,129-45E,United States,Aircraft,sunk
+2172,1945-08-09,1945,Toyoshima Maru,Cargo,875,35-09N,129-30E,United States,Aircraft,sunk
+2173,1945-08-09,1945,Banshu Maru No 36,Cargo,889,39-30N,142-04E,United States,Aircraft,sunk
+2174,1945-08-09,1945,Taito Maru,Tanker,6850,42-30N,129-45E,United States,Aircraft,sunk
+2175,1945-08-09,1945,Tensho Maru,Cargo,3035,41-47N,129-50E,United States,Aircraft,sunk
+2176,1945-08-09,1945,Yamabishi Maru No 7,Cargo,875,35-09N,129-30E,United States,Aircraft,sunk
+2177,1945-08-10,1945,Shofuku Maru,Cargo,754,33-53N,129-20E,United States,Aircraft,sunk
+2178,1945-08-10,1945,Horai Maru No 14,Cargo,865,37-00N,129-00E,United States,Aircraft,sunk
+2179,1945-08-10,1945,Chichibu Maru,Cargo,884,42-20N,130-24E,United States,Aircraft,sunk
+2180,1945-08-10,1945,Nanki Maru No 2,Cargo,834,38-55N,139-49E,United States,Aircraft,sunk
+2181,1945-08-10,1945,Masayoshi Maru,Cargo,970,38-55N,139-49E,United States,Aircraft,sunk
+2182,1945-08-10,1945,Taishun Maru,Cargo,2857,41-46N,129-49E,United States,Mine,sunk
+2183,1945-08-11,1945,Nisshin Maru No 2,Cargo,882,33-45N,131-30E,United States,Mine,sunk
+2184,1945-08-11,1945,Teihoku Maru,Passenger-cargo,5795,38-03N,133-13E,United States,Submarine,sunk
+2185,1945-08-12,1945,Hozukawa Maru,Cargo,875,35-00N,126-00E,United States,Aircraft,sunk
+2186,1945-08-12,1945,Tamon Maru No 16,Cargo,6886,37-07N,137-02E,United States,Mine,sunk
+2187,1945-08-13,1945,Kaiho Maru,Cargo,873,36-16N,136-08E,United States,Submarine,sunk
+2188,1945-08-14,1945,Takakawa Maru No 3,Cargo,884,32-45N,120-50E,United States,Aircraft,sunk
+2189,1945-08-14,1945,Tatsusugi Maru,Cargo,865,33-31N,130-29E,United States,Aircraft,sunk
+2190,1945-08-14,1945,Mikasasan Maru,Cargo,865,30-10N,126-28E,United States,Mine,sunk
+2191,1945-08-14,1945,Yojo Maru,Cargo,2220,34-38N,135-24E,United States,Mine,sunk
+2192,1945-08-14,1945,Kashima Maru,Cargo,2211,35-10N,129-00E,United States,Mine,sunk
