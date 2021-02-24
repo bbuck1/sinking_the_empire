@@ -1,0 +1,720 @@
+---
+title: "Unrestricted: Interactive Map Exhibit"
+author:
+  - name: Brandan P. Buck
+    affiliation: George Mason University
+date: "`r Sys.Date()`"
+output: distill::distill_article
+---
+
+Welcome to the interactive map exhibit for <a href="https://unrestricted.omeka.net/">"Unrestricted: The Campaign to Sink the Japanese Merchant Fleet During World War II"</a> .The map is an interactive exhibit of the data in “Japanese Naval and Merchant Shipping Losses During World War II by All Causes.” The map also depicts Japanese sea lines of communication (SLOC) which connected the Japanese empire’s possessions throughout the Pacific as well as key oil production sites.
+
+The data depicted can be augmented via a collapsible menu in the upper right corner which divides the campaign into ten periods:  Dec, 1941- Dec, 1942, Jan-Jun 1943, Jul - Dec, 1943, Jan-Mar, 1944, Apr-Jun, 1944, Jul-Sep, 1944, Oct-Dec, 1944, Jan-Apr, 1945, May-Jun, 1945, Jul-Aug, 1945. These periods were determined to reflect major turning points in the conflict: the results of major operations, or the increases in attrition rates suffered by the merchant fleet. 
+
+The data can be interrogated by simply clicking any datapoint. The sinking events are symbolized via their respective sinking agent, Allied aircraft, submarine, mine or surface craft. Vessels which were sunk by multiple agents (ie aircraft and surface craft) were symbolized to the sinking agent which best reflected the operation which caused their sinking.  This map is an ongoing project. Some data points may contain locational anomalies due to human error and the proximity of the sinking event to shore. Obvious errors have been corrected using contemporary data.
+
+Japanese maritime territory is depicted by their controlled shipping lanes, also known as Sea Lines of Communication (SLOC) and are symbolized by grey lines. As SLOCs are interdicted by the Allied advance, symbolized in green, they will disappear from the map. Oil production facilities are symbolized by black circles. The Soviet Union, which remained neutral until 8 Aug 1945, is symbolized in grey until the final iteration of the map.  
+
+
+
+```{r setup, echo= FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+
+library(dplyr)
+library(tidyverse)
+library(leaflet)
+library(sf)
+library(maps)
+library(mapdata)
+library(leaflet.extras)
+
+sinking_data<- read_csv("sinking_data/japanese_merchant_fleet_sinkings_simplified_v6.csv")
+
+sloc<- read_sf("C:/Users/bpbuc/Documents/Brandan's Stuff/_PhD Stuff/Cilo Wired-Hist 696/Project/Data/SLOC/Japanese SLOC WWII Complete.shp")
+
+ussr<- read_sf("C:/Users/bpbuc/Documents/Brandan's Stuff/Basemap data/Period Political Boundries, 1941/Soviet Union.shp")
+ussr_45<- read_sf("C:/Users/bpbuc/Documents/Brandan's Stuff/_PhD Stuff/CILO II/project_data/loc/ussr.shp")
+
+oil_sites<- read_sf ("C:/Users/bpbuc/Documents/Brandan's Stuff/_PhD Stuff/Cilo Wired-Hist 696/Project/Data/For Export/Japanese Occupied Oil Production Sites/Japanese Occupied Oil Production Sites.shp")
+
+dec_42_loc<- read_sf("C:/Users/bpbuc/Documents/Brandan's Stuff/_PhD Stuff/CILO II/project_data/loc/dec_1942_loc.shp")
+jun_43_loc<- read_sf ("C:/Users/bpbuc/Documents/Brandan's Stuff/_PhD Stuff/CILO II/project_data/loc/jun_1943.shp")
+dec_43_loc<- read_sf ("C:/Users/bpbuc/Documents/Brandan's Stuff/_PhD Stuff/CILO II/project_data/loc/dec_1943_loc.shp")
+mar_44_loc<- read_sf("C:/Users/bpbuc/Documents/Brandan's Stuff/_PhD Stuff/CILO II/project_data/loc/mar_1944_loc.shp")
+jun_44_loc<- read_sf("C:/Users/bpbuc/Documents/Brandan's Stuff/_PhD Stuff/CILO II/project_data/loc/jun_1944.shp")
+sep_44_loc<- read_sf ("C:/Users/bpbuc/Documents/Brandan's Stuff/_PhD Stuff/CILO II/project_data/loc/sep_1944_loc.shp")
+dec_44_loc<- read_sf ("C:/Users/bpbuc/Documents/Brandan's Stuff/Basemap data/allied zone of control Dec 1944.shp")
+mar_45_loc<- read_sf ("C:/Users/bpbuc/Documents/Brandan's Stuff/_PhD Stuff/Cilo Wired-Hist 696/Project/Data/Allied Zone of Control Mar 1945.shp")
+apr_45_loc<- read_sf ("C:/Users/bpbuc/Documents/Brandan's Stuff/Basemap data/Allied zone of control Apr 1945.shp")
+jul_45_loc<- read_sf ("C:/Users/bpbuc/Documents/Brandan's Stuff/_PhD Stuff/CILO II/project_data/loc/jul_1945.shp")
+aug_45_loc<- read_sf ("C:/Users/bpbuc/Documents/Brandan's Stuff/_PhD Stuff/CILO II/project_data/loc/aug_1945.shp")
+
+dms2dd <- function(x) {
+  deg <- str_extract(x, "\\d+") %>% as.numeric()
+  min <- str_extract(x, "-\\d+") %>% str_remove("-") %>% as.numeric()
+  deg <- deg + min / 60
+  dir <- str_extract(x, "\\w$")
+  ifelse(dir %in% c("N", "E"),
+         deg,
+         -deg)}
+
+sinking_data_dd<- sinking_data %>%
+  mutate(lat= dms2dd(loc_1),
+         lon= dms2dd(loc_2))
+
+sinking_data$date<-as.Date(sinking_data$date, '%Y-%m-%d')
+
+sinking_data_dd$lat <- jitter(sinking_data_dd$lat, factor = 1.0000)
+sinking_data_dd$lon <- jitter(sinking_data_dd$lon, factor = 1.0000)
+
+
+
+pal <- colorFactor(c("red", "green","blue", "purple"), domain = c("Aircraft", "Mine", "Submarine", "Surface Craft"))
+
+#full data with and w/o links
+
+sinking_data_dd_url<- sinking_data_dd %>% 
+  drop_na(url)
+
+sinking_data_dd__no_url<- sinking_data_dd %>% 
+  filter(is.na(url))
+
+#no links
+
+sinking_data_dd_41_42 <-sinking_data_dd %>%
+  filter(year == 1941 |
+           year == 1942) %>%
+  filter(is.na(url)) %>% 
+  filter(sinking_agent != "Sabotage" |
+           sinking_agent != "Unknown")
+
+sinking_data_dd_jan_jun_43 <-sinking_data_dd %>%
+  filter(year == 1943) %>%
+  filter(date < "1943-07-01") %>%
+  filter(is.na(url)) %>% 
+  filter(sinking_agent != "Sabotage" |
+           sinking_agent != "Unknown")
+
+sinking_data_dd_jul_dec_43 <-sinking_data_dd %>%
+  filter(year == 1943) %>%
+  filter(date > "1943-06-28") %>%
+  filter(is.na(url)) %>% 
+  filter(sinking_agent != "Sabotage" |
+           sinking_agent != "Unknown")
+
+sinking_data_dd_jan_mar_44 <-sinking_data_dd %>%
+  filter(year == 1944) %>%
+  filter(date < "1944-04-01") %>%
+  filter(is.na(url)) %>% 
+  filter (sinking_agent != "sabotage" |
+            sinking_agent != "unknown")
+
+sinking_data_dd_apr_jun_44 <-sinking_data_dd %>%
+  filter(year == 1944) %>%
+  filter(date < "1944-07-01") %>%
+  filter(date > "1944-03-30") %>%
+  filter(is.na(url)) %>% 
+  filter (sinking_agent != "sabotage" |
+            sinking_agent != "unknown")
+
+sinking_data_dd_jul_sep_44 <-sinking_data_dd %>%
+  filter(year == 1944) %>%
+  filter(date < "1944-10-01") %>%
+  filter(date > "1944-06-30") %>%
+  filter(is.na(url)) %>% 
+  filter (sinking_agent != "sabotage" |
+            sinking_agent != "unknown")
+
+sinking_data_dd_oct_dec_44 <-sinking_data_dd %>%
+  filter(is.na(url)) %>% 
+  filter(year == 1944) %>%
+  filter(date > "1944-09-29",
+         sinking_agent != "sabotage" |
+           sinking_agent != "unknown")
+
+sinking_data_dd_jan_apr_45 <-sinking_data_dd %>%
+  filter(is.na(url)) %>% 
+  filter(year == 1945) %>%
+  filter(date < "1945-05-01",
+         sinking_agent != "Sabotage" |
+           sinking_agent != "Unknown")
+
+sinking_data_dd_may_jun_45 <-sinking_data_dd %>%
+  filter(is.na(url)) %>% 
+  filter(year == 1945) %>%
+  filter(date < "1945-07-01") %>%
+  filter(date > "1945-04-30") %>%
+  filter (sinking_agent != "sabotage" |
+            sinking_agent != "unknown")
+
+
+sinking_data_dd_jul_aug_45 <-sinking_data_dd %>%
+  filter(is.na(url)) %>% 
+  filter(year == 1945) %>%
+  filter(date > "1945-06-30",
+         sinking_agent != "Sabotage" |
+           sinking_agent != "Unknown")
+#With Links
+
+sinking_data_dd_41_42_url <-sinking_data_dd %>%
+  filter(year == 1941 |
+           year == 1942) %>%
+  drop_na(url) %>%  
+  filter(sinking_agent != "Sabotage" |
+           sinking_agent != "Unknown")
+
+sinking_data_dd_jan_jun_43_url <-sinking_data_dd %>%
+  filter(year == 1943) %>%
+  filter(date < "1943-07-01") %>%
+  drop_na(url) %>%  
+  filter(sinking_agent != "Sabotage" |
+           sinking_agent != "Unknown")
+
+sinking_data_dd_jul_dec_43_url <-sinking_data_dd %>%
+  filter(year == 1943) %>%
+  filter(date > "1943-06-28") %>%
+  drop_na(url) %>%  
+  filter(sinking_agent != "Sabotage" |
+           sinking_agent != "Unknown")
+
+sinking_data_dd_jan_mar_44_url <-sinking_data_dd %>%
+  filter(year == 1944) %>%
+  filter(date < "1944-04-01") %>%
+  drop_na(url) %>%  
+  filter (sinking_agent != "sabotage" |
+            sinking_agent != "unknown")
+
+sinking_data_dd_apr_jun_44_url <-sinking_data_dd %>%
+  filter(year == 1944) %>%
+  filter(date < "1944-07-01") %>%
+  filter(date > "1944-03-30") %>%
+  drop_na(url) %>%  
+  filter (sinking_agent != "sabotage" |
+            sinking_agent != "unknown")
+
+sinking_data_dd_jul_sep_44_url <-sinking_data_dd %>%
+  filter(year == 1944) %>%
+  filter(date < "1944-10-01") %>%
+  filter(date > "1944-06-30") %>%
+  drop_na(url) %>%  
+  filter (sinking_agent != "sabotage" |
+            sinking_agent != "unknown")
+
+sinking_data_dd_oct_dec_44_url <-sinking_data_dd %>%
+  drop_na(url) %>%  
+  filter(year == 1944) %>%
+  filter(date > "1944-09-29",
+         sinking_agent != "sabotage" |
+           sinking_agent != "unknown")
+
+sinking_data_dd_jan_apr_45_url <-sinking_data_dd %>%
+  drop_na(url) %>% 
+  filter(year == 1945) %>%
+  filter(date < "1945-05-01",
+         sinking_agent != "Sabotage" |
+           sinking_agent != "Unknown")
+
+sinking_data_dd_may_jun_45_url <-sinking_data_dd %>%
+  drop_na(url) %>%  
+  filter(year == 1945) %>%
+  filter(date < "1945-07-01") %>%
+  filter(date > "1945-04-30") %>%
+  filter (sinking_agent != "sabotage" |
+            sinking_agent != "unknown")
+
+
+sinking_data_dd_jul_aug_45_url <-sinking_data_dd %>%
+  drop_na(url) %>% 
+  filter(year == 1945) %>%
+  filter(date > "1945-06-30",
+         sinking_agent != "Sabotage" |
+           sinking_agent != "Unknown")
+
+
+sloc_apr_44<- sloc %>%
+  filter(Closed != "March 44")
+
+sloc_closed_sep_44<- sloc %>%
+  filter(Closed != "March 44") %>%
+  filter(Closed != "Jun 44") %>% 
+  filter(Closed != "Sep 44")  
+
+sloc_oct_44<- sloc %>%
+  filter(Closed != "March 44") %>%
+  filter(Closed != "Sep 44") %>%
+  filter(Closed != "May 44")
+
+sloc_Jan_45<- sloc %>%
+  filter(Closed != "March 44") %>%
+  filter(Closed != "May 44") %>%
+  filter(Closed != "Dec 44") %>%
+  filter(Closed != "Sep 44") %>%
+  filter(Closed != "Jun 44")
+
+sloc_Jun_45<- sloc %>%
+  filter(Closed != "March 44") %>%
+  filter(Closed != "May 44") %>%
+  filter(Closed != "Dec 44") %>%
+  filter(Closed != "Sep 44") %>%
+  filter(Closed != "Jun 44") %>% 
+  filter(Closed != "May 45")
+
+sloc_aug_45<- sloc %>%
+  filter(Closed == "Aug 45")
+
+```
+
+
+
+
+```{r, layout="l-page", fig.height= 8, fig.width= 5, echo= FALSE}
+
+leaflet() %>%
+  addProviderTiles("Esri.WorldShadedRelief",
+                   options = providerTileOptions(minzoom = 1, maxzoom = 4)) %>%
+  setMaxBounds(lng1 = 66, lat1 = 50, lng2 = 179, lat2 = -14) %>%
+  setView(lng = 133, lat = 15, zoom = 4) %>%
+  addPolygons(data = ussr,
+              color = "grey",
+              opacity = 0.0, fillOpacity = 0.4,
+              group = "1. Dec, 1941- Dec, 1942") %>% 
+  addPolygons(data = ussr,
+              color = "grey",
+              opacity = 0.0, fillOpacity = 0.4,
+              group = "2. Jan-Jun 1943") %>%
+  addPolygons(data = ussr,
+              color = "grey",
+              opacity = 0.0, fillOpacity = 0.4,
+              group = "3. Jul - Dec, 1943") %>%
+  addPolygons(data = ussr,
+              color = "grey",
+              opacity = 0.0, fillOpacity = 0.4,
+              group = "4. Jan-Mar, 1944") %>% 
+  addPolygons(data = ussr,
+              color = "grey",
+              opacity = 0.0, fillOpacity = 0.4,
+              group = "5. Apr-Jun, 1944") %>%
+  addPolygons(data = ussr,
+              color = "grey",
+              opacity = 0.0, fillOpacity = 0.4,
+              group = "6. Jul-Sep, 1944") %>%
+  addPolygons(data = ussr,
+              color = "grey",
+              opacity = 0.0, fillOpacity = 0.4,
+              group = "7. Oct-Dec, 1944") %>%
+  addPolygons(data = ussr,
+              color = "grey",
+              opacity = 0.0, fillOpacity = 0.4,
+              group = "8. Jan-Apr, 1945") %>%
+  addPolygons(data = ussr,
+              color = "grey",
+              opacity = 0.0, fillOpacity = 0.4,
+              group = "9. May-Jun, 1945") %>%
+  addPolygons(data = ussr_45,
+              color = "green",
+              opacity = 0.0, fillOpacity = 0.4,
+              group = "10. Jul-Aug, 1945") %>% 
+  addCircleMarkers(data = oil_sites,
+                   color = "black",
+                   radius = 7,
+                   popup = ~paste(loc, site, sep = ",")) %>%
+  addCircleMarkers(data = sinking_data_dd__no_url,
+                   lng = ~lon,
+                   lat = ~lat,
+                   color = ~pal(sinking_agent),
+                   radius = 3,
+                   popup = ~paste("<h3> Sinking Information: </h3>",
+                                  "<b> Vessel Name: </b>", 
+                                  name, "<br>",
+                                  "<b> Vessel Type: </b>", type, "<br>", 
+                                  "<b> Sunk By: </b>", sinking_agent, "<br>",
+                                  "<b> Tonnage: </b>", tonnage, "<br>",
+                                  "<b> Sinking Date: </b>", date, sep = " "),
+                   group = "Dec, 1941- Aug, 1945") %>%
+  addCircleMarkers(data = sinking_data_dd_41_42,
+                   lng = ~lon,
+                   lat = ~lat,
+                   color = ~pal(sinking_agent),
+                   radius = 3,
+                   popup = ~paste("<h3> Sinking Information: </h3>",
+                                  "<b> Vessel Name: </b>", 
+                                  name, "<br>",
+                                  "<b> Vessel Type: </b>", type, "<br>", 
+                                  "<b> Sunk By: </b>", sinking_agent, "<br>",
+                                  "<b> Tonnage: </b>", tonnage, "<br>",
+                                  "<b> Sinking Date: </b>", date, sep = " "),
+                   group = "1. Dec, 1941- Dec, 1942") %>%
+  addCircleMarkers(data = sinking_data_dd_jan_jun_43,
+                   lng = ~lon,
+                   lat = ~lat,
+                   color = ~pal(sinking_agent),
+                   radius = 3,
+                   popup = ~paste("<h3> Sinking Information: </h3>",
+                                  "<b> Vessel Name: </b>", 
+                                  name, "<br>",
+                                  "<b> Vessel Type: </b>", type, "<br>", 
+                                  "<b> Sunk By: </b>", sinking_agent, "<br>",
+                                  "<b> Tonnage: </b>", tonnage, "<br>",
+                                  "<b> Sinking Date: </b>", date, sep = " "),
+                   group = "2. Jan-Jun 1943") %>%
+  addCircleMarkers(data = sinking_data_dd_jul_dec_43,
+                   lng = ~lon,
+                   lat = ~lat,
+                   color = ~pal(sinking_agent),
+                   radius = 3,
+                   popup = ~paste("<h3> Sinking Information: </h3>",
+                                  "<b> Vessel Name: </b>", 
+                                  name, "<br>",
+                                  "<b> Vessel Type: </b>", type, "<br>", 
+                                  "<b> Sunk By: </b>", sinking_agent, "<br>",
+                                  "<b> Tonnage: </b>", tonnage, "<br>",
+                                  "<b> Sinking Date: </b>", date, sep = " "),
+                   group = "3. Jul - Dec, 1943") %>%
+  addCircleMarkers(data = sinking_data_dd_jan_mar_44,
+                   lng = ~lon,
+                   lat = ~lat,
+                   color = ~pal(sinking_agent),
+                   radius = 3,
+                  popup = ~paste("<h3> Sinking Information: </h3>",
+                                  "<b> Vessel Name: </b>", 
+                                  name, "<br>",
+                                  "<b> Vessel Type: </b>", type, "<br>", 
+                                  "<b> Sunk By: </b>", sinking_agent, "<br>",
+                                  "<b> Tonnage: </b>", tonnage, "<br>",
+                                  "<b> Sinking Date: </b>", date, sep = " "),
+                   group = "4. Jan-Mar, 1944") %>% 
+  addCircleMarkers(data = sinking_data_dd_apr_jun_44,
+                   lng = ~lon,
+                   lat = ~lat,
+                   color = ~pal(sinking_agent),
+                   radius = 3,
+                   popup = ~paste("<h3> Sinking Information: </h3>",
+                                  "<b> Vessel Name: </b>", 
+                                  name, "<br>",
+                                  "<b> Vessel Type: </b>", type, "<br>", 
+                                  "<b> Sunk By: </b>", sinking_agent, "<br>",
+                                  "<b> Tonnage: </b>", tonnage, "<br>",
+                                  "<b> Sinking Date: </b>", date, sep = " "),
+                   group = "5. Apr-Jun, 1944") %>% 
+  addCircleMarkers(data = sinking_data_dd_jul_sep_44,
+                   lng = ~lon,
+                   lat = ~lat,
+                   color = ~pal(sinking_agent),
+                   radius = 3,
+                   popup = ~paste("<h3> Sinking Information: </h3>",
+                                  "<b> Vessel Name: </b>", 
+                                  name, "<br>",
+                                  "<b> Vessel Type: </b>", type, "<br>", 
+                                  "<b> Sunk By: </b>", sinking_agent, "<br>",
+                                  "<b> Tonnage: </b>", tonnage, "<br>",
+                                  "<b> Sinking Date: </b>", date, sep = " "),
+                   group = "6. Jul-Sep, 1944") %>% 
+  addCircleMarkers(data = sinking_data_dd_oct_dec_44,
+                   lng = ~lon,
+                   lat = ~lat,
+                   color = ~pal(sinking_agent),
+                   radius = 3,
+                   popup = ~paste("<h3> Sinking Information: </h3>",
+                                  "<b> Vessel Name: </b>", 
+                                  name, "<br>",
+                                  "<b> Vessel Type: </b>", type, "<br>", 
+                                  "<b> Sunk By: </b>", sinking_agent, "<br>",
+                                  "<b> Tonnage: </b>", tonnage, "<br>",
+                                  "<b> Sinking Date: </b>", date, sep = " "),
+                   group = "7. Oct-Dec, 1944") %>% 
+  addCircleMarkers(data = sinking_data_dd_jan_apr_45,
+                   lng = ~lon,
+                   lat = ~lat,
+                   color = ~pal(sinking_agent),
+                   radius = 3,
+                   popup = ~paste("<h3> Sinking Information: </h3>",
+                                  "<b> Vessel Name: </b>", 
+                                  name, "<br>",
+                                  "<b> Vessel Type: </b>", type, "<br>", 
+                                  "<b> Sunk By: </b>", sinking_agent, "<br>",
+                                  "<b> Tonnage: </b>", tonnage, "<br>",
+                                  "<b> Sinking Date: </b>", date, sep = " "),
+                   group = "8. Jan-Apr, 1945") %>% 
+    addCircleMarkers(data = sinking_data_dd_may_jun_45,
+                   lng = ~lon,
+                   lat = ~lat,
+                   color = ~pal(sinking_agent),
+                   radius = 3,
+                   popup = ~paste("<h3> Sinking Information: </h3>",
+                                  "<b> Vessel Name: </b>", 
+                                  name, "<br>",
+                                  "<b> Vessel Type: </b>", type, "<br>", 
+                                  "<b> Sunk By: </b>", sinking_agent, "<br>",
+                                  "<b> Tonnage: </b>", tonnage, "<br>",
+                                  "<b> Sinking Date: </b>", date, sep = " "),
+                   group = "9. May-Jun, 1945") %>% 
+  addCircleMarkers(data = sinking_data_dd_jul_aug_45,
+                   lng = ~lon,
+                   lat = ~lat,
+                   color = ~pal(sinking_agent),
+                   radius = 3,
+                   popup = ~paste("<h3> Sinking Information: </h3>",
+                                  "<b> Vessel Name: </b>", 
+                                  name, "<br>",
+                                  "<b> Vessel Type: </b>", type, "<br>", 
+                                  "<b> Sunk By: </b>", sinking_agent, "<br>",
+                                  "<b> Tonnage: </b>", tonnage, "<br>",
+                                  "<b> Sinking Date: </b>", date, sep = " "),
+                   group = "10. Jul-Aug, 1945") %>% 
+  addCircleMarkers(data = sinking_data_dd_url,
+                   lng = ~lon,
+                   lat = ~lat,
+                   color = ~pal(sinking_agent),
+                   radius = 3,
+                   popup = ~paste("<h3> Sinking Information: </h3>",
+                                  "<b> Vessel Name: </b>", 
+                                  name, "<br>",
+                                  "<b> Vessel Type: </b>", type, "<br>", 
+                                  "<b> Sunk By: </b>", sinking_agent, "<br>",
+                                  "<b> Tonnage: </b>", tonnage, "<br>",
+                                  "<b> Sinking Date </b>:", date, "<br>",
+                                  "<a href='", url, "'>Learn More</a>"),
+                   group = "Dec, 1941- Aug, 1945") %>% 
+  addCircleMarkers(data = sinking_data_dd_41_42_url,
+                   lng = ~lon,
+                   lat = ~lat,
+                   color = ~pal(sinking_agent),
+                   radius = 3,
+                   popup = ~paste("<h3> Sinking Information: </h3>",
+                                  "<b> Vessel Name: </b>", 
+                                  name, "<br>",
+                                  "<b> Vessel Type: </b>", type, "<br>", 
+                                  "<b> Sunk By: </b>", sinking_agent, "<br>",
+                                  "<b> Tonnage: </b>", tonnage, "<br>",
+                                  "<b> Sinking Date </b>:", date, "<br>",
+                                  "<a href='", url, "'>Learn More</a>"),
+                   group = "1. Dec, 1941- Dec, 1942") %>%
+  addCircleMarkers(data = sinking_data_dd_jan_jun_43_url,
+                   lng = ~lon,
+                   lat = ~lat,
+                   color = ~pal(sinking_agent),
+                   radius = 3,
+                   popup = ~paste("<h3> Sinking Information: </h3>",
+                                  "<b> Vessel Name: </b>", 
+                                  name, "<br>",
+                                  "<b> Vessel Type: </b>", type, "<br>", 
+                                  "<b> Sunk By: </b>", sinking_agent, "<br>",
+                                  "<b> Tonnage: </b>", tonnage, "<br>",
+                                  "<b> Sinking Date </b>:", date, "<br>",
+                                  "<a href='", url, "'>Learn More</a>"),
+                   group = "2. Jan-Jun 1943") %>%
+  addCircleMarkers(data = sinking_data_dd_jul_dec_43_url,
+                   lng = ~lon,
+                   lat = ~lat,
+                   color = ~pal(sinking_agent),
+                   radius = 3,
+                   popup = ~paste("<h3> Sinking Information: </h3>",
+                                  "<b> Vessel Name: </b>", 
+                                  name, "<br>",
+                                  "<b> Vessel Type: </b>", type, "<br>", 
+                                  "<b> Sunk By: </b>", sinking_agent, "<br>",
+                                  "<b> Tonnage: </b>", tonnage, "<br>",
+                                  "<b> Sinking Date </b>:", date, "<br>",
+                                  "<a href='", url, "'>Learn More</a>"),
+                   group = "3. Jul - Dec, 1943") %>%
+  addCircleMarkers(data = sinking_data_dd_jan_mar_44_url,
+                   lng = ~lon,
+                   lat = ~lat,
+                   color = ~pal(sinking_agent),
+                   radius = 3,
+                   popup = ~paste("<h3> Sinking Information: </h3>",
+                                  "<b> Vessel Name: </b>", 
+                                  name, "<br>",
+                                  "<b> Vessel Type: </b>", type, "<br>", 
+                                  "<b> Sunk By: </b>", sinking_agent, "<br>",
+                                  "<b> Tonnage: </b>", tonnage, "<br>",
+                                  "<b> Sinking Date </b>:", date, "<br>",
+                                  "<a href='", url, "'>Learn More</a>"),
+                   group = "4. Jan-Mar, 1944") %>% 
+  addCircleMarkers(data = sinking_data_dd_apr_jun_44_url,
+                   lng = ~lon,
+                   lat = ~lat,
+                   color = ~pal(sinking_agent),
+                   radius = 3,
+                   popup = ~paste("<h3> Sinking Information: </h3>",
+                                  "<b> Vessel Name: </b>", 
+                                  name, "<br>",
+                                  "<b> Vessel Type: </b>", type, "<br>", 
+                                  "<b> Sunk By: </b>", sinking_agent, "<br>",
+                                  "<b> Tonnage: </b>", tonnage, "<br>",
+                                  "<b> Sinking Date </b>:", date, "<br>",
+                                  "<a href='", url, "'>Learn More</a>"),
+                   group = "5. Apr-Jun, 1944") %>% 
+  addCircleMarkers(data = sinking_data_dd_jul_sep_44_url,
+                   lng = ~lon,
+                   lat = ~lat,
+                   color = ~pal(sinking_agent),
+                   radius = 3,
+                   popup = ~paste("<h3> Sinking Information: </h3>",
+                                  "<b> Vessel Name: </b>", 
+                                  name, "<br>",
+                                  "<b> Vessel Type: </b>", type, "<br>", 
+                                  "<b> Sunk By: </b>", sinking_agent, "<br>",
+                                  "<b> Sinking Date </b>:", date, "<br>",
+                                  "<a href='", url, "'>Learn More</a>"),
+                   group = "6. Jul-Sep, 1944") %>% 
+  addCircleMarkers(data = sinking_data_dd_oct_dec_44_url,
+                   lng = ~lon,
+                   lat = ~lat,
+                   color = ~pal(sinking_agent),
+                   radius = 3,
+                   popup = ~paste("<h3> Sinking Information: </h3>",
+                                  "<b> Vessel Name: </b>", 
+                                  name, "<br>",
+                                  "<b> Vessel Type: </b>", type, "<br>", 
+                                  "<b> Sunk By: </b>", sinking_agent, "<br>",
+                                  "<b> Sinking Date </b>:", date, "<br>",
+                                  "<a href='", url, "'>Learn More</a>"),
+                   group = "7. Oct-Dec, 1944") %>% 
+  addCircleMarkers(data = sinking_data_dd_jan_apr_45_url,
+                   lng = ~lon,
+                   lat = ~lat,
+                   color = ~pal(sinking_agent),
+                   radius = 3,
+                   popup = ~paste("<h3> Sinking Information: </h3>",
+                                  "<b> Vessel Name: </b>", 
+                                  name, "<br>",
+                                  "<b> Vessel Type: </b>", type, "<br>", 
+                                  "<b> Sunk By: </b>", sinking_agent, "<br>",
+                                  "<b> Tonnage: </b>", tonnage, "<br>",
+                                  "<b> Sinking Date </b>:", date, "<br>",
+                                  "<a href='", url, "'>Learn More</a>"),
+                   group = "8. Jan-Apr, 1945") %>% 
+    addCircleMarkers(data = sinking_data_dd_may_jun_45_url,
+                   lng = ~lon,
+                   lat = ~lat,
+                   color = ~pal(sinking_agent),
+                   radius = 3,
+                   popup = ~paste("<h3> Sinking Information: </h3>",
+                                  "<b> Vessel Name: </b>", 
+                                  name, "<br>",
+                                  "<b> Vessel Type: </b>", type, "<br>", 
+                                  "<b> Sunk By: </b>", sinking_agent, "<br>",
+                                  "<b> Tonnage: </b>", tonnage, "<br>",
+                                  "<b> Sinking Date </b>:", date, "<br>",
+                                  "<a href='", url, "'>Learn More</a>"),
+                   group = "9. May-Jun, 1945") %>% 
+  addCircleMarkers(data = sinking_data_dd_jul_aug_45_url,
+                   lng = ~lon,
+                   lat = ~lat,
+                   color = ~pal(sinking_agent),
+                   radius = 3,
+                   popup = ~paste("<h3> Sinking Information: </h3>",
+                                  "<b> Vessel Name: </b>", 
+                                  name, "<br>",
+                                  "<b> Vessel Type: </b>", type, "<br>", 
+                                  "<b> Sunk By: </b>", sinking_agent, "<br>",
+                                  "<b> Tonnage: </b>", tonnage, "<br>",
+                                  "<b> Sinking Date </b>:", date, "<br>",
+                                  "<a href='", url, "'>Learn More</a>"),
+                   group = "10. Jul-Aug, 1945") %>% 
+  addPolylines(data = sloc,
+               color = "grey",
+               group = "Dec, 1941- Aug, 1945") %>%
+  addPolylines(data = sloc,
+               color = "grey",
+               group = "1. Dec, 1941- Dec, 1942") %>% 
+  addPolylines(data = sloc,
+               color = "grey",
+               group = "2. Jan-Jun 1943") %>% 
+  addPolylines(data = sloc,
+               color = "grey",
+               group = "3. Jul - Dec, 1943") %>% 
+  addPolylines(data = sloc,
+               color = "grey",
+               group = "4. Jan-Mar, 1944") %>% 
+  addPolylines(data = sloc_apr_44,
+               color = "grey",
+               group = "5. Apr-Jun, 1944") %>%
+  addPolylines(data = sloc_closed_sep_44,
+               color = "grey",
+               group = "6. Jul-Sep, 1944") %>%
+  addPolylines(data = sloc_closed_sep_44,
+               color = "grey",
+               group = "7. Oct-Dec, 1944") %>%
+  addPolylines(data = sloc_Jan_45,
+               color = "grey",
+               group = "8. Jan-Apr, 1945") %>%
+  addPolylines(data = sloc_Jun_45,
+               color = "grey",
+               group = "9. May-Jun, 1945") %>%
+  addPolylines(data = sloc_aug_45,
+               color = "grey",
+               group = "10. Jul-Aug, 1945") %>%
+  addPolygons(data= dec_42_loc,
+              color = "green",
+              opacity = 0.0, fillOpacity = 0.4,
+              group = "1. Dec, 1941- Dec, 1942") %>%
+  addPolygons(data= jun_43_loc,
+              color = "green",
+              opacity = 0.0, fillOpacity = 0.4,
+              group = "2. Jan-Jun 1943") %>%
+  addPolygons(data= dec_43_loc,
+              color = "green",
+              opacity = 0.0, fillOpacity = 0.4,
+              group = "3. Jul - Dec, 1943") %>%
+  addPolygons(data= mar_44_loc,
+              color = "green",
+              opacity = 0.0, fillOpacity = 0.4,
+              group = "4. Jan-Mar, 1944") %>%
+  addPolygons(data= jun_44_loc,
+              color = "green",
+              opacity = 0.0, fillOpacity = 0.4,
+              group = "5. Apr-Jun, 1944") %>%
+  addPolygons(data= sep_44_loc,
+              color = "green",
+              opacity = 0.0, fillOpacity = 0.4,
+              group = "6. Jul-Sep, 1944") %>%
+  addPolygons(data= dec_44_loc,
+              color = "green",
+              opacity = 0.0, fillOpacity = 0.4,
+              group = "7. Oct-Dec, 1944") %>% 
+  addPolygons(data= apr_45_loc,
+              color = "green",
+              opacity = 0.0, fillOpacity = 0.4,
+              group = "8. Jan-Apr, 1945") %>%
+  addPolygons(data= jul_45_loc,
+              color = "green",
+              opacity = 0.0, fillOpacity = 0.4,
+              group = "9. May-Jun, 1945") %>%
+  addPolygons(data= aug_45_loc,
+              color = "green",
+              opacity = 0.0, fillOpacity = 0.4,
+              group = "10. Jul-Aug, 1945") %>%
+  addLegend(position = "bottomright",
+            pal= pal,
+            values = c("Aircraft", "Mine", "Submarine", "Surface Craft"),
+            title = "Sinking Agent") %>%
+  addLayersControl(
+    baseGroups = c("Dec, 1941- Aug, 1945","1. Dec, 1941- Dec, 1942","2. Jan-Jun 1943","3. Jul - Dec, 1943",
+                   "4. Jan-Mar, 1944","5. Apr-Jun, 1944",
+                   "6. Jul-Sep, 1944", "7. Oct-Dec, 1944", "8. Jan-Apr, 1945", "9. May-Jun, 1945", "10. Jul-Aug, 1945"),
+    options = layersControlOptions(collapsed = TRUE)) %>%
+  addScaleBar(position = "bottomleft",
+              options = scaleBarOptions(maxWidth = 250, imperial = TRUE,
+                                        metric = FALSE, updateWhenIdle = TRUE))
+```
+
+
+## Acknowledgments {.appendix}
+
+Special thanks to Bat-Erdene Altankhuyag, Matthew DiRisio and John Sheehan for their earlier work on "Unrestricted: The Campaign to Sink the Japanese Merchant Fleet During World War II" which made this map possible.
+
+Learn more and download the data used for this article at: <br> "Unrestricted: The Campaign to Sink the Japanese Merchant Fleet During World War II""
+<https://unrestricted.omeka.net/>.
+
+Code available at <https://github.com/bbuck1/sinking_the_empire/blob/master/final_code>
+
+Shipping route data was digitized from <i> Reports of General MacArthur, Vol 1.</i> <https://history.army.mil/books/wwii/MacArthur%20Reports/MacArthur%20V1/index.htm#contents> and "Map of Greater East Asia Co-Prosperity Sphere 1941," 臺灣南方協會. 南方讀本. 三省堂, 1941. <https://commons.wikimedia.org/wiki/File:Map_of_Greater_East_Asia_Co-Prosperity_Sphere_1941.jpg>
+
+Allied advance data was digitized from <i> The Atlas of the World Battle Fronts in Semimonthly Phases to August 15 1945 </i>, Joint Chiefs of Staff, 1945. <https://en.wikisource.org/wiki/Atlas_of_the_World_Battle_Fronts_in_Semimonthly_Phases_to_August_15_1945>
+
+Oil production facilities digitized from "Chokehold: The Attack on Japanese Oil During World War II,"" Thesis, Air University, 1994 by Stephen L. Wolborsky, <www.dtic.mil/dtic/tr/fulltext/u2/a425684.pdf>.
+
+Analysis was conducted with the R programming language. Graphics were built using R Studio and QGIS.
+
