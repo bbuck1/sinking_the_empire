@@ -28,26 +28,52 @@ library(maps)
 library(mapdata)
 library(leaflet.extras)
 
-sinking_data<- read_csv("sinking_data/japanese_merchant_fleet_sinkings_simplified_v6.csv")
+sinking_data<- read_csv("C:/Users/bpbuc/Documents/Brandan's Stuff/_PhD Stuff/personal_projects/digital war in the pacific/map/data/sinking_data/japanese_merchant_fleet_sinkings_simplified_v6.csv")
 
-sloc<- read_sf("C:/Users/bpbuc/Documents/Brandan's Stuff/_PhD Stuff/Cilo Wired-Hist 696/Project/Data/SLOC/Japanese SLOC WWII Complete.shp")
+sloc<- read_sf("C:/Users/bpbuc/Documents/Brandan's Stuff/_PhD Stuff/personal_projects/digital war in the pacific/map/data/SLOC/Japanese SLOC WWII Complete.shp")
 
 ussr<- read_sf("C:/Users/bpbuc/Documents/Brandan's Stuff/Basemap data/Period Political Boundries, 1941/Soviet Union.shp")
-ussr_45<- read_sf("C:/Users/bpbuc/Documents/Brandan's Stuff/_PhD Stuff/CILO II/project_data/loc/ussr.shp")
 
-oil_sites<- read_sf ("C:/Users/bpbuc/Documents/Brandan's Stuff/_PhD Stuff/Cilo Wired-Hist 696/Project/Data/For Export/Japanese Occupied Oil Production Sites/Japanese Occupied Oil Production Sites.shp")
+oil_sites<- read_sf("C:/Users/bpbuc/Documents/Brandan's Stuff/_PhD Stuff/personal_projects/digital war in the pacific/map/data/Japanese Occupied Oil Production Sites/Japanese Occupied Oil Production Sites.shp")
 
-dec_42_loc<- read_sf("C:/Users/bpbuc/Documents/Brandan's Stuff/_PhD Stuff/CILO II/project_data/loc/dec_1942_loc.shp")
-jun_43_loc<- read_sf ("C:/Users/bpbuc/Documents/Brandan's Stuff/_PhD Stuff/CILO II/project_data/loc/jun_1943.shp")
-dec_43_loc<- read_sf ("C:/Users/bpbuc/Documents/Brandan's Stuff/_PhD Stuff/CILO II/project_data/loc/dec_1943_loc.shp")
-mar_44_loc<- read_sf("C:/Users/bpbuc/Documents/Brandan's Stuff/_PhD Stuff/CILO II/project_data/loc/mar_1944_loc.shp")
-jun_44_loc<- read_sf("C:/Users/bpbuc/Documents/Brandan's Stuff/_PhD Stuff/CILO II/project_data/loc/jun_1944.shp")
-sep_44_loc<- read_sf ("C:/Users/bpbuc/Documents/Brandan's Stuff/_PhD Stuff/CILO II/project_data/loc/sep_1944_loc.shp")
-dec_44_loc<- read_sf ("C:/Users/bpbuc/Documents/Brandan's Stuff/Basemap data/allied zone of control Dec 1944.shp")
-mar_45_loc<- read_sf ("C:/Users/bpbuc/Documents/Brandan's Stuff/_PhD Stuff/Cilo Wired-Hist 696/Project/Data/Allied Zone of Control Mar 1945.shp")
-apr_45_loc<- read_sf ("C:/Users/bpbuc/Documents/Brandan's Stuff/Basemap data/Allied zone of control Apr 1945.shp")
-jul_45_loc<- read_sf ("C:/Users/bpbuc/Documents/Brandan's Stuff/_PhD Stuff/CILO II/project_data/loc/jul_1945.shp")
-aug_45_loc<- read_sf ("C:/Users/bpbuc/Documents/Brandan's Stuff/_PhD Stuff/CILO II/project_data/loc/aug_1945.shp")
+loc<- read_sf("C:/Users/bpbuc/Documents/Brandan's Stuff/_PhD Stuff/personal_projects/digital war in the pacific/map/data/loc/allied_lines_of_control.shp")
+
+
+loc$date<-as.Date(loc$date, '%Y-%m-%d')
+
+dec_42_loc<- loc %>% 
+  filter(date == "1942-12-31")
+
+jun_43_loc<- loc %>% 
+  filter(date == "1942-12-31")
+
+dec_43_loc<- loc %>% 
+  filter(date == "1943-12-31")
+
+mar_44_loc<- loc %>% 
+  filter(date == "1944-03-15")
+
+jun_44_loc<- loc %>% 
+  filter(date == "1944-06-15")
+
+sep_44_loc<- loc %>% 
+  filter(date == "1944-09-15")
+
+dec_44_loc<- loc %>% 
+  filter(date == "1944-12-15")
+
+mar_45_loc<- loc %>% 
+  filter(date == "1945-03-15")
+
+apr_45_loc<- loc %>% 
+  filter(date == "1945-04-15")
+
+jul_45_loc<- loc %>% 
+  filter(date == "1945-07-15")
+
+aug_45_loc<- loc %>% 
+  filter(date == "1945-08-15")
+
 
 dms2dd <- function(x) {
   deg <- str_extract(x, "\\d+") %>% as.numeric()
@@ -310,10 +336,6 @@ leaflet() %>%
               color = "grey",
               opacity = 0.0, fillOpacity = 0.4,
               group = "9. May-Jun, 1945") %>%
-  addPolygons(data = ussr_45,
-              color = "green",
-              opacity = 0.0, fillOpacity = 0.4,
-              group = "10. Jul-Aug, 1945") %>% 
   addCircleMarkers(data = oil_sites,
                    color = "black",
                    radius = 7,
